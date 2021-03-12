@@ -25,3 +25,11 @@ but following these guides should get you there:
 3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
    to make sure you also bind-mount your `.emacs.d` into the container for doom to
    work properly. See my docker_run.sh script.
+* Development
+** Colaborative editing
+We'll use cdrt.el for collaborative editing. It's designed for
+org-mode and allows you to share any emacs buffer for collaborative
+editing.
+
+I'll make sure that CDRT is supported out-of-the-box as I setup the emacs
+environment here.

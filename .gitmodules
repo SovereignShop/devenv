@@ -4,3 +4,6 @@
 [submodule "modules/doom.d"]
 	path = modules/doom.d
 	url = git@github.com:cartesian-theatrics/doom.git
+[submodule "modules/cdrt.el"]
+	path = modules/cdrt.el
+	url = https://code.librehq.com/qhong/crdt.el.git
