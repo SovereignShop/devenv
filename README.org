@@ -32,4 +32,5 @@ org-mode and allows you to share any emacs buffer for collaborative
 editing.
 
 I'll make sure that CDRT is supported out-of-the-box as I setup the emacs
-environment here.
+environment here. I've tested it already with two computers and it works
+wonderfully.
