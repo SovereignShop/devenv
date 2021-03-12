@@ -1,0 +1,6 @@
+[submodule "modules/emacs.d"]
+	path = modules/emacs.d
+	url = https://github.com/hlissner/doom-emacs
+[submodule "modules/doom.d"]
+	path = modules/doom.d
+	url = git@github.com:cartesian-theatrics/doom.git
