@@ -1,0 +1,33 @@
+{:deps {hello.world {:mvn/version "this is a deps.edn file"}}
+ :aliases
+ {:clj-prod
+  {:extra-deps  {cider/cider-nrepl                      {:mvn/version "0.23.0-snapshot"}
+                 com.datomic/client-cloud               {:mvn/version "0.8.81"}
+                 table/table                            {:mvn/version "0.5.0"}
+                 com.cognitect.aws/api                  {:mvn/version "0.8.456"}
+                 com.cognitect.aws/endpoints            {:mvn/version "1.1.11.753"}
+                 com.cognitect.aws/s3                   {:mvn/version "784.2.593.0"}
+                 com.cognitect.aws/mturk-requester      {:mvn/version "770.2.568.0"}
+                 com.cognitect.aws/iam                  {:mvn/version         "801.2.704.0",
+                                                         :aws/serviceFullName "AWS Identity and Access Management"}
+                 hiccup/hiccup                          {:mvn/version "1.0.5"}
+                 nrepl/nrepl                            {:mvn/version "0.6.0"}
+                 io.replikativ/datahike                 {:mvn/version "0.3.2"}
+                 io.replikativ/konserve-clutch          {:mvn/version "0.1.3"}
+                 org.clojure/tools.nrepl                {:mvn/version "0.2.12"}
+                 ring-cors/ring-cors                    {:mvn/version "0.1.13"}
+                 org.clojars.mihaelkonjevic/konserve-pg {:mvn/version "0.1.2"}
+                 clj-time/clj-time                      {:mvn/version "0.15.0"}
+                 cheshire/cheshire                      {:mvn/version "5.8.1"}
+                 io.replikativ/konserve-welle           {:mvn/version "0.1.0"}
+                 ring/ring-jetty-adapter                {:mvn/version "1.5.1"}
+                 io.replikativ/konserve-carmine         {:mvn/version "0.1.3"}
+                 clj-http/clj-http                      {:mvn/version "3.10.0"}
+                 byte-transforms/byte-transforms        {:mvn/version "0.1.4"}
+                 byte-streams/byte-streams              {:mvn/version "0.2.4"}
+                 cerber/cerber-oauth2-provider          {:mvn/version "2.0.0"}
+                 ring/ring                              {:mvn/version "1.7.1"}
+                 compojure/compojure                    {:mvn/version "1.6.1"}}
+   :main-opts   ["-m" "skyhook.core"]
+   :extra-paths ["src/clj" "resources"]
+   :jvm-opts    ["-Xmx6g"]}}}

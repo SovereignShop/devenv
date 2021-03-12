@@ -18,4 +18,4 @@ but following these guides should get you there:
 2. [[https://docs.docker.com/docker-for-windows/install/][Install Docker]]
 3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
    to make sure you also bind-mount your `.emacs.d` into the container for doom to
-   work properly.
+   work properly. See my docker_run.sh script.
