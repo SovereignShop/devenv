@@ -1,7 +1,7 @@
 #+TITLE: README
 
 * Installing
-I think it will be highly beneficial for use share a container for development.
+I think it will be highly beneficial to use a shared container for development.
 This will:
 
 - Make development much smoother because we have a shared environment.
