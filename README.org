@@ -34,3 +34,5 @@ editing.
 I'll make sure that CDRT is supported out-of-the-box as I setup the emacs
 environment here. I've tested it already with two computers and it works
 wonderfully.
+** Streaming
+I'll be setting up my own Streaming server following [[https://opensource.com/article/19/1/basic-live-video-streaming-server][this guide]].
