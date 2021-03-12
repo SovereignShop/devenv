@@ -1,0 +1,21 @@
+#+TITLE: README
+
+* Installing
+I think it will be highly beneficial for use share a container for development.
+This will:
+
+- Make development much smoother because we have a shared environment.
+- Emacs generally runs much better on Linux.
+- Great way to dip your toes into the Linux world.
+- Simplifies deployment because many hosting services support docker
+  containers directly.
+
+** Windows
+I won't be able to say exactly how to install on Window since I don't have it,
+but following these guides should get you there:
+
+1. Install doom emacs following this [[https://earvingad.github.io/posts/doom_emacs_windows/][guide]].
+2. [[https://docs.docker.com/docker-for-windows/install/][Install Docker]]
+3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
+   to make sure you also bind-mount your `.emacs.d` into the container for doom to
+   work properly.
