@@ -9,12 +9,15 @@ This will:
 - Simplifies deployment because many hosting services support docker
   containers directly.
 
+  tuntox://A52E871E516C971776F8EB390D6177F8A5835E7D6D58DE70FBAD9D8F163657354139F558D885:6530
+
 ** Clone this repo:
-- install git.
+- install git
 - `git clone git@github.com:cartesian-theatrics/games.git --recursive`. This will probably
   fail. You'll need to generate an ssh key [[https://github.com/settings/keys][here]] (notice the link to "generating SSH keys").
   Generally it's worth going through the trouble to setup ssh keys, otherwise you'll constantly
   be authenticating manually and some things won't work as smoothly.
+
 
 ** Windows
 I won't be able to say exactly how to install on Window since I don't have it,
@@ -25,6 +28,7 @@ but following these guides should get you there:
 3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
    to make sure you also bind-mount your `.emacs.d` into the container for doom to
    work properly. See my docker_run.sh script.
+4. We'll have to figure out a good way to mount your ssh keys. There's a suggestion [[https://github.com/docker/for-win/issues/167#issuecomment-585103167][here]].
 * Development
 ** Colaborative editing
 We'll use cdrt.el for collaborative editing. It's designed for
@@ -36,3 +40,4 @@ environment here. I've tested it already with two computers and it works
 wonderfully.
 ** Streaming
 I'll be setting up my own Streaming server following [[https://opensource.com/article/19/1/basic-live-video-streaming-server][this guide]].
+**

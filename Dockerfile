@@ -1,11 +1,17 @@
 FROM ubuntu:20.04
 MAINTAINER John Collins <jmicahc@gmail.com>
 
+# XXX: X11 forwardig
+# Fix "Couldn't register with accessibility bus" error message
+ENV NO_AT_BRIDGE=1
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN apt-get update && apt-get install -y software-properties-common
 
 # basic stuff
 RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     && apt-get update && apt-get install \
+    python3-pip\
     bash \
     build-essential \
     dbus-x11 \
@@ -23,6 +29,7 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     zsh \
     libtool \
     libtool-bin \
+    curl \
 # su-exec
     && git clone https://github.com/ncopa/su-exec.git /tmp/su-exec \
     && cd /tmp/su-exec \
@@ -50,13 +57,24 @@ RUN \
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Pip installs
-RUN pip3 install --upgrade pip && pip3 install ipython ipdb pylint pyflakes flake8 python-language-server pytest black
+RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb pylint pyflakes flake8 python-language-server pytest black
 RUN python3 -m pip install -U git+git://github.com/python/mypy.git
 
-copy asenvuser /usr/local/sbin/
-# only for sudoers
-run chown root /usr/local/sbin/asenvuser \
-    && chmod 700  /usr/local/sbin/asenvuser
+
+COPY asEnvUser /usr/local/sbin/
+# Only for sudoers
+RUN chown root /usr/local/sbin/asEnvUser \
+    && chmod 700  /usr/local/sbin/asEnvUser
+
+COPY sandbox_bootstrap.sh /usr/bin/
+
+# Install latest cmake
+ADD https://cmake.org/files/v3.12/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
+RUN mkdir /opt/cmake
+RUN sh /cmake-3.12.0-Linux-x86_64.sh --prefix=/opt/cmake --skip-license
+RUN ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
+
+COPY bin/tuntox /usr/bin/
 
 ARG UNAME
 ARG GNAME
@@ -72,4 +90,5 @@ ENV UNAME=$UNAME\
     WORKSPACE=$WORKSPACE \
     SHELL="/bin/zsh"
 
-CMD ["bash"]
+ENTRYPOINT ["asEnvUser"]
+CMD ["/usr/bin/bash", "-c", "emacs"]
