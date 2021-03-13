@@ -7,3 +7,6 @@
 [submodule "modules/cdrt.el"]
 	path = modules/cdrt.el
 	url = https://code.librehq.com/qhong/crdt.el.git
+[submodule "modules/skyhook"]
+	path = modules/skyhook
+	url = git@github.com:cartesian-theatrics/skyhook.git

@@ -29,11 +29,11 @@ but following these guides should get you there:
 ** Colaborative editing
 We'll use cdrt.el for collaborative editing. It's designed for
 org-mode and allows you to share any emacs buffer for collaborative
-editing.
+editing. See the README [[https://code.librehq.com/qhong/crdt.el][here]]. The docker container is already
+setup with `tuntox`, so follow the guide for that to share your buffers.
 
 I'll make sure that CDRT is supported out-of-the-box as I setup the emacs
 environment here. I've tested it already with two computers and it works
 wonderfully.
 ** Streaming
 I'll be setting up my own Streaming server following [[https://opensource.com/article/19/1/basic-live-video-streaming-server][this guide]].
-**
