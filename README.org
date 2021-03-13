@@ -18,12 +18,13 @@ This will:
 I won't be able to say exactly how to install on Window since I don't have it,
 but following these guides should get you there:
 
-1. Install doom emacs following this [[https://earvingad.github.io/posts/doom_emacs_windows/][guide]].
-2. [[https://docs.docker.com/docker-for-windows/install/][Install Docker]]
+1. [[https://docs.docker.com/docker-for-windows/install/][Install Docker]]
+2. If you want, install Doom Emacs following this [[https://earvingad.github.io/posts/doom_emacs_windows/][guide]]. Note, this repo includes Doom Emacs
+   which should work with the docker container for development.
 3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
    to make sure you also bind-mount your `.emacs.d` into the container for doom to
    work properly. See my docker_run.sh script.
-4. We'll have to figure out a good way to mount your ssh keys. There's a suggestion [[https://github.com/docker/for-win/issues/167#issuecomment-585103167][here]].
+4. Create copy of docker_run.sh and see if you can get it to work with Cygwin.
 * Development
 ** Colaborative editing
 We'll use cdrt.el for collaborative editing. It's designed for
