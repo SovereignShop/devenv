@@ -76,6 +76,8 @@ RUN ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
 
 COPY bin/tuntox /usr/bin/
 
+RUN apt-get update && apt-get install -y firefox
+
 ARG UNAME
 ARG GNAME
 ARG UHOME
