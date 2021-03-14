@@ -1,4 +1,4 @@
-{:deps {hello.world {:mvn/version "this is a deps.edn file"}}
+{:deps {}
  :aliases
  {:clj-prod
   {:extra-deps  {cider/cider-nrepl                      {:mvn/version "0.23.0-snapshot"}

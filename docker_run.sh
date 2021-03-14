@@ -16,6 +16,9 @@ docker run\
        -v ${XAUTHORITY}:${HOME}/.Xauthority\
        -v ${HOME}/.gitconfig:${HOME}/.gitconfig\
        -v ${HOME}/.local:${HOME}/.local\
+       -v ${HOME}/.lein:${HOME}/.lein\
+       -v ${HOME}/.cljs:${HOME}/.cljs\
+       -v ${HOME}/.clojure:${HOME}/.clojure\
        -v ${HOME}/.bashrc:${HOME}/.bashrc\
        -v ${HOME}/.oh-my-zsh:${HOME}/.oh-my-zsh\
        -v ${HOME}/.zsh_history:${HOME}/.zsh_history\

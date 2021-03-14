@@ -8,12 +8,15 @@ This will:
 - Great way to dip your toes into the Linux world.
 - Simplifies deployment because many hosting services support docker
   containers directly.
-** Clone this repo:
+
+* Clone this repo:
 - install git
+
 - `git clone git@github.com:cartesian-theatrics/games.git --recursive`. This will probably
   fail. You'll need to generate an ssh key [[https://github.com/settings/keys][here]] (notice the link to "generating SSH keys").
   Generally it's worth going through the trouble to setup ssh keys, otherwise you'll constantly
-  be authenticating manually and some things won't work as smoothly.
+  be authenticating manually and some things won't work as smoothly. You'll want to make sure you
+  install `openssh` in Cygwin and use something like `ssh-keygen -t ed25519 -C "<email>"`.
 ** Windows
 I won't be able to say exactly how to install on Window since I don't have it,
 but following these guides should get you there:
@@ -27,13 +30,11 @@ but following these guides should get you there:
 4. Create copy of docker_run.sh and see if you can get it to work with Cygwin.
 * Development
 ** Colaborative editing
-We'll use cdrt.el for collaborative editing. It's designed for
+We'll use crdt.el for collaborative editing. It's designed for
 org-mode and allows you to share any emacs buffer for collaborative
 editing. See the README [[https://code.librehq.com/qhong/crdt.el][here]]. The docker container is already
 setup with `tuntox`, so follow the guide for that to share your buffers.
 
-I'll make sure that CDRT is supported out-of-the-box as I setup the emacs
+I'll make sure that CRDT is supported out-of-the-box as I setup the emacs
 environment here. I've tested it already with two computers and it works
 wonderfully.
-** Streaming
-I'll be setting up my own Streaming server following [[https://opensource.com/article/19/1/basic-live-video-streaming-server][this guide]].

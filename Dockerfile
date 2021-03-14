@@ -144,10 +144,21 @@ ENV JAVA_HOME=/opt/java/openjdk \
 
 # ---- end Dockerfile.hotspot.releases.full ---
 
-run curl -O https://download.clojure.org/install/linux-install-1.10.2.796.sh;\
+RUN curl -O https://download.clojure.org/install/linux-install-1.10.2.796.sh;\
     chmod +x linux-install-1.10.2.796.sh;\
     ./linux-install-1.10.2.796.sh;\
     rm ./linux-install-1.10.2.796.sh;
+
+# Clojure LSP server
+COPY install-latest-clojure-lsp.sh ./
+RUN ./install-latest-clojure-lsp.sh;\
+    rm ./install-latest-clojure-lsp.sh
+
+# Clojure Kondo for linting: https://github.com/clj-kondo/clj-kondo/blob/master/doc/install.md
+RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/script/install-clj-kondo;\
+    chmod +x install-clj-kondo;\
+    ./install-clj-kondo;\
+    rm ./install-clj-kondo;
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
