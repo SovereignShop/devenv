@@ -8,7 +8,6 @@ This will:
 - Great way to dip your toes into the Linux world.
 - Simplifies deployment because many hosting services support docker
   containers directly.
-
 * Clone this repo:
 - install git
 
