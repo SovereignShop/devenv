@@ -144,6 +144,7 @@ ENV JAVA_HOME=/opt/java/openjdk \
 
 # ---- end Dockerfile.hotspot.releases.full ---
 
+# Install Clojure
 RUN curl -O https://download.clojure.org/install/linux-install-1.10.2.796.sh;\
     chmod +x linux-install-1.10.2.796.sh;\
     ./linux-install-1.10.2.796.sh;\
@@ -159,6 +160,11 @@ RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/scrip
     chmod +x install-clj-kondo;\
     ./install-clj-kondo;\
     rm ./install-clj-kondo;
+
+# Install Node.js.
+RUN apt-get update && apt-get install -y nodejs npm
+
+RUN npm install --save-dev shadow-cljs
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

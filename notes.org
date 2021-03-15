@@ -1,0 +1,19 @@
+#+TITLE: Notes
+* Inbox
+** [2021-03-15 Mon] Advice about working on first game
+
+https://boardgamedesigncourse.com/advice-i-wish-i-had-when-i-was-working-on-my-first-game/
+
+Take Away:
+
+- Share your idea
+- Show it to people! (feedback)
+- playtesters!
+- Work *consistently*!
+- Don't worry about the first game!
+  + This may mean that your first game is just an expansion or knockoff of an existing game.
+  + It's good to have a portfolio demonstrating progression anyway
+
+From the comments:
+- Know why you are making the game.
+  + Should we be trying to make money? Why not exactly?
