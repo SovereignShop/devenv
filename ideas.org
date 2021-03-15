@@ -1,0 +1,4 @@
+#+TITLE: Ideas
+
+* Cool Bridge
+What if we took bridge and made it cool?

@@ -26,4 +26,4 @@ docker run\
        -v ${HOME}/.ssh/:${HOME}/.ssh\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
-       gamedev:latest emacs
+       gamedev:latest emacs -fs
