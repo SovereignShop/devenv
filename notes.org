@@ -1,9 +1,34 @@
 #+TITLE: Notes
 * Inbox
-** [2021-03-15 Mon] Your first Boardgame
+** [2021-03-15 Mon] Setting expectations: A timeline
+There's a rambly but maybe interesting discussion [[https://brandonthegamedev.com/lets-set-expectations-time-money-effort/][here]]. Here's a tidbit:
+
+Brandon: In regards to your first printed game, Go Fish Fitness, how long did it take you to make it?
+
+Garret: From concept to fulfillment, 10 months…
+
+- 1 month to finalize the initial design and prototype
+- 2 weeks to contact and come to an agreement with an artist
+- 1 month of vacation (he was on vacation, my wife and I were welcoming our most recent child into the world)
+- 2.5 months to complete and finalize the artwork
+- 1.5 months to prepare the print files, finalize the box art, and print sample production copies
+- 1 month to prepare for the Kickstarter.
+- 1 month to run the Kickstarter.
+- 1.5 months to manufacture and distribute
+** [2021-03-15 Mon] 5 Levels of Communication through Game Development
+
+Core Engine: minimum et of rules.
+Mechanics: Constraints that create obstacles.
+Rules: Regulate how mechanics are implemented (???) Meta mechanics? Principles?
+Internal Narrative: rags to riches, etc.
+External Narrative: sales pitch.
+
+
+[[file:~/Workspace/notes.org::*\[2021-03-15 Mon\] Your first Boardgame][[2021-03-15 Mon] Your first Boardgame]]
+
+** [2021-03-15 Mon] Your first Board Game
 
 https://brandonthegamedev.com/start-to-finish-publish-and-sell-your-first-board-game/
-
 
 ** [2021-03-15 Mon] Advice about working on first game
 
