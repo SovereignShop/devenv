@@ -1,5 +1,10 @@
 #+TITLE: Notes
 * Inbox
+** [2021-03-15 Mon] Your first Boardgame
+
+https://brandonthegamedev.com/start-to-finish-publish-and-sell-your-first-board-game/
+
+
 ** [2021-03-15 Mon] Advice about working on first game
 
 https://boardgamedesigncourse.com/advice-i-wish-i-had-when-i-was-working-on-my-first-game/
