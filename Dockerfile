@@ -30,6 +30,8 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     libtool \
     libtool-bin \
     curl \
+    pkg-config \
+    telegram-desktop \
 # su-exec
     && git clone https://github.com/ncopa/su-exec.git /tmp/su-exec \
     && cd /tmp/su-exec \
@@ -165,6 +167,19 @@ RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/scrip
 RUN apt-get update && apt-get install -y nodejs npm
 
 RUN npm install --save-dev shadow-cljs
+
+
+# For VOIP client
+RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev
+
+# Install TD for telegram client.
+RUN git clone https://github.com/tdlib/td.git \
+    && cd td\
+    && mkdir build && cd build && cmake ../\
+    && make -j8\
+    && make install\
+    && cd ../../\
+    && rm -r td;
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
