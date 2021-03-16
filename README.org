@@ -1,3 +1,4 @@
+[[./resources/images/environment.png]]
 
 * Installing
 I think it will be highly beneficial to use a shared container for development.
