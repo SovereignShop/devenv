@@ -71,7 +71,7 @@ RUN chown root /usr/local/sbin/asEnvUser \
 COPY sandbox_bootstrap.sh /usr/bin/
 
 # Install latest cmake
-ADD https://cmake.org/files/v3.12/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
+COPY pkg/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
 RUN mkdir /opt/cmake
 RUN sh /cmake-3.12.0-Linux-x86_64.sh --prefix=/opt/cmake --skip-license
 RUN ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
@@ -166,11 +166,11 @@ RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/scrip
 # Install Node.js.
 RUN apt-get update && apt-get install -y nodejs npm
 
+# shadow-cljs for ClojureScript development
 RUN npm install --save-dev shadow-cljs
 
-
 # For VOIP client
-RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev
+RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev libopus-dev
 
 # Install TD for telegram client.
 RUN git clone https://github.com/tdlib/td.git \
@@ -180,6 +180,16 @@ RUN git clone https://github.com/tdlib/td.git \
     && make install\
     && cd ../../\
     && rm -r td;
+
+# Install support for voice-over-ip (Audio chats)
+RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.4.2.orig.tar.gz;\
+    tar -xf libtgvoip_2.4.2.orig.tar.gz;\
+    cd libtgvoip-2.4.2/;\
+    ./configure;\
+    make -j8;\
+    make install;\
+    cd ..;\
+    rm -rf libtgvoip-2.4.2/ libtgvoip_2.4.2-1.debian.tar.xz
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

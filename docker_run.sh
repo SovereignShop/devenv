@@ -19,6 +19,7 @@ docker run\
        -v ${HOME}/.lein:${HOME}/.lein\
        -v ${HOME}/.cljs:${HOME}/.cljs\
        -v ${HOME}/.clojure:${HOME}/.clojure\
+       -v ${HOME}/.m2:${HOME}/.m2\
        -v ${HOME}/.bashrc:${HOME}/.bashrc\
        -v ${HOME}/.oh-my-zsh:${HOME}/.oh-my-zsh\
        -v ${HOME}/.zsh_history:${HOME}/.zsh_history\
