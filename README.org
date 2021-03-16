@@ -25,8 +25,22 @@ but following these guides should get you there:
 2. If you want, install Doom Emacs following this [[https://earvingad.github.io/posts/doom_emacs_windows/][guide]]. Note, this repo includes Doom Emacs
    which should work with the docker container for development.
 3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
-   to make sure you also bind-mount your `.emacs.d` into the container for doom to
-   work properly. See my docker_run.sh script.
+   to make sure you also bind-mount your `.emacs.d` (see "modules/emacs.d" and
+   "modules/doom.d") into the container for doom to work properly. See my
+   docker_run.sh script. You're docker command could look something like:
+   #+begin_src shell
+   docker run --name emacs --rm -it\
+    -e DISPLAY="$DISPLAY"\
+    -e UNAME="emacser"\
+    -e GNAME="emacsers"\
+    -e UID="1000"\
+    -e GID="1000"\
+    -v $(pwd)/modules/emacs.d:/home/emacs/.emacs.d\
+    -v $(pwd)/modules/doom.d:/home/emacs/.doom.d\
+    jare/emacs emacs
+   #+end_src
+   Note that Doom Emacs still won't launch correctly because it hasn't been fully
+   installed.
 4. Create copy of docker_run.sh and see if you can get it to work with Cygwin.
 * Development
 ** Colaborative editing
