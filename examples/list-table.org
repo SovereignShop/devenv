@@ -1,0 +1,48 @@
+#+TITLE: List Table
+
+This is a simple example of a list-table. It will export to a reasonably
+pretty table, although perhaps still not a great solution.
+
+#+ATTR_ODT: :list-table t
+1. Day
+   - Min Temp
+   - Max Temp
+   - Summary
+
+2. Monday
+   - 11C
+   - 22C
+   -
+     1. A clear day with lots of sunshine.
+     2. Late in the day, a strong breeze will bring down the temperatures.
+        *bold*, /*italic*/, _underscore_, etc. Late in the day, a strong breeze will bring down the temperatures.
+        *bold*, /*italic*/, _underscore_, etc.
+
+3. Tuesday
+   - 9C
+   - 19C
+   -
+       The goal of this row is to explore why it is that nearly all board games coordinate players' actions via turns. It seems like board games are turn-based almost by definition. Is this really true though? Even if we assume turn-based, there is still a lot of room to think about how turns are scheduled.  hello world.
+
+       Turns are essentially a locking policy for coordinating player activity. The term "locking policy" comes from computer science. Locking policies coordinate the access of threads to a socket or piece of memory. The analogue here is pretty clear. Let the board state be the socket and let players be threads. Typical schedulers actually implement locking policies quite similar to way board games do. Python (a programming language), for instance, implements a Global Interpreter Lock (GIL) which ensures that only one thread ever has access to the python interpreter at one time. Basically, only one thread can be exicuting python code at any time. It is a massively simplifiying assumption that has the unfortunate effect of immidiately eliminating any meaningful notion of concurrency. Let me give an example of the craziness of this.
+
+       The setting is the Arthur Ashe Stadium, the word's largest USTA National Tennis Center located in New York City. It's the U.S open final, where 22,547 spectators crowd to watch Nadal and Federer battle it out for the title. Now, consider the complexity characteristics of this situation. While it seems perfectly natural for a large group of individuals to independantly watch a game, modelling this sort of activity in computers actually constitutes an extremely hard problem. We have 22k observers simultaneously observing a complex, constantly changing "observable"; namely the match itself, which we might model in some kind of "object" changing over time (simlifying massively). In a typical programming paradigm, we must do something incredibly bizarre: we must FREEZE THE WORLD and let each observer "read" the game state one-at-a-time, then update the game state, then freeze the world again, and so on. This is what python's Global Interpreter Lock does. When a project like YouTube comes along, this craziness comes as a blow right to the gut. Now, board games don't really resemble YouTube or stadium tennis matches. And of course players can freely watch the game even when it is not their turn, just like the tennis spectators. Observables are not hard to implement in board games. It is coordinating activity that is really challenging. Almost all games default to the simplest possible locking policy; the machine-like, one-at-a-time, "fair" policy.
+
+       Linguists study their own forms of locking policies; namely the complex locking policies that emerge during conversation. These are bottom-up policies. The same sorts of issues arise.
+       -How are conversations started? --> How are sockets opened?
+       -How is an "anchor" (i.e. shared understanding) established and maintained? --> How do you maintain data consistency between threads?
+       -How is the floor "negotiated" between speakers? --> How is access to sockets scheduled between threads?
+       -How do speakers agree on closing a conversation? --> How do threads agree on closing a socket?
+
+       It is worth noting that interesting interactions between people only occur in very small groups. And there seems something extra special about the interaction between exactly two people. Why two? This might be interesting in the context of David's A vs. B vs. C ... vs. A concept.  Further, time-based mechanics might be really dificult to implement with more than two players.
+
+       Fairness is also interesting here. Games need fairness. A player can't just go twice, that's not fair. There are fairness issues in conversation too which are enforced via social norms. Such norms fail epically in the context of a board game (and conversations for that matter). We might be able to formulate a definition of fairness in the context of turn scheduling that says whether a given schedule is fair (i.e. the set of all schedules satisfying some set of conditions constitutes the set of all fair schedules). Then we can think about "almost fair" schedules. Such "almost fair" schedules leave a sliver of room for turn policies to emerge/be enforced in the rich, organic, natural ways that the cognitive scientists and linguists study. This situation is a bit like a court of law, where rules and norms put limits on how defendants and judges and other parties interact, but there is also room for breaking these rules, creating the tension and drama that many films and TV shows play off of.
+
+4. Friday
+   -
+   -
+   -
+      "Codename: Loop. A game wherein antagonism is structured in a loop, i. e. A → B → C → D → ... → A, where the arrows connect players to the specific opponent they're “assigned” to beat. (Actually as I've developed the idea further I've begun to wonder how essential this loop structure is, so the codename may or may not become a historical anomaly.) I see this as a game of stealth and covert operations. Each player plays a dectective/mafioso/assassin (secretly?) assigned a mark to expose/assassinate. And wouldn't you know it--all players are targeting another in a loop so that each is at once hunter and hunted. The first player to corner their quarry wins (maybe).
+
+      In LOOP, the players need to gather information about the activities of their mark. But the trail doesn't stay warm forever. That's why I'd like the game to implement some form of INFORMATION ENTROPY. Picture this: you journey to the Marketplace, looking for clues. You ask the shopkeepers if they've noticed suspicious person X. As a cost, you must play three tokens (maybe they're indistinguishable face down, but bear your color on the reverse side). These tokens are added to the Marketplace pool; when another player comes around he may able (for a price!) to expose the tokens, and thus figure out who's been snooping around. But after every round, a random token is removed from the Marketplace pool and another random one added--the signal is becoming noisier! Obviously, the final mechanics may not look much like this, but I think it shows the kind of thing I have in mind when I talk about information entropy.
+   -

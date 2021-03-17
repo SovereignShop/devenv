@@ -1,0 +1,80 @@
+#+TITLE: Org Examples
+
+* Tables
+Tables are surprisingly powerful in org-mode. You can use them essentially as spreadsheets,
+compile with formulas on arbitrary selections of rows and columns.
+
+| Student         |   |   | Maths |   Physics | Mean |
+|-----------------+---+---+-------+-----------+------|
+| Bertrand Russel |   |   |    13 |        09 |   11 |
+| Henri           |   |   |    15 |        14 | 14.5 |
+| Arnold          |   |   |    17 |        20 | 18.5 |
+|-----------------+---+---+-------+-----------+------|
+| Means           |   |   |    45 | 14.333333 |   13 |
+#+TBLFM: $6=vmean($4..$5)::@5$4=vsum(@2$4..@4$4)::@5$5=vmean(@2$5..@4$5)
+
+
++------------+-----------+----------+----------+-------------+
+|            |             Singular            | Plural      |
+|            +-----------+----------+----------+-------------+
+|            | Masculine | Neuter      | Feminine | All genders |
+|            |hello world|          | org edit |             |
+|            |this is is |          |  table   |    hello    |
+|            |  kind of  |          |          |    world    |
+|            |  amazing  |          |          |             |
+|            |  this is  |          |  hello   |             |
+|            |  just a   |          |          |             |
+|            |  cerll I  |          |          |             |
+|            |don't know |          |          |             |
+|            |  exactly  |          |          |             |
+|            | what this |          |          |             |
+|            |think about|          |          |             |
+|            | this. The |          |          |             |
+|            |performance|          |          |             |
+|            |  is not   |          |          |             |
+|            | amazing.  |          |          |             |
++------------+-----------+----------+----------+-------------+
+| Nominative | *der*     | *das*    | *die*    | *die*       |
+| Accusative | *den*     | *das*    | *die*    | *die*       |
+| Dative     | *dem*     | *dem*    | *der*    | *denen*     |
+| Genitive   | *dessen*  | *dessen* | *deren*  | *deren*     |
+|            |           |          |          |             |
++------------+-----------+----------+----------+-------------+
+
+
++-----+-----+-----+
+| this is |   |   |
++-----+-----+-----+
+|     |     |     |
++-----+-----+-----+
+|     |     |     |
++-----+-----+-----+
+
+#+ATTR_ODT: :list-table t
+- A
+  - Day
+  - Min Temp
+  - Max Temp
+  - Summary
+- B
+  - Monday
+  - 11C
+  - 22C
+  -
+    1. A clear day with lots of sunshine.
+    2. Late in the day, a strong breeze will bring down the temperatures.
+       This is a mult-line cell.
+- C
+  - Tuesday
+  - 9C
+  - 19C
+  -
+    1. Cloudy with rain, across many northern regions.
+    2. Clear spells across most of Scotland and Northern Ireland, but
+       rain reaching the far northwest.
+
+
+Notable commands:
+- `org-table-create`: create an nxm sized empty tablee.
+- `org-table-insert-column`: Insert a new column. Formulas will update dynamically
+- `org-table-edit-formula`: Edit org table formulas interactively.

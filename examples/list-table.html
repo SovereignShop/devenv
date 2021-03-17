@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-03-17 Wed 22:17 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>List Table</title>
+<meta name="author" content="john" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">List Table</h1>
+<p>
+This is a simple example of a list-table. It will export to a reasonably
+pretty table, although perhaps still not a great solution.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><p>
+Day
+</p>
+</td>
+<td class="org-left"><p>
+Min Temp
+</p>
+</td>
+<td class="org-left"><p>
+Max Temp
+</p>
+</td>
+<td class="org-left"><p>
+Summary
+</p>
+</td>
+</tr>
+
+<tr>
+<td class="org-left"><p>
+Monday
+</p>
+</td>
+<td class="org-left"><p>
+11C
+</p>
+</td>
+<td class="org-left"><p>
+22C
+</p>
+</td>
+<td class="org-left"><ol class="org-ol">
+<li>A clear day with lots of sunshine.</li>
+<li>Late in the day, a strong breeze will bring down the temperatures.
+<b>bold</b>, <i><b>italic</b></i>, <span class="underline">underscore</span>, etc. Late in the day, a strong breeze will bring down the temperatures.
+<b>bold</b>, <i><b>italic</b></i>, <span class="underline">underscore</span>, etc.</li>
+</ol>
+</td>
+</tr>
+
+<tr>
+<td class="org-left"><p>
+Tuesday
+</p>
+</td>
+<td class="org-left"><p>
+9C
+</p>
+</td>
+<td class="org-left"><p>
+19C
+</p>
+</td>
+<td class="org-left"><p>
+The goal of this row is to explore why it is that nearly all board games coordinate players&rsquo; actions via turns. It seems like board games are turn-based almost by definition. Is this really true though? Even if we assume turn-based, there is still a lot of room to think about how turns are scheduled.  hello world.
+</p>
+
+<p>
+Turns are essentially a locking policy for coordinating player activity. The term &ldquo;locking policy&rdquo; comes from computer science. Locking policies coordinate the access of threads to a socket or piece of memory. The analogue here is pretty clear. Let the board state be the socket and let players be threads. Typical schedulers actually implement locking policies quite similar to way board games do. Python (a programming language), for instance, implements a Global Interpreter Lock (GIL) which ensures that only one thread ever has access to the python interpreter at one time. Basically, only one thread can be exicuting python code at any time. It is a massively simplifiying assumption that has the unfortunate effect of immidiately eliminating any meaningful notion of concurrency. Let me give an example of the craziness of this.
+</p>
+
+<p>
+The setting is the Arthur Ashe Stadium, the word&rsquo;s largest USTA National Tennis Center located in New York City. It&rsquo;s the U.S open final, where 22,547 spectators crowd to watch Nadal and Federer battle it out for the title. Now, consider the complexity characteristics of this situation. While it seems perfectly natural for a large group of individuals to independantly watch a game, modelling this sort of activity in computers actually constitutes an extremely hard problem. We have 22k observers simultaneously observing a complex, constantly changing &ldquo;observable&rdquo;; namely the match itself, which we might model in some kind of &ldquo;object&rdquo; changing over time (simlifying massively). In a typical programming paradigm, we must do something incredibly bizarre: we must FREEZE THE WORLD and let each observer &ldquo;read&rdquo; the game state one-at-a-time, then update the game state, then freeze the world again, and so on. This is what python&rsquo;s Global Interpreter Lock does. When a project like YouTube comes along, this craziness comes as a blow right to the gut. Now, board games don&rsquo;t really resemble YouTube or stadium tennis matches. And of course players can freely watch the game even when it is not their turn, just like the tennis spectators. Observables are not hard to implement in board games. It is coordinating activity that is really challenging. Almost all games default to the simplest possible locking policy; the machine-like, one-at-a-time, &ldquo;fair&rdquo; policy.
+</p>
+
+<p>
+Linguists study their own forms of locking policies; namely the complex locking policies that emerge during conversation. These are bottom-up policies. The same sorts of issues arise.
+-How are conversations started? &#x2013;&gt; How are sockets opened?
+-How is an &ldquo;anchor&rdquo; (i.e. shared understanding) established and maintained? &#x2013;&gt; How do you maintain data consistency between threads?
+-How is the floor &ldquo;negotiated&rdquo; between speakers? &#x2013;&gt; How is access to sockets scheduled between threads?
+-How do speakers agree on closing a conversation? &#x2013;&gt; How do threads agree on closing a socket?
+</p>
+
+<p>
+It is worth noting that interesting interactions between people only occur in very small groups. And there seems something extra special about the interaction between exactly two people. Why two? This might be interesting in the context of David&rsquo;s A vs. B vs. C &#x2026; vs. A concept.  Further, time-based mechanics might be really dificult to implement with more than two players.
+</p>
+
+<p>
+Fairness is also interesting here. Games need fairness. A player can&rsquo;t just go twice, that&rsquo;s not fair. There are fairness issues in conversation too which are enforced via social norms. Such norms fail epically in the context of a board game (and conversations for that matter). We might be able to formulate a definition of fairness in the context of turn scheduling that says whether a given schedule is fair (i.e. the set of all schedules satisfying some set of conditions constitutes the set of all fair schedules). Then we can think about &ldquo;almost fair&rdquo; schedules. Such &ldquo;almost fair&rdquo; schedules leave a sliver of room for turn policies to emerge/be enforced in the rich, organic, natural ways that the cognitive scientists and linguists study. This situation is a bit like a court of law, where rules and norms put limits on how defendants and judges and other parties interact, but there is also room for breaking these rules, creating the tension and drama that many films and TV shows play off of.
+</p>
+</td>
+</tr>
+
+<tr>
+<td class="org-left"><p>
+Friday
+</p>
+</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left"><p>
+&ldquo;Codename: Loop. A game wherein antagonism is structured in a loop, i. e. A → B → C → D → &#x2026; → A, where the arrows connect players to the specific opponent they&rsquo;re “assigned” to beat. (Actually as I&rsquo;ve developed the idea further I&rsquo;ve begun to wonder how essential this loop structure is, so the codename may or may not become a historical anomaly.) I see this as a game of stealth and covert operations. Each player plays a dectective/mafioso/assassin (secretly?) assigned a mark to expose/assassinate. And wouldn&rsquo;t you know it&#x2013;all players are targeting another in a loop so that each is at once hunter and hunted. The first player to corner their quarry wins (maybe).
+</p>
+
+<p>
+In LOOP, the players need to gather information about the activities of their mark. But the trail doesn&rsquo;t stay warm forever. That&rsquo;s why I&rsquo;d like the game to implement some form of INFORMATION ENTROPY. Picture this: you journey to the Marketplace, looking for clues. You ask the shopkeepers if they&rsquo;ve noticed suspicious person X. As a cost, you must play three tokens (maybe they&rsquo;re indistinguishable face down, but bear your color on the reverse side). These tokens are added to the Marketplace pool; when another player comes around he may able (for a price!) to expose the tokens, and thus figure out who&rsquo;s been snooping around. But after every round, a random token is removed from the Marketplace pool and another random one added&#x2013;the signal is becoming noisier! Obviously, the final mechanics may not look much like this, but I think it shows the kind of thing I have in mind when I talk about information entropy.
+</p>
+</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: john</p>
+<p class="date">Created: 2021-03-17 Wed 22:17</p>
+</div>
+</body>
+</html>
