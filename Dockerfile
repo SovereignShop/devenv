@@ -171,7 +171,7 @@ RUN apt-get update && apt-get install -y nodejs npm
 RUN npm install --save-dev shadow-cljs
 
 # For VOIP client for telegram
-RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev libopus-dev
+RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev libopus-dev ffmpeg
 
 # Install TD for telegram client.
 RUN git clone https://github.com/tdlib/td.git \

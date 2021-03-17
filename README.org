@@ -1,6 +1,6 @@
 [[./resources/images/environment.png]]
 
-* Installing
+
 I think it will be highly beneficial to use a shared container for development.
 This will:
 
@@ -9,7 +9,10 @@ This will:
 - Great way to dip your toes into the Linux world.
 - Simplifies deployment because many hosting services support docker
   containers directly.
-* Clone this repo:
+
+  Currently the container is setup for python, Clojure(Script), and Java projects.
+
+* Installing
 - install git
 
 - `git clone git@github.com:cartesian-theatrics/games.git --recursive`. This will probably
@@ -35,13 +38,21 @@ but following these guides should get you there:
     -e GNAME="emacsers"\
     -e UID="1000"\
     -e GID="1000"\
-    -v $(pwd)/modules/emacs.d:/home/emacs/.emacs.d\
+    -v $(pwd)/modules/emacs.d:/home/emacs/.emacs.d\ # $(pdw)
     -v $(pwd)/modules/doom.d:/home/emacs/.doom.d\
     jare/emacs emacs
    #+end_src
    Note that Doom Emacs still won't launch correctly because it hasn't been fully
    installed.
-4. Create copy of docker_run.sh and see if you can get it to work with Cygwin.
+4. Make sure you have the necessary environment variables:
+   #+begin_src shell
+   echo ${USER} ${HOME} ${UID}
+   #+end_src
+5. Create copy of docker_run.sh and see if you can get it to work with Cygwin.
+** Linux
+Once you have docker installed, Simply run:
+1. ./docker_build.sh (in this directory)
+2. ./docker_run.sh (in this directory)
 * Development
 ** Colaborative editing
 We'll use crdt.el for collaborative editing. It's designed for
@@ -57,4 +68,5 @@ I installed telegram into the container with voice support so we should be able 
 chat to each other directly in emacs. You'll want to install telegram for your
 desktop: https://desktop.telegram.org/
 
-Just run `M-x telega` to connect the emacs client to your telegram desktop.
+Just run `M-x telega` (say yes to the compile questions) to connect the emacs
+client to your telegram desktop.
