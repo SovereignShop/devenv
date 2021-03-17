@@ -38,7 +38,7 @@ but following these guides should get you there:
     -e GNAME="emacsers"\
     -e UID="1000"\
     -e GID="1000"\
-    -v $(pwd)/modules/emacs.d:/home/emacs/.emacs.d\ # $(pdw)
+    -v $(pwd)/modules/emacs.d:/home/emacs/.emacs.d\ # $(pwd)
     -v $(pwd)/modules/doom.d:/home/emacs/.doom.d\
     jare/emacs emacs
    #+end_src

@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM nvidia/cudagl:11.2.1-devel-ubuntu18.04
 MAINTAINER John Collins <jmicahc@gmail.com>
 
 # XXX: X11 forwardig
@@ -21,6 +21,7 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     language-pack-en-base \
     aptitude \
     libgl1-mesa-glx \
+    mesa-utils\
     make \
     sudo \
     tar \
@@ -191,6 +192,8 @@ RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.
     make install;\
     cd ..;\
     rm -rf libtgvoip-2.4.2/ libtgvoip_2.4.2-1.debian.tar.xz
+
+RUN apt-get update && apt-get install alsa-utils && modprobe snd_bcm2835 && apt-get install avahi-util
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

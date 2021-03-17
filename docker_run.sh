@@ -5,14 +5,20 @@ DIR=$(pwd)
 
 docker run\
        --rm\
+       --privileged\
        -it\
        --name games-dock-emacs\
        --volume $SSH_AUTH_SOCK:/ssh-agent\
+       --device /dev/dri:/dev/dri\
        --env SSH_AUTH_SOCK=/ssh-agent\
+       --gpus all\
        -e DISPLAY=unix$DISPLAY\
+       -e PULSE_SERVER=unix:$XDG_RUNTIME_DIR/pulse/native \
        -e XAUTH=${HOME}/.Xauthority\
        --mount type=bind,src=${DIR},dst=${HOME}/Workspace\
-       -v /tmp/.X11-unix:/tmp/.X11-unix:ro\
+       -v /tmp/.X11-unix:/tmp/.X11-unix:rw\
+       -v ${HOME}/.telega:${HOME}/.telega\
+       -v ${XDG_RUNTIME_DIR}/pulse:${XDG_RUNTIME_DIR}/pulse \
        -v ${XAUTHORITY}:${HOME}/.Xauthority\
        -v ${HOME}/.gitconfig:${HOME}/.gitconfig\
        -v ${HOME}/.local:${HOME}/.local\
