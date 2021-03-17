@@ -52,3 +52,9 @@ setup with `tuntox`, so follow the guide for that to share your buffers.
 I'll make sure that CRDT is supported out-of-the-box as I setup the emacs
 environment here. I've tested it already with two computers and it works
 wonderfully.
+** Communication
+I installed telegram into the container with voice support so we should be able to
+chat to each other directly in emacs. You'll want to install telegram for your
+desktop: https://desktop.telegram.org/
+
+Just run `M-x telega` to connect the emacs client to your telegram desktop.

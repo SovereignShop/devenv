@@ -94,6 +94,7 @@ ENV UNAME=$UNAME\
     WORKSPACE=$WORKSPACE \
     SHELL="/bin/zsh"
 
+# Install Java 11
 # Copied from: https://github.com/AdoptOpenJDK/openjdk-docker/blob/master/11/jdk/ubuntu/Dockerfile.hotspot.releases.full
 
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
@@ -169,7 +170,7 @@ RUN apt-get update && apt-get install -y nodejs npm
 # shadow-cljs for ClojureScript development
 RUN npm install --save-dev shadow-cljs
 
-# For VOIP client
+# For VOIP client for telegram
 RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev libopus-dev
 
 # Install TD for telegram client.
