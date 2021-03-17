@@ -1,0 +1,9 @@
+* Inbox
+** [ ] Game development Sandbox
+DEADLINE: <2021-03-31 Wed> SCHEDULED: <2021-03-17 Wed>
+
+Very simple toolbox for playing around with turn-based, Euro-style Games.
+** [ ] Get Sandbox running with Windows
+SCHEDULED: <2021-03-18 Thu>
+
+Dual-boot with Windows to reproduce exact steps, most likely.
