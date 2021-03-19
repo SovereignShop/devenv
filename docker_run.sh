@@ -31,6 +31,7 @@ docker run\
        -v ${HOME}/.zsh_history:${HOME}/.zsh_history\
        -v ${HOME}/.zshrc:${HOME}/.zshrc\
        -v ${HOME}/.ssh/:${HOME}/.ssh\
+       -v ${HOME}/.mozilla:${HOME}/.mozilla\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
-       gamedev:latest emacs -fs
+       gamedev:latest emacs -fs -L /emacs-application-framework --eval "(require 'eaf)"

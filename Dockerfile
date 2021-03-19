@@ -193,7 +193,11 @@ RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.
     cd ..;\
     rm -rf libtgvoip-2.4.2/ libtgvoip_2.4.2-1.debian.tar.xz
 
-RUN apt-get update && apt-get install alsa-utils && modprobe snd_bcm2835 && apt-get install avahi-util
+# Deps for Emacs Application Framework
+RUN git clone --depth=1 https://github.com/manateelazycat/emacs-application-framework
+COPY ./bin/install-eaf.sh /emacs-application-framework/install.sh
+RUN cd /emacs-application-framework && ./install.sh
+RUN python3 -m pip install pymupdf epc retrying
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

@@ -70,3 +70,8 @@ desktop: https://desktop.telegram.org/
 
 Just run `M-x telega` (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
+*** Kinda Pointless honestly
+Source: [2021-03-18 Thu], https://www.reddit.com/r/news/comments/m7qjvm/home_surveillance_camera_shows_officer_lied_on/
+ #+BEGIN_QUOTE
+Home surveillance camera shows officer lied on report when charging man with major crimes
+#+END_QUOTE
