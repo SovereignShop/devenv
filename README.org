@@ -75,3 +75,56 @@ Source: [2021-03-18 Thu], https://www.reddit.com/r/news/comments/m7qjvm/home_sur
  #+BEGIN_QUOTE
 Home surveillance camera shows officer lied on report when charging man with major crimes
 #+END_QUOTE
+** Essential Commands
+
+| Category        | Hint                 | key pattern  | command                  | Note                                  |
+|-----------------+----------------------+--------------+--------------------------+---------------------------------------|
+| Emacs           | Emacs is stuck       | ~Ctrl-g~     |                          |                                       |
+| Navigation      | Enter Normal         | ~ESC~        | evil-normal-state        | it's recommended to remap CAPS to ESC |
+| Navigation      | Enter Insert         | ~i~          | evil-insert              |                                       |
+| Navigation      | Enter Visual         | ~v~          | evil-visual-state        | Used for selecting text               |
+| Doom            | Get Help             | ~SPC h d h~  | doom/help                | Learn Doom                            |
+| Buffers         | Goto Buffer          | ~SPC b b~    | switch-workspace-buffer  |                                       |
+| Buffers         | Goto Any Buffer      | ~SPC b B~    | switch-buffer            | Inclues Process Buffers               |
+| Buffers         | Manage Buffers       | ~SPC b i~    | ibuffer                  | Press ~d~ to mark, ~d~ to delete      |
+| Terminal        | Open term            | ~M-x vterm~  | vterm                    | Open [[https://ohmyz.sh/][oh-my-zsh]] shell                  |
+| Search          | Recent files         | ~SPC f r~    | recentf-open-files       | Find recent files.                    |
+| Search          | Project files        | ~SPC p f~    | projectile-find-file     | Find file in project (git repo)       |
+| Search          | Omni Search          | ~SPC *~      |                          | Omni search files in project          |
+| Search          | Command Search       | ~SPC :~      | execute-extended-command | Search for a emacs command            |
+| Chat            | Open Telegram client | ~M-x telega~ |                          | Open [[https://zevlg.github.io/telega.el/][telegram chat client]]             |
+| Version Control | Manage Git           | ~SPC g g~    | magit-status             | The ultimate git interface            |
+|                 |                      |              |                          |                                       |
+
+
+- Emacs is stuck:      ~Ctrl-g~
+- Navigation:
+  + Modes
+    - Enter Normal: ~ESC~ (it's highly recommended to remap CAPS to ESC)
+    - Enter Edit:   ~i~
+    - Enter Visual: ~v~  (for )
+- Doom
+  + Learn Doom: ~SPC h d h~
+- Buffers
+  + Goto Buffer:     ~SPC b b~
+  + Goto Any Buffer: ~SPC b b~ (includes process buffers)
+  + Manager buffers: ~SPC b i~ (Press ~d~ to mark for delete, ~x~ to delete all marked)
+- Terminal:
+  + Open Terminal:     ~M-x vterm~ or ~SPC :~ ~vterm~.
+  + Open file in term: ~ec <path/filename>~
+- Search
+  + Recent files:        ~SPC f r~
+  + Project file:        ~SPC f p~
+  + Project Omni:        ~SPC *~
+  + Directory relative:  ~SPC d~
+  + Command search:      ~SPC :~ or ~M x~
+- Git (Magit)
+  + Git status: ~SPC g g~
+  + Get help:   ~h~
+- Clojure:
+  + Open CLJ REPL: ~SPC m '~
+  + Eval Buffer: ~SPC m e v~
+  + Eval Expression: ~SPC m e e~
+  + Eval And replace: ~SPC m e k~
+- Chat:
+  Open telega (Telegram client): ~M-x telega~

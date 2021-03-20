@@ -33,6 +33,8 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     curl \
     pkg-config \
     telegram-desktop \
+    locate \
+    x11-xkb-utils \  # provies setxkbdmap
 # su-exec
     && git clone https://github.com/ncopa/su-exec.git /tmp/su-exec \
     && cd /tmp/su-exec \
@@ -169,7 +171,7 @@ RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/scrip
 RUN apt-get update && apt-get install -y nodejs npm
 
 # shadow-cljs for ClojureScript development
-RUN npm install --save-dev shadow-cljs
+RUN npm install --save-dev shadow-cljs && npm install -g npx
 
 # For VOIP client for telegram
 RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev libopus-dev ffmpeg graphviz
@@ -198,6 +200,9 @@ RUN git clone --depth=1 https://github.com/manateelazycat/emacs-application-fram
 COPY ./bin/install-eaf.sh /emacs-application-framework/install.sh
 RUN cd /emacs-application-framework && ./install.sh
 RUN python3 -m pip install pymupdf epc retrying
+
+# sqlite3 for forge org-roam
+RUN apt-get update && apt-get install sqlite3
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

@@ -1,0 +1,26 @@
+#+TITLE: Elfeed
+
+* root :elfeed:
+** Programming :programming:
+*** [[https://this-week-in-rust.org/rss.xml][This Week in Rust]] :rust:
+** News :news:
+*** Top news :tops:
+**** http://feeds.bbci.co.uk/news/rss.xml
+*** NYT :NYT:
+**** US Education :US:
+***** https://rss.nytimes.com/services/xml/rss/nyt/Education.xml
+**** US :US:
+***** https://rss.nytimes.com/services/xml/rss/nyt/US.xml
+**** Energy :US:Energy:
+***** https://rss.nytimes.com/services/xml/rss/nyt/EnergyEnvironment.xml
+******
+**** Tech :TechNews:
+***** https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+**** Jobs :Jobs:
+***** https://rss.nytimes.com/services/xml/rss/nyt/Jobs.xml
+*** Yahoo :Yahoo:
+**** https://www.yahoo.com/news/rss
+*** MR :MR:
+**** http://feeds.feedburner.com/marginalrevolution/feed?format=xml
+*** Katie Harper :Twitter:
+**** https://twitrss.me/twitter_search_to_rss/?term=Katie+Halper
