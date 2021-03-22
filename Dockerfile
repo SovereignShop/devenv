@@ -34,7 +34,7 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     pkg-config \
     telegram-desktop \
     locate \
-    x11-xkb-utils \  # provies setxkbdmap
+    x11-xkb-utils \ 
 # su-exec
     && git clone https://github.com/ncopa/su-exec.git /tmp/su-exec \
     && cd /tmp/su-exec \
