@@ -1,4 +1,4 @@
-FROM nvidia/cudagl:11.2.1-devel-ubuntu18.04
+FROM ubuntu:20.04
 MAINTAINER John Collins <jmicahc@gmail.com>
 
 # XXX: X11 forwardig
@@ -21,8 +21,7 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     language-pack-en-base \
     aptitude \
     libgl1-mesa-glx \
-    mesa-utils\
-    make \
+    make \ 
     sudo \
     tar \
     unzip \
@@ -34,7 +33,6 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
     pkg-config \
     telegram-desktop \
     locate \
-    x11-xkb-utils \ 
 # su-exec
     && git clone https://github.com/ncopa/su-exec.git /tmp/su-exec \
     && cd /tmp/su-exec \
@@ -64,14 +62,6 @@ RUN \
 # Pip installs
 RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb pylint pyflakes flake8 python-language-server pytest black
 RUN python3 -m pip install -U git+git://github.com/python/mypy.git
-
-
-COPY asEnvUser /usr/local/sbin/
-# Only for sudoers
-RUN chown root /usr/local/sbin/asEnvUser \
-    && chmod 700  /usr/local/sbin/asEnvUser
-
-COPY sandbox_bootstrap.sh /usr/bin/
 
 # Install latest cmake
 COPY pkg/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
@@ -203,6 +193,15 @@ RUN python3 -m pip install pymupdf epc retrying
 
 # sqlite3 for forge org-roam
 RUN apt-get update && apt-get install sqlite3
+
+COPY asEnvUser /usr/local/sbin/
+# Only for sudoers
+RUN chown root /usr/local/sbin/asEnvUser \
+    && chmod 700  /usr/local/sbin/asEnvUser
+
+COPY sandbox_bootstrap.sh /usr/bin/
+
+
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
