@@ -12,6 +12,7 @@ docker run\
        --rm\
        -it\
        --privileged\
+       --gpus=all\
        --name games-dock-emacs\
        --volume $SSH_AUTH_SOCK:/ssh-agent\
        --env SSH_AUTH_SOCK=/ssh-agent\
@@ -19,6 +20,8 @@ docker run\
        -e XAUTH=${HOME}/.Xauthority\
        --mount type=bind,src=${DIR},dst=${HOME}/Workspace\
        --mount type=bind,src=${HOME}/.zshrc,dst=${HOME}/.zshrc\
+       -v /etc/timezone:/etc/timezone:ro\
+       -v /etc/localtime:/etc/localtime:ro\
        -v /tmp/.X11-unix:/tmp/.X11-unix:rw\
        -v ${HOME}/.telega:${HOME}/.telega\
        -v ${HOME}/.local:${HOME}/.local\

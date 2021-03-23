@@ -13,43 +13,35 @@ This will:
   Currently the container is setup for python, Clojure(Script), and Java projects.
 
 * Installing
-- install git
-
-- `git clone git@github.com:cartesian-theatrics/games.git --recursive`. This will probably
-  fail. You'll need to generate an ssh key [[https://github.com/settings/keys][here]] (notice the link to "generating SSH keys").
-  Generally it's worth going through the trouble to setup ssh keys, otherwise you'll constantly
-  be authenticating manually and some things won't work as smoothly. You'll want to make sure you
-  install `openssh` in Cygwin and use something like `ssh-keygen -t ed25519 -C "<email>"`.
 ** Windows
-I won't be able to say exactly how to install on Window since I don't have it,
-but following these guides should get you there:
-
-1. [[https://docs.docker.com/docker-for-windows/install/][Install Docker]]
-2. If you want, install Doom Emacs following this [[https://earvingad.github.io/posts/doom_emacs_windows/][guide]]. Note, this repo includes Doom Emacs
-   which should work with the docker container for development.
-3. Try running emacs in a Linux docker container following [[https://github.com/JAremko/docker-emacs#windows][this guide]]. You'll want
-   to make sure you also bind-mount your `.emacs.d` (see "modules/emacs.d" and
-   "modules/doom.d") into the container for doom to work properly. See my
-   docker_run.sh script. You're docker command could look something like:
-   #+begin_src shell
-   docker run --name emacs --rm -it\
-    -e DISPLAY="$DISPLAY"\
-    -e UNAME="emacser"\
-    -e GNAME="emacsers"\
-    -e UID="1000"\
-    -e GID="1000"\
-    -v $(pwd)/modules/emacs.d:/home/emacs/.emacs.d\ # $(pwd)
-    -v $(pwd)/modules/doom.d:/home/emacs/.doom.d\
-    jare/emacs emacs
-   #+end_src
-   Note that Doom Emacs still won't launch correctly because it hasn't been fully
-   installed.
-4. Make sure you have the necessary environment variables:
-   #+begin_src shell
-   echo ${USER} ${HOME} ${UID}
-   #+end_src
-5. Create copy of docker_run.sh and see if you can get it to work with Cygwin.
-** Linux
+- [[https://www.windowscentral.com/how-install-wsl2-windows-10][Install]] WSL 2.
+- [[https://linoxide.com/how-install-ubuntu-windows-10/#:~:text=%20Install%20Ubuntu%20on%20Windows%2010%20WSL%202,Linux%20kernel%20update%20package%20and%20double...%20More][Install Ubuntu]] with WSL 2.
+- Install [[https://www.docker.com/products/docker-desktop][Docker Desktop]] for Windows.
+- Enable WSL 2 engine in docker: go to settings and toggle "Use the WSL 2 based engine".
+- Restart docker.
+- Install [[https://sourceforge.net/projects/vcxsrv/][vcxsrv]] using windows.
+- Create a shortcut to launch cvxsrv on your desktop:
+  + Right Click -> new -> shortcut.
+  + past this in the "location" field: "C:\Program Files\VcXsrv\vcxsrv.exe" :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl -ac -dpi auto
+  + Save shortcut
+- Launch CvSxrv by double clicking the X icon. You should see it show up in your running programs panel.
+- Login into ubuntu.
+- Install terminator: `sudo apt install terminator`
+- Launch terminator by just invoking the command at the prompt. You should see a new terminal window show up. If you get this far,
+  it means your X window server is working.
+- Install some programs:
+  + zsh & git: `sudo apt install zsh git`
+  + oh-my-zsh: `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Launch into zsh terminal.
+- Configure git: `git config --global user.email "<your email here>" && git config --global user.name "<your name here>"`
+- Create an ssh-key:
+  + `ssh-keygen -C "<email>"` (default all the options)
+  + Cat the public key: `cat ~/.ssh/id_rsa.pub`.
+  + Copy/Paste your public key into github. See [[https://github.com/settings/keys][here]], click "New SSH key".
+- Clone the repo: `git clone git@github.com:cartesian-theatrics/games.git --recursive`
+- Build docker container: `./docker_build.sh` (this will take a long time the first time)
+- Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
+*** Linux
 Once you have docker installed, Simply run:
 1. ./docker_build.sh (in this directory)
 2. ./docker_run.sh (in this directory)

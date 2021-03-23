@@ -1,9 +1,33 @@
 * Inbox
+** [X] Fix launch install
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:09]--[2021-03-23 Tue 11:13] =>  0:02
+:END:
+** [X] Fix time in container
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:00]--[2021-03-23 Tue 11:09] => -7:08
+:END:
+
+[[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
+** [ ] Try out NixOS on WSL 2.
+SCHEDULED: <2021-03-23 Tue>
+
+[[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
+** [ ] Write windows install instructions
+SCHEDULED: <2021-03-23 Tue>
+
+[[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
+** [ ] Implement insert-chars
+SCHEDULED: <2021-03-23 Tue>
+
+[[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
 ** [ ] Game development Sandbox
 DEADLINE: <2021-03-31 Wed> SCHEDULED: <2021-03-17 Wed>
 
 Very simple toolbox for playing around with turn-based, Euro-style Games.
-** [ ] Get Sandbox running with Windows
+** DONE Get Sandbox running with Windows
 SCHEDULED: <2021-03-18 Thu>
 
 Dual-boot with Windows to reproduce exact steps, most likely.
@@ -27,7 +51,7 @@ yields a depth-first search over forms.
 Return a cursor over entities associated with forms in the editor.
 ** [ ] Starting The Game
 Starting the game is all about developing a minimum viable physics. Initially
-ther is just lift-and-drop physics
+there is just lift-and-drop physics
 
 *** [ ] Drag-and-drop pieces on a board.
 *** [ ] Turn-based card game
