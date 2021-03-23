@@ -1,13 +1,13 @@
 
 # Table of Contents
 
-1.  [Installing](#org71e450b)
-    1.  [Windows](#org018ed84)
-    2.  [Linux](#org7cc79d9)
-2.  [Development](#orgde2626c)
-    1.  [Colaborative editing](#orgefe104c)
-    2.  [Communication](#org1de4ca2)
-    3.  [Essential Commands](#orge5a76bb)
+1.  [Installing](#org44096f2)
+    1.  [Windows](#orgd7248ea)
+    2.  [Linux](#orgfe44106)
+2.  [Development](#org690a522)
+    1.  [Colaborative editing](#orgdd18178)
+    2.  [Communication](#org2a2e94a)
+    3.  [Essential Commands](#org15a0fe7)
 
 ![img](./resources/images/environment.png)
 
@@ -21,12 +21,12 @@ It includes other Repos as [Git Submodules](https://git-scm.com/book/en/v2/Git-T
 The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 
 
-<a id="org71e450b"></a>
+<a id="org44096f2"></a>
 
 # Installing
 
 
-<a id="org018ed84"></a>
+<a id="orgd7248ea"></a>
 
 ## Windows
 
@@ -56,11 +56,13 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
     -   Copy/Paste your public key into github. See [here](https://github.com/settings/keys), click &ldquo;New SSH key&rdquo;.
 -   Create ssh session: ``eval `ssh-agent` && ssh-add ~/.ssh/id_rsa``
 -   Clone the repo: `git clone git@github.com:cartesian-theatrics/games.git --recursive`
+    -   NOTE: make sure you&rsquo;ve accepted all three of my github collaboration invites before cloning. You need
+        to be a collaborator on all the repos.
 -   Build docker container: `./docker_build.sh` (this will take a long time the first time)
 -   Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
 
 
-<a id="org7cc79d9"></a>
+<a id="orgfe44106"></a>
 
 ## Linux
 
@@ -70,12 +72,12 @@ Once you have docker installed, Simply run:
 2.  ./docker<sub>run.sh</sub> (in this directory)
 
 
-<a id="orgde2626c"></a>
+<a id="org690a522"></a>
 
 # Development
 
 
-<a id="orgefe104c"></a>
+<a id="orgdd18178"></a>
 
 ## Colaborative editing
 
@@ -89,7 +91,7 @@ environment here. I&rsquo;ve tested it already with two computers and it works
 wonderfully.
 
 
-<a id="org1de4ca2"></a>
+<a id="org2a2e94a"></a>
 
 ## Communication
 
@@ -101,7 +103,7 @@ Just run `M-x telega` (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
 
 
-<a id="orge5a76bb"></a>
+<a id="org15a0fe7"></a>
 
 ## Essential Commands
 
