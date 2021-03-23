@@ -1,16 +1,13 @@
 [[./resources/images/environment.png]]
 
+This is the docker environment for Gamedev.
+It includes other Repos as [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][Git Submodules]]. These include:
 
-I think it will be highly beneficial to use a shared container for development.
-This will:
+- ~modules/doom.d~: The doom emacs config directory.
+- ~moduues/emacs.d~: The doom emacs install directory.
+- ~modules/skyhook~: Working repo for the EuroZone project.
 
-- Make development much smoother because we have a shared environment.
-- Emacs generally runs much better on Linux.
-- Great way to dip your toes into the Linux world.
-- Simplifies deployment because many hosting services support docker
-  containers directly.
-
-  Currently the container is setup for python, Clojure(Script), and Java projects.
+The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 
 * Installing
 ** Windows
@@ -22,26 +19,26 @@ This will:
 - Install [[https://sourceforge.net/projects/vcxsrv/][vcxsrv]] using windows.
 - Create a shortcut to launch cvxsrv on your desktop:
   + Right Click -> new -> shortcut.
-  + past this in the "location" field: "C:\Program Files\VcXsrv\vcxsrv.exe" :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl -ac -dpi auto
+  + past this in the "location" field: ~"C:\Program Files\VcXsrv\vcxsrv.exe" :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl -ac -dpi auto~
   + Save shortcut
 - Launch CvSxrv by double clicking the X icon. You should see it show up in your running programs panel.
 - Login into ubuntu.
-- Install terminator: `sudo apt install terminator`
+- Install terminator: ~sudo apt install terminator~
 - Launch terminator by just invoking the command at the prompt. You should see a new terminal window show up. If you get this far,
   it means your X window server is working.
 - Install some programs:
-  + zsh & git: `sudo apt install zsh git`
-  + oh-my-zsh: `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+  + zsh & git: ~sudo apt install zsh git~
+  + oh-my-zsh: ~sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"~
 - Launch into zsh terminal.
-- Configure git: `git config --global user.email "<your email here>" && git config --global user.name "<your name here>"`
+- Configure git: ~git config --global user.email "<your email here>" && git config --global user.name "<your name here>"~
 - Create an ssh-key:
-  + `ssh-keygen -C "<email>"` (default all the options)
-  + Cat the public key: `cat ~/.ssh/id_rsa.pub`.
+  + ~ssh-keygen -C "<email>"~ (default all the options)
+  + Cat the public key: ~cat ~/.ssh/id_rsa.pub~
   + Copy/Paste your public key into github. See [[https://github.com/settings/keys][here]], click "New SSH key".
-- Create ssh session: src_shell{eval \`ssh-agent\` && ssh-add ~/.ssh/id_rsa}
-- Clone the repo: `git clone git@github.com:cartesian-theatrics/games.git --recursive`
-- Build docker container: `./docker_build.sh` (this will take a long time the first time)
-- Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
+- Create ssh session: ~eval `ssh-agent` && ssh-add ~/.ssh/id_rsa~
+- Clone the repo: ~git clone git@github.com:cartesian-theatrics/games.git --recursive~
+- Build docker container: ~./docker_build.sh~ (this will take a long time the first time)
+- Run docker container: ~./docker_run_windows.sh~ (this will also take a long time the first time)
 *** Linux
 Once you have docker installed, Simply run:
 1. ./docker_build.sh (in this directory)
@@ -61,13 +58,8 @@ I installed telegram into the container with voice support so we should be able 
 chat to each other directly in emacs. You'll want to install telegram for your
 desktop: https://desktop.telegram.org/
 
-Just run `M-x telega` (say yes to the compile questions) to connect the emacs
+Just run ~M-x telega~ (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
-*** Kinda Pointless honestly
-Source: [2021-03-18 Thu], https://www.reddit.com/r/news/comments/m7qjvm/home_surveillance_camera_shows_officer_lied_on/
- #+BEGIN_QUOTE
-Home surveillance camera shows officer lied on report when charging man with major crimes
-#+END_QUOTE
 ** Essential Commands
 
 | Category        | Hint                 | key pattern  | command                  | Note                                  |
@@ -87,37 +79,4 @@ Home surveillance camera shows officer lied on report when charging man with maj
 | Search          | Command Search       | ~SPC :~      | execute-extended-command | Search for a emacs command            |
 | Chat            | Open Telegram client | ~M-x telega~ |                          | Open [[https://zevlg.github.io/telega.el/][telegram chat client]]             |
 | Version Control | Manage Git           | ~SPC g g~    | magit-status             | The ultimate git interface            |
-|                 |                      |              |                          |                                       |
-
-
-- Emacs is stuck:      ~Ctrl-g~
-- Navigation:
-  + Modes
-    - Enter Normal: ~ESC~ (it's highly recommended to remap CAPS to ESC)
-    - Enter Edit:   ~i~
-    - Enter Visual: ~v~  (for )
-- Doom
-  + Learn Doom: ~SPC h d h~
-- Buffers
-  + Goto Buffer:     ~SPC b b~
-  + Goto Any Buffer: ~SPC b b~ (includes process buffers)
-  + Manager buffers: ~SPC b i~ (Press ~d~ to mark for delete, ~x~ to delete all marked)
-- Terminal:
-  + Open Terminal:     ~M-x vterm~ or ~SPC :~ ~vterm~.
-  + Open file in term: ~ec <path/filename>~
-- Search
-  + Recent files:        ~SPC f r~
-  + Project file:        ~SPC f p~
-  + Project Omni:        ~SPC *~
-  + Directory relative:  ~SPC d~
-  + Command search:      ~SPC :~ or ~M x~
-- Git (Magit)
-  + Git status: ~SPC g g~
-  + Get help:   ~h~
-- Clojure:
-  + Open CLJ REPL: ~SPC m '~
-  + Eval Buffer: ~SPC m e v~
-  + Eval Expression: ~SPC m e e~
-  + Eval And replace: ~SPC m e k~
-- Chat:
-  Open telega (Telegram client): ~M-x telega~
+| Version Control | Get help             | ~h~`         | magit-popup-help         | Run in ~magit-satus~ context          |
