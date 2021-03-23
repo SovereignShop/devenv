@@ -4,6 +4,9 @@ set -euo pipefail
 DIR=$(pwd)
 
 echo ${DIR} ${HOME}
+eval `ssh-agent`;
+ssh-add ~/.ssh/id_rsa;
+
 
 docker run\
        --rm\
