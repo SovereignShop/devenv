@@ -45,8 +45,8 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 - Run docker container: ~./docker_run_windows.sh~ (this will also take a long time the first time)
 ** Linux
 Once you have docker installed, Simply run:
-1. ./docker_build.sh (in this directory)
-2. ./docker_run.sh (in this directory)
+1. =./docker_build.sh= (in this directory)
+2. =./docker_run.sh-= (in this directory)
 * Development
 ** Colaborative editing
 We'll use crdt.el for collaborative editing. It's designed for
