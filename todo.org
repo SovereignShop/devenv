@@ -1,4 +1,12 @@
 * Inbox
+** [ ] Implement insert-chars
+SCHEDULED: <2021-03-23 Tue>
+
+[[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
+** [ ] Game development Sandbox
+DEADLINE: <2021-03-31 Wed> SCHEDULED: <2021-03-17 Wed>
+
+Very simple toolbox for playing around with turn-based, Euro-style Games.
 ** [X] Fix launch install
 SCHEDULED: <2021-03-23 Tue>
 :LOGBOOK:
@@ -11,55 +19,21 @@ CLOCK: [2021-03-23 Tue 11:00]--[2021-03-23 Tue 11:09] => -7:08
 :END:
 
 [[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
-** [ ] Try out NixOS on WSL 2.
+** [X] Try out NixOS on WSL 2.
 SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:13]--[2021-03-23 Tue 11:20] =>  0:01
+:END:
+Found out WSL2 also does not support systemd natively. This is also not worth worrying about.
+The above fix for time in container is satisfactory for now.
 
 [[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
-** [ ] Write windows install instructions
+** [X] Write windows install instructions
 SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:21]--[2021-03-23 Tue 12:46] =>  1:25
+:END:
 
 [[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
-** [ ] Implement insert-chars
-SCHEDULED: <2021-03-23 Tue>
-
-[[file:~/Workspace/journal.org::*\[2021-03-24 Wed 00:11\] This morning][[2021-03-24 Wed 00:11] This morning]]
-** [ ] Game development Sandbox
-DEADLINE: <2021-03-31 Wed> SCHEDULED: <2021-03-17 Wed>
-
-Very simple toolbox for playing around with turn-based, Euro-style Games.
 ** DONE Get Sandbox running with Windows
 SCHEDULED: <2021-03-18 Thu>
-
-Dual-boot with Windows to reproduce exact steps, most likely.
-** [ ] Editor Features
-The editor dynamically joins scene objects with text objects.
-
-Features:
-- As user pans the camera, text values update automatically.
-- Project hidden values into editor.
-
-*** [ ] insert-chars :fn:
-Takes a start position text, updates tokens or creating new ones as needed.
-*** [ ] delete-chars :fn:
-Takes a start position and a length, updates tokens.
-*** [ ] cursor-form :fn:
-Returns the form at ~point~.
-*** [ ] form-cursor :fn:
-Returns a cursor over forms in constant time. ~(iterate next-form cursor)~
-yields a depth-first search over forms.
-*** [ ] entity-cursor :fn:
-Return a cursor over entities associated with forms in the editor.
-** [ ] Starting The Game
-Starting the game is all about developing a minimum viable physics. Initially
-there is just lift-and-drop physics
-
-*** [ ] Drag-and-drop pieces on a board.
-*** [ ] Turn-based card game
-*** [ ] Turn-based
-** [ ] Peer-to-Peer
-Eurozone games are mostly Peer-to-Peer, with a small hosted service for discover (unless tuntox).
-
-*** [ ] Find an existing demonstration of the RAFT protocol.
-*** [ ] Implement it in Clojure(Script).
-*** [ ] Make updates opportunistic.
-*** [ ] Implement webrtclj or extend sente.
