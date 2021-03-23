@@ -28,7 +28,7 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
   it means your X window server is working.
 - Install some programs:
   + zsh & git: ~sudo apt install zsh git~
-  + oh-my-zsh: ~~sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"~~
+  + oh-my-zsh: ~~sh -c \\"$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\\"~~
 - Launch into zsh terminal.
 - Configure git: ~git config --global user.email \"<your email here>\" && git config --global user.name \"<your name here>\"~
 - Create an ssh-key:
@@ -79,4 +79,4 @@ client to your telegram desktop.
 | Search          | Command Search       | ~SPC :~      | execute-extended-command | Search for a emacs command            |
 | Chat            | Open Telegram client | ~M-x telega~ |                          | Open [[https://zevlg.github.io/telega.el/][telegram chat client]]             |
 | Version Control | Manage Git           | ~SPC g g~    | magit-status             | The ultimate git interface            |
-| Version Control | Get help             | ~h~`         | magit-popup-help         | Run in ~magit-satus~ context          |
+| Version Control | Get help             | ~h~          | magit-popup-help         | Run in ~magit-satus~ context          |
