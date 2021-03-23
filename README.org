@@ -30,7 +30,7 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
   it means your X window server is working.
 - Install some programs:
   + zsh & git: ~sudo apt install zsh git~
-  + oh-my-zsh: =\`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\`=
+  + oh-my-zsh: =sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"=
 - Launch into zsh terminal.
 - Configure git: src_python{git config --global user.email "<your email here>" && git config --global user.name "<your name here>"}
 - Create an ssh-key:
