@@ -1,0 +1,35 @@
+#+TITLE: Backlog
+
+
+* [ ] Editor Features
+The editor dynamically joins scene objects with text objects.
+
+Features:
+- As user pans the camera, text values update automatically.
+- Project hidden values into editor.
+
+** [ ] insert-chars :fn:
+Takes a start position text, updates tokens or creating new ones as needed.
+** [ ] delete-chars :fn:
+Takes a start position and a length, updates tokens.
+** [ ] cursor-form :fn:
+Returns the form at ~point~.
+** [ ] form-cursor :fn:
+Returns a cursor over forms in constant time. ~(iterate next-form cursor)~
+yields a depth-first search over forms.
+** [ ] entity-cursor :fn:
+Return a cursor over entities associated with forms in the editor.
+** [ ] Starting The Game
+Starting the game is all about developing a minimum viable physics. Initially
+there is just lift-and-drop physics
+
+*** [ ] Drag-and-drop pieces on a board.
+*** [ ] Turn-based card game
+*** [ ] Turn-based
+** [ ] Peer-to-Peer
+Eurozone games are mostly Peer-to-Peer, with a small hosted service for discover (unless tuntox).
+
+*** [ ] Find an existing demonstration of the RAFT protocol.
+*** [ ] Implement it in Clojure(Script).
+*** [ ] Make updates opportunistic.
+*** [ ] Implement webrtclj or extend sente.
