@@ -24,6 +24,7 @@ docker run\
        -v /etc/localtime:/etc/localtime:ro\
        -v /tmp/.X11-unix:/tmp/.X11-unix:rw\
        -v ${HOME}/.telega:${HOME}/.telega\
+       -v /usr/bin/xdg-open:/usr/bin/xdg-open:ro\
        -v ${HOME}/.local:${HOME}/.local\
        -v ${HOME}/.lein:${HOME}/.lein\
        -v ${HOME}/.cljs:${HOME}/.cljs\
