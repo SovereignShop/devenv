@@ -1,13 +1,13 @@
 
 # Table of Contents
 
-1.  [Installing](#orgcc7d461)
-    1.  [Windows](#org8ea87bf)
-        1.  [Linux](#org20d7c63)
-2.  [Development](#org5618f30)
-    1.  [Colaborative editing](#org0ba56ff)
-    2.  [Communication](#orgc0c1de3)
-    3.  [Essential Commands](#org14b321c)
+1.  [Installing](#org71e450b)
+    1.  [Windows](#org018ed84)
+    2.  [Linux](#org7cc79d9)
+2.  [Development](#orgde2626c)
+    1.  [Colaborative editing](#orgefe104c)
+    2.  [Communication](#org1de4ca2)
+    3.  [Essential Commands](#orge5a76bb)
 
 ![img](./resources/images/environment.png)
 
@@ -21,12 +21,12 @@ It includes other Repos as [Git Submodules](https://git-scm.com/book/en/v2/Git-T
 The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 
 
-<a id="orgcc7d461"></a>
+<a id="org71e450b"></a>
 
 # Installing
 
 
-<a id="org8ea87bf"></a>
+<a id="org018ed84"></a>
 
 ## Windows
 
@@ -60,9 +60,9 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 -   Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
 
 
-<a id="org20d7c63"></a>
+<a id="org7cc79d9"></a>
 
-### Linux
+## Linux
 
 Once you have docker installed, Simply run:
 
@@ -70,12 +70,12 @@ Once you have docker installed, Simply run:
 2.  ./docker<sub>run.sh</sub> (in this directory)
 
 
-<a id="org5618f30"></a>
+<a id="orgde2626c"></a>
 
 # Development
 
 
-<a id="org0ba56ff"></a>
+<a id="orgefe104c"></a>
 
 ## Colaborative editing
 
@@ -89,7 +89,7 @@ environment here. I&rsquo;ve tested it already with two computers and it works
 wonderfully.
 
 
-<a id="orgc0c1de3"></a>
+<a id="org1de4ca2"></a>
 
 ## Communication
 
@@ -101,7 +101,7 @@ Just run `M-x telega` (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
 
 
-<a id="org14b321c"></a>
+<a id="orge5a76bb"></a>
 
 ## Essential Commands
 
