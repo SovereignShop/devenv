@@ -1,13 +1,14 @@
 
 # Table of Contents
 
-1.  [Installing](#org617d561)
-    1.  [Windows](#org65cf56d)
-    2.  [Linux](#org3cc4b82)
-2.  [Development](#orgb73b9b2)
-    1.  [Colaborative editing](#orgfd5d1da)
-    2.  [Communication](#orga2efaaf)
-    3.  [Essential Commands](#orge876b4c)
+1.  [Installing](#org1dff3a3)
+    1.  [Windows](#orgacc063d)
+    2.  [Linux](#orgaaae213)
+2.  [Development](#org73a3d9d)
+    1.  [Colaborative editing](#orgdb9a97b)
+    2.  [Communication](#org50be74d)
+    3.  [Workflow](#orgcf91c28)
+    4.  [Essential Commands](#org07a9c40)
 
 ![img](./resources/images/environment.png)
 
@@ -21,12 +22,12 @@ It includes other Repos as [Git Submodules](https://git-scm.com/book/en/v2/Git-T
 The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 
 
-<a id="org617d561"></a>
+<a id="org1dff3a3"></a>
 
 # Installing
 
 
-<a id="org65cf56d"></a>
+<a id="orgacc063d"></a>
 
 ## Windows
 
@@ -62,22 +63,22 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 -   Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
 
 
-<a id="org3cc4b82"></a>
+<a id="orgaaae213"></a>
 
 ## Linux
 
 Once you have docker installed, Simply run:
 
 1.  `./docker_build.sh` (in this directory)
-2.  `./docker_run.sh` (in this directory)
+2.  `./docker_run.sh-` (in this directory)
 
 
-<a id="orgb73b9b2"></a>
+<a id="org73a3d9d"></a>
 
 # Development
 
 
-<a id="orgfd5d1da"></a>
+<a id="orgdb9a97b"></a>
 
 ## Colaborative editing
 
@@ -91,7 +92,7 @@ environment here. I&rsquo;ve tested it already with two computers and it works
 wonderfully.
 
 
-<a id="orga2efaaf"></a>
+<a id="org50be74d"></a>
 
 ## Communication
 
@@ -103,7 +104,17 @@ Just run `M-x telega` (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
 
 
-<a id="orge876b4c"></a>
+<a id="orgcf91c28"></a>
+
+## Workflow
+
+-   See [todo.org](./todo.md) for completed and active tasks.
+-   See [backlog.org](./backlog.md) for backlog of tasks.
+-   See [journal.org](./journal.md) for project journal.
+-   Use `M-x org-capture` to add a todo/journal entry without interrupting your workflow.
+
+
+<a id="org07a9c40"></a>
 
 ## Essential Commands
 

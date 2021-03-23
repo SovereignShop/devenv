@@ -64,6 +64,11 @@ desktop: https://desktop.telegram.org/
 
 Just run ~M-x telega~ (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
+** Workflow
+- See [[./todo.org][todo.org]] for completed and active tasks.
+- See [[./backlog.org][backlog.org]] for backlog of tasks.
+- See [[./journal.org][journal.org]] for project journal.
+- Use ~M-x org-capture~ to add a todo/journal entry without interrupting your workflow.
 ** Essential Commands
 
 | Category        | Hint                 | key pattern  | command                  | Note                                  |
