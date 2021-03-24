@@ -17,6 +17,8 @@ docker run\
        -e XAUTH=${HOME}/.Xauthority\
        --mount type=bind,src=${DIR},dst=${HOME}/Workspace\
        -v /tmp/.X11-unix:/tmp/.X11-unix:rw\
+       -v /etc/timezone:/etc/timezone:ro\
+       -v /etc/localtime:/etc/localtime:ro\
        -v ${HOME}/.telega:${HOME}/.telega\
        -v ${XDG_RUNTIME_DIR}/pulse:${XDG_RUNTIME_DIR}/pulse \
        -v ${XAUTHORITY}:${HOME}/.Xauthority\

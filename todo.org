@@ -1,7 +1,15 @@
 * Inbox
 ** [ ] Implement insert-chars
-SCHEDULED: <2021-03-23 Tue>
+DEADLINE: <2021-03-24 Wed> SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-24 Wed 03:30]
+:END:
+Implement the cursor function ~insert-chars~. This function simply takes
+a cursor and a string of text, and inserts the text as updates to existing
+tokens or new additional tokens if necessary.
 
+It may be worth breaking this into ~parse-tokens~ and ~insert-tokens~, where
+~insert-tokens~ potentially unifies the first and last input tokens.
 ** [X] Try xdg-open-server
 SCHEDULED: <2021-03-23 Tue>
 :LOGBOOK:
