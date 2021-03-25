@@ -1,23 +1,38 @@
 #+TITLE: Projects
 
-#+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2021-03-25 Thu 15:57]
-| Headline     | Time   |
-|--------------+--------|
-| *Total time* | *0:00* |
+#+BEGIN: clocktable :scope file :maxlevel 3 :link t
+#+CAPTION: Clock summary at [2021-03-25 Thu 16:09]
+| Headline                               |   Time |      |
+|----------------------------------------+--------+------|
+| *Total time*                           | *2:16* |      |
+|----------------------------------------+--------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                   |   0:02 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                   |        | 0:02 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                              |   2:14 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                |        | 0:29 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                 |        | 0:04 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]              |        | 0:09 |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]            |        | 0:07 |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]] |        | 1:25 |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [0/1]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [0/2]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
 ** TODO Implement ~insert-chars~
-* [[elisp:(org-projectile-open-project "swig")][swig]] [0/4]
+SCHEDULED: <2021-03-26 Fri>
+** TODO Move editor into separate repository
+SCHEDULED: <2021-03-30 Tue>
+* [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig
 :END:
 ** TODO Implement frames
 SCHEDULED: <2021-03-27 Sat>
+:LOGBOOK:
+CLOCK: [2021-03-25 Thu 15:59]--[2021-03-25 Thu 16:01] =>  0:02
+:END:
 Frames correspond to full chrome frames (headless).
 ** TODO Implement Windows
 SCHEDULED: <2021-03-28 Sun>
@@ -25,4 +40,52 @@ SCHEDULED: <2021-03-28 Sun>
 ** TODO Data Model Spec
 SCHEDULED: <2021-03-29 Mon>
 Capture current semantics in a Spec using Spec or Malli.
-** TODO Finish Three.js Support
+** TODO Rename
+SCHEDULED: <2021-03-31 Wed>
+Swig is already a popular library. I need to come up with
+a new name.
+** TODO Finish Three.js Support.
+SCHEDULED: <2021-04-04 Sun>
+** TODO Docs
+SCHEDULED: <2021-04-06 Tue>
+** TODO Examples
+SCHEDULED: <2021-04-09 Fri>
+* [[elisp:(org-projectile-open-project "Workspace")][Workspace]] [6/6]
+:PROPERTIES:
+:CATEGORY: Workspace
+:END:
+** DONE use org-projectile
+Manage tasks on a per-project basis.
+** DONE Try xdg-open-server :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 13:00]--[2021-03-23 Tue 13:29] =>  0:00
+:END:
+Try to use [[https://github.com/kitsunyan/xdg-open-server][xdg-open-server]] to open links in host.
+
+Conclusion: not immediately feasible. WSL2 is a strange beast.
+** DONE Fix launch install :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:09]--[2021-03-23 Tue 11:13] =>  0:02
+:END:
+** DONE Fix time in container :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:00]--[2021-03-23 Tue 11:09] => -7:08
+:END:
+** DONE Try out NixOS on WSL 2. :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:13]--[2021-03-23 Tue 11:20] =>  0:01
+:END:
+Found out WSL2 also does not support systemd natively. This is also not worth worrying about.
+The above fix for time in container is satisfactory for now.
+** DONE Write windows install instructions :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:21]--[2021-03-23 Tue 12:46] =>  1:25
+:END:
+
+DONE Get Sandbox running with Windows
+SCHEDULED: <2021-03-18 Thu>
