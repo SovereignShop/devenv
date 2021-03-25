@@ -201,12 +201,5 @@ RUN chown root /usr/local/sbin/asEnvUser \
 
 COPY sandbox_bootstrap.sh /usr/bin/
 
-RUN apt-get update && apt-get install -y libx11-dev && git clone https://github.com/kitsunyan/xdg-open-server\
-    && cd xdg-open-server\
-    && make\
-    && make install\
-    && cd ../\
-    && rm -rf xdg-open-server\
-
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
