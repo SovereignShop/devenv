@@ -24,3 +24,10 @@
 **** http://feeds.feedburner.com/marginalrevolution/feed?format=xml
 *** Katie Harper :Twitter:
 **** https://twitrss.me/twitter_search_to_rss/?term=Katie+Halper
+** Substack :SS:
+*** Greenwald :GG:
+**** https://greenwald.substack.com/feed
+*** Moldbug :CY:
+**** https://graymirror.substack.com/feed
+*** SlateStar :SSC:
+**** https://astralcodexten.substack.com/
