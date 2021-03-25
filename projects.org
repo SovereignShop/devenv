@@ -89,3 +89,8 @@ CLOCK: [2021-03-23 Tue 11:21]--[2021-03-23 Tue 12:46] =>  1:25
 
 DONE Get Sandbox running with Windows
 SCHEDULED: <2021-03-18 Thu>
+* [[elisp:(org-projectile-open-project "webrt-cljc")][webrt-cljc]] [0/0]
+:PROPERTIES:
+:CATEGORY: webrt-cljc
+:END:
+** TODO Implement/study Minimal javascript example

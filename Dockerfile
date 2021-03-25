@@ -147,7 +147,7 @@ RUN curl -O https://download.clojure.org/install/linux-install-1.10.2.796.sh;\
     rm ./linux-install-1.10.2.796.sh;
 
 # Clojure LSP server
-COPY install-latest-clojure-lsp.sh ./
+COPY bin/install-latest-clojure-lsp.sh ./
 RUN ./install-latest-clojure-lsp.sh;\
     rm ./install-latest-clojure-lsp.sh
 
