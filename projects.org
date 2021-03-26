@@ -107,12 +107,16 @@ DONE Get Sandbox running with Windows
 :CATEGORY: webrt-cljc
 :END:
 ** TODO Implement/study Minimal javascript example
-* [[elisp:(org-projectile-open-project "blog")][blog]] [0/1]
+* [[elisp:(org-projectile-open-project "blog")][blog]] [0/2]
 :PROPERTIES:
 :CATEGORY: blog
 :END:
 ** TODO Blog post/stream on Sayid
 Don't forget about Sayid! Can we maybe do a version of Sayid that is independent of emacs and integrates with clj-doc?
+** TODO Docker-Compose
+SCHEDULED: <2021-03-27 Sat>
+Need to make a docker-compose file with entry for the blog container. The containers
+should also be networked together.
 * [[elisp:(org-projectile-open-project "practice")][practice]] [0/2]
 :PROPERTIES:
 :CATEGORY: practice
@@ -129,3 +133,8 @@ SCHEDULED: <2021-03-27 Sat +2d>
 So far I have not been successfull get Nvidia drivers to work in the windows
 environment, as the nvidia plugion/backend for docker is not available in for
 Windows Docker. It seems to be possible but so far hasn't worked out.
+* [[elisp:(org-projectile-open-project "codenames")][codenames]] [0/1]
+:PROPERTIES:
+:CATEGORY: codenames
+:END:
+** TODO Get it working again...
