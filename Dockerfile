@@ -199,7 +199,7 @@ COPY asEnvUser /usr/local/sbin/
 RUN chown root /usr/local/sbin/asEnvUser \
     && chmod 700  /usr/local/sbin/asEnvUser
 
-COPY sandbox_bootstrap.sh /usr/bin/
+COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

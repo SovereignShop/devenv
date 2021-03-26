@@ -18,7 +18,7 @@
 | \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]] |        | 1:25 |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [1/4]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [1/5]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
@@ -28,13 +28,17 @@ SCHEDULED: <2021-03-26 Fri>
 CLOCK: [2021-03-25 Thu 19:13]--[2021-03-25 Thu 20:45] =>  1:32
 :END:
 Some tests work, cursor position is probably not properly maintained.
-** TODO Exhaustive Tests of ~insert-chars~
+** TODO Exhaustive Tests of ~insert-chars~ :editor:
 SCHEDULED: <2021-03-27 Sat>
 Write more exhaustive tests of ~insert-chars~. The function
 will probably need to be re-written.
-** TODO Move editor into separate repository
+** TODO Move editor into separate repository :editor:
 SCHEDULED: <2021-03-30 Tue>
-** TODO Implement delete-text
+** TODO Implement delete-text :editor:
+** TODO Add emacs as backend for editor :editor:
+SCHEDULED: <2021-04-03 Sat>
+Supporting emacs might be easy and will make it easier to develop and test.
+
 * [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig
@@ -99,7 +103,6 @@ CLOCK: [2021-03-23 Tue 11:21]--[2021-03-23 Tue 12:46] =>  1:25
 :END:
 
 DONE Get Sandbox running with Windows
-SCHEDULED: <2021-03-18 Thu>
 * [[elisp:(org-projectile-open-project "webrt-cljc")][webrt-cljc]] [0/0]
 :PROPERTIES:
 :CATEGORY: webrt-cljc
