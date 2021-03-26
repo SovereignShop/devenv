@@ -16,3 +16,6 @@
 [submodule "modules/codenames"]
 	path = modules/codenames
 	url = git@github.com:cartesian-theatrics/codenames.git
+[submodule "modules/dlfp"]
+	path = modules/dlfp
+	url = git@github.com:cartesian-theatrics/dlfp.git

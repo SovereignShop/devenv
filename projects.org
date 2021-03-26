@@ -107,7 +107,7 @@ DONE Get Sandbox running with Windows
 :CATEGORY: webrt-cljc
 :END:
 ** TODO Implement/study Minimal javascript example
-* [[elisp:(org-projectile-open-project "blog")][blog]] [0/0]
+* [[elisp:(org-projectile-open-project "blog")][blog]] [0/1]
 :PROPERTIES:
 :CATEGORY: blog
 :END:
@@ -121,3 +121,11 @@ Don't forget about Sayid! Can we maybe do a version of Sayid that is independent
 SCHEDULED: <2021-03-27 Sat +2d>
 ** TODO Practice RAFT protocol
 SCHEDULED: <2021-03-27 Sat +2d>
+* [[elisp:(org-projectile-open-project "dlfp")][dlfp]] [0/0]
+:PROPERTIES:
+:CATEGORY: dlfp
+:END:
+** TODO Get Deep Diamond working in Docker environemnt
+So far I have not been successfull get Nvidia drivers to work in the windows
+environment, as the nvidia plugion/backend for docker is not available in for
+Windows Docker. It seems to be possible but so far hasn't worked out.

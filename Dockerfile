@@ -176,7 +176,7 @@ RUN git clone https://github.com/tdlib/td.git \
     && rm -r td;
 
 # Install support for voice-over-ip (Audio chats)
-RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.4.2.orig.tar.gz;\
+
     tar -xf libtgvoip_2.4.2.orig.tar.gz;\
     cd libtgvoip-2.4.2/;\
     ./configure;\
@@ -199,7 +199,10 @@ COPY asEnvUser /usr/local/sbin/
 RUN chown root /usr/local/sbin/asEnvUser \
     && chmod 700  /usr/local/sbin/asEnvUser
 
-COPY ./bin/sandbox_bootstrap.sh /usr/bin/
+COPY ./bin/sandbox_bootstrap.sh /usr/bin/S
+
+# Install Git LFS (Large File Storage) for dlfp repo
+RUN apt-get update && apt-get install git-lfs
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
