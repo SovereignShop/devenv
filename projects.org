@@ -38,7 +38,6 @@ SCHEDULED: <2021-03-30 Tue>
 ** TODO Add emacs as backend for editor :editor:
 SCHEDULED: <2021-04-03 Sat>
 Supporting emacs might be easy and will make it easier to develop and test.
-
 * [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig

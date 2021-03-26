@@ -13,3 +13,6 @@
 [submodule "modules/practice"]
 	path = modules/practice
 	url = git@github.com:cartesian-theatrics/practice.git
+[submodule "modules/codenames"]
+	path = modules/codenames
+	url = git@github.com:cartesian-theatrics/codenames.git
