@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [Installing](#org1dff3a3)
-    1.  [Windows](#orgacc063d)
-    2.  [Linux](#orgaaae213)
-2.  [Development](#org73a3d9d)
-    1.  [Colaborative editing](#orgdb9a97b)
-    2.  [Communication](#org50be74d)
-    3.  [Workflow](#orgcf91c28)
-    4.  [Essential Commands](#org07a9c40)
+1.  [Installing](#orgd203019)
+    1.  [Windows](#org690fffa)
+    2.  [Linux](#org90263c7)
+2.  [Development](#orge2f6caf)
+    1.  [Colaborative editing](#org1a12691)
+    2.  [Communication](#orgb93efc5)
+    3.  [Workflow](#org7ae4f94)
+    4.  [Essential Commands](#orge3f9089)
 
 ![img](./resources/images/environment.png)
 
@@ -22,17 +22,17 @@ It includes other Repos as [Git Submodules](https://git-scm.com/book/en/v2/Git-T
 The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 
 
-<a id="org1dff3a3"></a>
+<a id="orgd203019"></a>
 
 # Installing
 
 
-<a id="orgacc063d"></a>
+<a id="org690fffa"></a>
 
 ## Windows
 
 -   [Install](https://www.windowscentral.com/how-install-wsl2-windows-10) WSL 2.
--   [Install Ubuntu](https://linoxide.com/how-install-ubuntu-windows-10/#:~:text=%20Install%20Ubuntu%20on%20Windows%2010%20WSL%202,Linux%20kernel%20update%20package%20and%20double...%20More) with WSL 2.
+-   [Install Ubuntu 20.04](https://linoxide.com/how-install-ubuntu-windows-10/#:~:text=%20Install%20Ubuntu%20on%20Windows%2010%20WSL%202,Linux%20kernel%20update%20package%20and%20double...%20More) with WSL 2.
 -   Install [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows.
 -   Enable WSL 2 engine in docker: go to settings and toggle &ldquo;Use the WSL 2 based engine&rdquo;.
 -   Restart docker.
@@ -63,7 +63,7 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 -   Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
 
 
-<a id="orgaaae213"></a>
+<a id="org90263c7"></a>
 
 ## Linux
 
@@ -73,12 +73,12 @@ Once you have docker installed, Simply run:
 2.  `./docker_run.sh-` (in this directory)
 
 
-<a id="org73a3d9d"></a>
+<a id="orge2f6caf"></a>
 
 # Development
 
 
-<a id="orgdb9a97b"></a>
+<a id="org1a12691"></a>
 
 ## Colaborative editing
 
@@ -92,7 +92,7 @@ environment here. I&rsquo;ve tested it already with two computers and it works
 wonderfully.
 
 
-<a id="org50be74d"></a>
+<a id="orgb93efc5"></a>
 
 ## Communication
 
@@ -104,7 +104,7 @@ Just run `M-x telega` (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
 
 
-<a id="orgcf91c28"></a>
+<a id="org7ae4f94"></a>
 
 ## Workflow
 
@@ -114,7 +114,7 @@ client to your telegram desktop.
 -   Use `M-x org-capture` to add a todo/journal entry without interrupting your workflow.
 
 
-<a id="org07a9c40"></a>
+<a id="orge3f9089"></a>
 
 ## Essential Commands
 
