@@ -31,3 +31,5 @@
 **** https://graymirror.substack.com/feed
 *** SlateStar :SSC:
 **** https://astralcodexten.substack.com/
+*** Matt Taibbe :MT:
+**** https://taibbi.substack.com/feed

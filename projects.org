@@ -1,11 +1,13 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-03-25 Thu 16:09]
+#+CAPTION: Clock summary at [2021-03-25 Thu 20:48]
 | Headline                               |   Time |      |
 |----------------------------------------+--------+------|
-| *Total time*                           | *2:16* |      |
+| *Total time*                           | *3:48* |      |
 |----------------------------------------+--------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                |   1:32 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]    |        | 1:32 |
 | [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                   |   0:02 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                   |        | 0:02 |
 | [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                              |   2:14 |      |
@@ -16,14 +18,23 @@
 | \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]] |        | 1:25 |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [0/2]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [1/4]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
-** TODO Implement ~insert-chars~
+** DONE Implement initial version of ~insert-chars~
 SCHEDULED: <2021-03-26 Fri>
+:LOGBOOK:
+CLOCK: [2021-03-25 Thu 19:13]--[2021-03-25 Thu 20:45] =>  1:32
+:END:
+Some tests work, cursor position is probably not properly maintained.
+** TODO Exhaustive Tests of ~insert-chars~
+SCHEDULED: <2021-03-27 Sat>
+Write more exhaustive tests of ~insert-chars~. The function
+will probably need to be re-written.
 ** TODO Move editor into separate repository
 SCHEDULED: <2021-03-30 Tue>
+** TODO Implement delete-text
 * [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig
@@ -94,3 +105,17 @@ SCHEDULED: <2021-03-18 Thu>
 :CATEGORY: webrt-cljc
 :END:
 ** TODO Implement/study Minimal javascript example
+* [[elisp:(org-projectile-open-project "blog")][blog]] [0/0]
+:PROPERTIES:
+:CATEGORY: blog
+:END:
+** TODO Blog post/stream on Sayid
+Don't forget about Sayid! Can we maybe do a version of Sayid that is independent of emacs and integrates with clj-doc?
+* [[elisp:(org-projectile-open-project "practice")][practice]] [0/2]
+:PROPERTIES:
+:CATEGORY: practice
+:END:
+** TODO Practice RETE algorithm
+SCHEDULED: <2021-03-27 Sat +2d>
+** TODO Practice RAFT protocol
+SCHEDULED: <2021-03-27 Sat +2d>

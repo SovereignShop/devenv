@@ -7,3 +7,9 @@
 [submodule "modules/skyhook"]
 	path = modules/skyhook
 	url = git@github.com:cartesian-theatrics/skyhook.git
+[submodule "modules/blog"]
+	path = modules/blog
+	url = git@github.com:jmicahc/blog.git
+[submodule "modules/practice"]
+	path = modules/practice
+	url = git@github.com:cartesian-theatrics/practice.git
