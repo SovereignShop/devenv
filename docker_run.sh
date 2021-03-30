@@ -7,6 +7,8 @@ docker run\
        --rm\
        --privileged\
        -it\
+       -p 8080:8080\
+       -p 9630:9630\
        --name games-dock-emacs\
        --volume $SSH_AUTH_SOCK:/ssh-agent\
        --device /dev/dri:/dev/dri\
@@ -36,4 +38,4 @@ docker run\
        -v ${HOME}/.mozilla:${HOME}/.mozilla\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
-       gamedev:latest emacs -fs -L /emacs-application-framework --eval "(require 'eaf)"
+       gamedev:latest emacs -fs

@@ -1,24 +1,27 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-03-25 Thu 20:48]
-| Headline                               |   Time |      |
-|----------------------------------------+--------+------|
-| *Total time*                           | *3:48* |      |
-|----------------------------------------+--------+------|
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                |   1:32 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]    |        | 1:32 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                   |   0:02 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                   |        | 0:02 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                              |   2:14 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                |        | 0:29 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                 |        | 0:04 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]              |        | 0:09 |
-| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]            |        | 0:07 |
-| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]] |        | 1:25 |
+#+CAPTION: Clock summary at [2021-03-29 Mon 18:30]
+| Headline                                |   Time |      |
+|-----------------------------------------+--------+------|
+| *Total time*                            | *4:35* |      |
+|-----------------------------------------+--------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                 |   2:19 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browswer and identify new bugs/tasks][Test insert-text/delete-text and...]] |        | 0:26 |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]     |        | 1:32 |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]            |        | 0:21 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                    |   0:02 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                    |        | 0:02 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                               |   2:14 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                 |        | 0:29 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                  |        | 0:04 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]               |        | 0:09 |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]             |        | 0:07 |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]  |        | 1:25 |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [1/5]
+
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [4/8]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
@@ -29,11 +32,36 @@ CLOCK: [2021-03-25 Thu 19:13]--[2021-03-25 Thu 20:45] =>  1:32
 :END:
 Some tests work, cursor position is probably not properly maintained.
 ** TODO Exhaustive Tests of ~insert-chars~ :editor:
-SCHEDULED: <2021-03-27 Sat>
+SCHEDULED: <2021-03-30 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 14:17]--[2021-03-30 Tue 14:18] =>  0:01
+:END:
 Write more exhaustive tests of ~insert-chars~. The function
 will probably need to be re-written.
+** DONE Implement ~delete-chars~
+SCHEDULED: <2021-03-28 Sun>
+:LOGBOOK:
+CLOCK: [2021-03-29 Mon 17:30]--[2021-03-29 Mon 17:51] =>  0:21
+CLOCK: [2021-03-28 Sun 21:57]--[2021-03-28 Sun 21:57] =>  0:00
+:END:
+The three existing tests for this are now working, although I'm sure there are
+other bugs. Fortunately the code looks like cleaner although it is still a big
+doozy. It's workable enough to allow us to move forward.
+** DONE Test insert-text/delete-text and browser and identify new bugs/tasks
+SCHEDULED: <2021-03-29 Mon>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 14:18]--[2021-03-30 Tue 14:55] =>  0:37
+CLOCK: [2021-03-29 Mon 18:02]--[2021-03-29 Mon 18:28] =>  0:26
+:END:
+Basic browser functionality restored
 ** TODO Move editor into separate repository :editor:
 SCHEDULED: <2021-03-30 Tue>
+** DONE Editor cljc support
+SCHEDULED: <2021-03-30 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 12:32]--[2021-03-30 Tue 14:16] =>  1:44
+:END:
+Tests are passing in Clojurescript now
 ** TODO Implement delete-text :editor:
 ** TODO Add emacs as backend for editor :editor:
 SCHEDULED: <2021-04-03 Sat>
@@ -138,3 +166,9 @@ Windows Docker. It seems to be possible but so far hasn't worked out.
 :CATEGORY: codenames
 :END:
 ** TODO Get it working again...
+* [[elisp:(org-projectile-open-project "clj-rosbag")][clj-rosbag]] [0/0]
+:PROPERTIES:
+:CATEGORY: clj-rosbag
+:END:
+** TODO Look into implementation based on
+Repo is [[https://github.com/helins/binf.cljc][here]].

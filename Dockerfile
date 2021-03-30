@@ -176,7 +176,7 @@ RUN git clone https://github.com/tdlib/td.git \
     && rm -r td;
 
 # Install support for voice-over-ip (Audio chats)
-
+RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.4.2.orig.tar.gz;\
     tar -xf libtgvoip_2.4.2.orig.tar.gz;\
     cd libtgvoip-2.4.2/;\
     ./configure;\
@@ -199,10 +199,22 @@ COPY asEnvUser /usr/local/sbin/
 RUN chown root /usr/local/sbin/asEnvUser \
     && chmod 700  /usr/local/sbin/asEnvUser
 
-COPY ./bin/sandbox_bootstrap.sh /usr/bin/S
+COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 # Install Git LFS (Large File Storage) for dlfp repo
 RUN apt-get update && apt-get install git-lfs
+
+
+# Install PDF tools
+RUN apt-get update && apt-get install -y gir1.2-poppler-0.18 libcairo-script-interpreter2 libcairo2-dev libfontconfig1-dev\
+    libfreetype-dev libfreetype6-dev libice-dev liblzo2-2 libpixman-1-dev libpng-tools libpoppler-glib8 libpoppler97\
+    libpthread-stubs0-dev libsm-dev libx11-dev libxau-dev libxcb-render0-dev libxcb-shm0-dev libxcb1-dev libxdmcp-dev\
+    libxext-dev libxrender-dev poppler-data x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev
+
+# Install Leinigen
+RUN curl -sLO https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein;\
+    mv lein /usr/bin;\
+    chmod +x /usr/bin/lein;
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

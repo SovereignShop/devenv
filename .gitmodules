@@ -19,3 +19,6 @@
 [submodule "modules/dlfp"]
 	path = modules/dlfp
 	url = git@github.com:cartesian-theatrics/dlfp.git
+[submodule "modules/clj-rosbag"]
+	path = modules/clj-rosbag
+	url = https://github.com/cartesian-theatrics/clj-rosbag
