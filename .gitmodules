@@ -22,3 +22,6 @@
 [submodule "modules/clj-rosbag"]
 	path = modules/clj-rosbag
 	url = https://github.com/cartesian-theatrics/clj-rosbag
+[submodule "modules/clj-raft"]
+	path = modules/clj-raft
+	url = git@github.com:cartesian-theatrics/clj-raft.git
