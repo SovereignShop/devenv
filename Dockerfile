@@ -216,5 +216,10 @@ RUN curl -sLO https://raw.githubusercontent.com/technomancy/leiningen/stable/bin
     mv lein /usr/bin;\
     chmod +x /usr/bin/lein;
 
+RUN apt-get update && apt-get install -y wget
+
+# MKL version 2020.0-088
+RUN apt-get update && apt-get install -y intel-mkl
+
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

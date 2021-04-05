@@ -1,27 +1,29 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-03-29 Mon 18:30]
-| Headline                                |   Time |      |
-|-----------------------------------------+--------+------|
-| *Total time*                            | *4:35* |      |
-|-----------------------------------------+--------+------|
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                 |   2:19 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browswer and identify new bugs/tasks][Test insert-text/delete-text and...]] |        | 0:26 |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]     |        | 1:32 |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]            |        | 0:21 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                    |   0:02 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                    |        | 0:02 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                               |   2:14 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                 |        | 0:29 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                  |        | 0:04 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]               |        | 0:09 |
-| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]             |        | 0:07 |
-| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]  |        | 1:25 |
+#+CAPTION: Clock summary at [2021-04-03 Sat 23:49]
+| Headline                                |    Time |      |
+|-----------------------------------------+---------+------|
+| *Total time*                            | *14:05* |      |
+|-----------------------------------------+---------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                 |   11:49 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]     |         | 1:32 |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]            |         | 0:21 |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]] |         | 1:03 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                  |         | 0:37 |
+| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                 |         | 1:44 |
+| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]  |         | 6:32 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                    |    0:02 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                    |         | 0:02 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                               |    2:14 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                 |         | 0:29 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                  |         | 0:04 |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]               |         | 0:09 |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]             |         | 0:07 |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]  |         | 1:25 |
 #+END:
 
-
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [4/8]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/14]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
@@ -31,13 +33,6 @@ SCHEDULED: <2021-03-26 Fri>
 CLOCK: [2021-03-25 Thu 19:13]--[2021-03-25 Thu 20:45] =>  1:32
 :END:
 Some tests work, cursor position is probably not properly maintained.
-** TODO Exhaustive Tests of ~insert-chars~ :editor:
-SCHEDULED: <2021-03-30 Tue>
-:LOGBOOK:
-CLOCK: [2021-03-30 Tue 14:17]--[2021-03-30 Tue 14:18] =>  0:01
-:END:
-Write more exhaustive tests of ~insert-chars~. The function
-will probably need to be re-written.
 ** DONE Implement ~delete-chars~
 SCHEDULED: <2021-03-28 Sun>
 :LOGBOOK:
@@ -54,18 +49,67 @@ CLOCK: [2021-03-30 Tue 14:18]--[2021-03-30 Tue 14:55] =>  0:37
 CLOCK: [2021-03-29 Mon 18:02]--[2021-03-29 Mon 18:28] =>  0:26
 :END:
 Basic browser functionality restored
-** TODO Move editor into separate repository :editor:
+** DONE Fix ~token-length~
 SCHEDULED: <2021-03-30 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 17:31]--[2021-03-30 Tue 18:08] =>  0:37
+:END:
+There's a problem with newlines having token-length of 1 or zero depending on
+whether they are rendered or not.
 ** DONE Editor cljc support
 SCHEDULED: <2021-03-30 Tue>
 :LOGBOOK:
 CLOCK: [2021-03-30 Tue 12:32]--[2021-03-30 Tue 14:16] =>  1:44
 :END:
 Tests are passing in Clojurescript now
+** TODO Exhaustive Tests of ~insert-chars~ :editor:
+SCHEDULED: <2021-03-30 Tue>
+:LOGBOOK:
+CLOCK: [2021-04-04 Sun 21:21]--[2021-04-04 Sun 22:14] =>  0:53
+CLOCK: [2021-04-04 Sun 20:17]--[2021-04-04 Sun 20:21] =>  0:04
+CLOCK: [2021-04-03 Sat 19:51]--[2021-04-03 Sat 23:46] =>  3:55
+CLOCK: [2021-03-30 Tue 18:09]--[2021-03-30 Tue 19:24] =>  1:15
+CLOCK: [2021-03-30 Tue 14:57]--[2021-03-30 Tue 16:18] =>  1:21
+CLOCK: [2021-03-30 Tue 14:17]--[2021-03-30 Tue 14:18] =>  0:01
+:END:
+Write more exhaustive tests of ~insert-chars~. The function
+will probably need to be re-written.
+
+Moving the cursor out of the insert region is not going well...
+How does the cursor move when inserting text?
+1. new token created at cursor point -> column-offset = 0
+2. current token extended -> no change.
+3. newline inserted at cursor point -> line increments.
+** TODO Try putting newlines at position -1
+SCHEDULED: <2021-04-05 Mon>
+** TODO Move editor into separate repository :editor:
+SCHEDULED: <2021-03-30 Tue>
 ** TODO Implement delete-text :editor:
 ** TODO Add emacs as backend for editor :editor:
 SCHEDULED: <2021-04-03 Sat>
 Supporting emacs might be easy and will make it easier to develop and test.
+** TODO Fix insert \: character
+SCHEDULED: <2021-03-31 Wed>
+** TODO Insert newline :bug:
+SCHEDULED: <2021-03-31 Wed>
+Exception raised when inserting a newline..
+
+#+begin_src shell
+cursor.cljc:22 Uncaught Error: No protocol method ICursor.transact defined for type null:
+    at Object.cljs$core$missing_protocol [as missing_protocol] (core.cljs:324)
+    at skyhook$editor$impl$cursor$ICursor$transact$dyn_749964 (cursor.cljc:22)
+    at Object.skyhook$editor$impl$cursor$transact [as transact] (cursor.cljc:22)
+    at eval (cursor.cljc:328)
+    at Object.skyhook$editor$cursor$insert_text [as insert_text] (cursor.cljc:328)
+    at Object.skyhook$editor$adapters$codemirror$on_change [as on_change] (codemirror.cljc:14)
+    at skyhook$events$editor$reg_editor_change (editor.cljs:23)
+    at eval (events.cljc:10)
+    at eval (std_interceptors.cljc:133)
+    at re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before (std_interceptors.cljc:131)
+#+end_src
+** TODO Support empty string in editor :bug:
+** TODO Fix inserting newline characters
+SCHEDULED: <2021-04-01 Thu>
 * [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig
@@ -92,10 +136,12 @@ SCHEDULED: <2021-04-04 Sun>
 SCHEDULED: <2021-04-06 Tue>
 ** TODO Examples
 SCHEDULED: <2021-04-09 Fri>
-* [[elisp:(org-projectile-open-project "Workspace")][Workspace]] [6/6]
+* [[elisp:(org-projectile-open-project "Workspace")][Workspace]] [6/7]
 :PROPERTIES:
 :CATEGORY: Workspace
 :END:
+** TODO Fix the agenda view
+SCHEDULED: <2021-04-05 Mon>
 ** DONE use org-projectile
 Manage tasks on a per-project basis.
 ** DONE Try xdg-open-server :environment:
@@ -153,7 +199,7 @@ should also be networked together.
 SCHEDULED: <2021-03-27 Sat +2d>
 ** TODO Practice RAFT protocol
 SCHEDULED: <2021-03-27 Sat +2d>
-* [[elisp:(org-projectile-open-project "dlfp")][dlfp]] [0/0]
+* [[elisp:(org-projectile-open-project "dlfp")][dlfp]] [0/2]
 :PROPERTIES:
 :CATEGORY: dlfp
 :END:
@@ -161,6 +207,10 @@ SCHEDULED: <2021-03-27 Sat +2d>
 So far I have not been successfull get Nvidia drivers to work in the windows
 environment, as the nvidia plugion/backend for docker is not available in for
 Windows Docker. It seems to be possible but so far hasn't worked out.
+** TODO Get MKL working in docker environment.
+:LOGBOOK:
+CLOCK: [2021-04-04 Sun 11:53]
+:END:
 * [[elisp:(org-projectile-open-project "codenames")][codenames]] [0/1]
 :PROPERTIES:
 :CATEGORY: codenames
