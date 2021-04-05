@@ -13,7 +13,6 @@ docker run\
        --volume $SSH_AUTH_SOCK:/ssh-agent\
        --device /dev/dri:/dev/dri\
        --env SSH_AUTH_SOCK=/ssh-agent\
-       --gpus all\
        -e DISPLAY=unix$DISPLAY\
        -e PULSE_SERVER=unix:$XDG_RUNTIME_DIR/pulse/native \
        -e XAUTH=${HOME}/.Xauthority\
