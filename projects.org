@@ -1,26 +1,28 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-04-03 Sat 23:49]
-| Headline                                |    Time |      |
-|-----------------------------------------+---------+------|
-| *Total time*                            | *14:05* |      |
-|-----------------------------------------+---------+------|
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                 |   11:49 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]     |         | 1:32 |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]            |         | 0:21 |
-| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]] |         | 1:03 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                  |         | 0:37 |
-| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                 |         | 1:44 |
-| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]  |         | 6:32 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                    |    0:02 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                    |         | 0:02 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                               |    2:14 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                 |         | 0:29 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                  |         | 0:04 |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]               |         | 0:09 |
-| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]             |         | 0:07 |
-| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]  |         | 1:25 |
+#+CAPTION: Clock summary at [2021-04-09 Fri 12:39]
+| Headline                                 |    Time |      |      |
+|------------------------------------------+---------+------+------|
+| *Total time*                             | *19:24* |      |      |
+|------------------------------------------+---------+------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                  |   17:08 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]      |         | 1:32 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]             |         | 0:21 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]  |         | 1:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                   |         | 0:37 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                  |         | 1:44 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]   |         | 7:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]  |         | 4:22 |      |
+| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]] |         |      | 2:00 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                     |    0:02 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                     |         | 0:02 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                |    2:14 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                  |         | 0:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                   |         | 0:04 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                |         | 0:09 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]              |         | 0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]   |         | 1:25 |      |
 #+END:
 
 * [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/14]
@@ -65,6 +67,7 @@ Tests are passing in Clojurescript now
 ** TODO Exhaustive Tests of ~insert-chars~ :editor:
 SCHEDULED: <2021-03-30 Tue>
 :LOGBOOK:
+CLOCK: [2021-04-05 Mon 09:25]--[2021-04-05 Mon 09:25] =>  0:00
 CLOCK: [2021-04-04 Sun 21:21]--[2021-04-04 Sun 22:14] =>  0:53
 CLOCK: [2021-04-04 Sun 20:17]--[2021-04-04 Sun 20:21] =>  0:04
 CLOCK: [2021-04-03 Sat 19:51]--[2021-04-03 Sat 23:46] =>  3:55
@@ -80,10 +83,25 @@ How does the cursor move when inserting text?
 1. new token created at cursor point -> column-offset = 0
 2. current token extended -> no change.
 3. newline inserted at cursor point -> line increments.
+
+   Patrick Brown
+
+   DPLU
 ** TODO Try putting newlines at position -1
 SCHEDULED: <2021-04-05 Mon>
+:LOGBOOK:
+CLOCK: [2021-04-07 Wed 23:55]--[2021-04-08 Thu 01:15] =>  1:20
+CLOCK: [2021-04-05 Mon 09:25]--[2021-04-05 Mon 10:27] =>  1:02
+:END:
+*** DONE Get rid of fixed point calculation
+SCHEDULED: <2021-04-05 Mon>
+:LOGBOOK:
+CLOCK: [2021-04-05 Mon 11:05]--[2021-04-05 Mon 13:05] =>  2:00
+:END:
+We need to do this because we can't always goto the ~[line ch]~ target.
 ** TODO Move editor into separate repository :editor:
 SCHEDULED: <2021-03-30 Tue>
+Call it re-toke.
 ** TODO Implement delete-text :editor:
 ** TODO Add emacs as backend for editor :editor:
 SCHEDULED: <2021-04-03 Sat>
@@ -216,9 +234,14 @@ CLOCK: [2021-04-04 Sun 11:53]
 :CATEGORY: codenames
 :END:
 ** TODO Get it working again...
-* [[elisp:(org-projectile-open-project "clj-rosbag")][clj-rosbag]] [0/0]
+* [[elisp:(org-projectile-open-project "clj-rosbag")][clj-rosbag]] [0/1]
 :PROPERTIES:
 :CATEGORY: clj-rosbag
 :END:
 ** TODO Look into implementation based on
 Repo is [[https://github.com/helins/binf.cljc][here]].
+* [[elisp:(org-projectile-open-project "off-grid")][off-grid]] [0/1]
+:PROPERTIES:
+:CATEGORY: off-grid
+:END:
+** TODO Try sketchup of dome model on Windows

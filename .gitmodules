@@ -25,3 +25,6 @@
 [submodule "modules/clj-raft"]
 	path = modules/clj-raft
 	url = git@github.com:cartesian-theatrics/clj-raft.git
+[submodule "modules/off-grid"]
+	path = modules/off-grid
+	url = git@github.com:cartesian-theatrics/off-grid.git

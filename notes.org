@@ -1,5 +1,11 @@
 #+TITLE: Notes
 * Inbox
+** [2021-04-07 Wed]  Off-grid living
+
+- Straw bale wall construction
+http://monumentmasonry.com/masonry-news/straw-bale-blunders-and-errors/straw-bale/
+
+
 ** [2021-03-19 Fri] Blockly :LIBRARY:INTERESTING:
 We could consider using [[https://developers.google.com/blockly][blokcly]] as a builder interface. There's also a thin
 Clojure wrapper called [[https://github.com/ParkerICI/blockoid][blockoid]]. Could use as interface for creating layouts
