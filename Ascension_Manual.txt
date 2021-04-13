@@ -1,0 +1,157 @@
+
+************************************************************ Ascension: Claim the Throne ************************************************************************
+
+************************************************************      Game Manual       **************************************************************************
+
+	Section I: Overview
+	
+Emperor Alexios II Komnenos' rule may have been inept and cruel, but he kept the empire in one piece. Now, his untimely death leading the siege of Trebizond has upset the delicate balance. The Paleologoi empire will not survive the reign of one of his callow offspring, and everyone knows it. It's time for new leadership--your leadership. Build a power base, cajole powerful rivals, establish your legitmacy, and claim your throne! 
+
+(NOTE: for convenience this manual draft will continue to employ (frequently misused) Byzantine terms as proper noun placeholders. This does not reflect any thematic intent)
+
+
+	Section II: Victory
+	
+To win, a player must build a power base of loyal followers sufficient to intimidate rivals. Each COAT OF ARMS a character has placed on a county adds one to that character's POWER. Each character in the game that is LOYAL to a character adds their power stat to the player's power total. 
+
+Even more importatantly, players must gain LEGITIMACY to claim the throne. Legitimacy represents the sense among the empire's citizenry that the player's achievements are of a stature commensurate with the august station to which they aspire. Players' legitimacy is tracked on the player sheet, and is gained by patronizing great artists, erecting imposing buildings, winning glorious victories on the battlefield, and much more.
+
+If at the CHECK VICTORY stage of round, a player has filled the power and legitimacy rows on their character sheet, they have reached the victory threshold and win the game. Tiebreak mechanism (if any) to be determined. 
+
+If STABILITY drops to zero before anyone meets their victory conditions, the empire dissolves into rival states ruled by local warlords. In this case, the player with the most power is the strongest warlord and wins the game, regardless of legitimacy. (NOTE: the game should be balanced such that this is a relatively rare way for it to end.)
+
+(NOTE: it's entirely possible that we'll end up wanting to roll power and legitimacy into one stat. For victory purposes, it would make sense for power to be treated as a component of legitimacy, so that everything could be simplified into one score. I'm not sure that I want to do this though, because I see power as a resource that frequently gets "spent" and so fluctuates often, while legitimacy is more static, mostly gradually increasing throughout the game.)
+
+
+
+	Section III: World Map
+	
+The Paleologoi empire is divided into five broad PROVINCES, Samos, Seleucia, Chaldia, Paphlagonia, and Thrace. (This number extremely subject to change, naturally. It might make sense for there to be as many regions as there are human players in the game, so that, similarly to Hansa Teutonica, there is a different World Map for each legal player number). There are numerous seas and rivers, and dashed lines mark major shipping lanes and trade routes. 
+
+Each region is further subdivided into several COUNTIES. Each county has a small number in the top-right reflecting its DEVELOPMENT. (NOTE: terms in caps have entries in the glossary at the end of this manual.) 
+
+The CAPITAL city, Constantinople, is marked on the main map, but also has a large blow-up box illustrating it in detail, or possibly its own piece of cardboard. The capital is the home of important imperial institutions with which you will need to interact to rise to power.
+
+
+
+	Section IV: Characters
+	
+CHARACTERS are important people in the empire and are represented by a character card. At the start of the game each player chooses one character as their imperial claimant. The characters not chosen as player characters may appear as NPCs in various imperial roles and may be intacted with by the players in the course of the game. Not every character appears in every game.
+
+Components of a character card: 
+
+	A. Front Side -- main side, contains information that's relevant no matter what role the character plays.
+		
+		i. Name: the character's name, at the top center of the card.
+		
+		ii. Character portrait: below the name.
+		
+		iii. Coat of arms. A symbol representing the character's family crest, located to the upper-left of the card. Tokens bearing this symbol represent the spread of this character's influence and power.
+		
+		iv. Power: a number to the center-right of the card (?). When a player gains the loyalty of this character, this number is added to their power track.
+		
+		v. Text box: the lower half of the card contains the character's special abilities which may be passive or active. If this character is a player character, the character has these abilities available. If the character is an NPC, player's can use their abilities only after gaining their loyalty.
+		
+		vi. Role. A symbol representing the role(s) in which the character can appear if not chosen as a player character. Possible roles: regional governor, church leader, scholar, general, admiral, merchant, notable Constantinople citizen (many different miscellaneous characters can fit in this role). If a character appears in the game as an NPC, they will be placed on a game board space with a matching symbol. 
+		
+	B. Back Side -- contains information relevant only if the character is selected by a player.
+	
+		i. Starting gold. Possibly also can indicate per turn income intrinsic to the character.
+		
+		ii. Starting legitimacy.
+		
+		iii. Starting influence: indicates in which counties (if any) the player should place their coat of arms at the start of the game. 
+
+(NOTE: if the cards need to be shuffled, this whole idea of having information in the card backs may not be feasible. We'll see.)
+
+
+	Section V: Action Cards
+	
+The players take actions to build their power by playing ACTION CARDS. There are four types of action cards in the game, DEVELOPMENT, INFLUENCE, AGGRESSION, and IMPROVEMENT. Let's take a look at each of these types.
+
+		A: Development Cards
+		
+These cards allow players to take actions which develop their power base and increase their income and/or military strength. Typical examples might include things like "gain one influence in a county in which you already have influence," "gain one influence in any two counties in Chaldia in which you do not already have influence," that kind of thing. (NOTE: I'm realizing as I write this out the using the same word "influence" for land holdings and for having the loyalty of another character may be more confusing than clarifying. I started doing it because I figured both could be represented by the coat of arms, but I'm not sure it works. We'll run with it for now.)
+
+Some of these cards also allow constuction of BARRACKS and FORTIFICATIONS, which we'll talk more about later.   
+
+(NOTE about theme and design of Development Cards: these are the "basic" cards, which let you do basic tasks that will to some extent a part of pretty much any strategy. Thus they are quite frequent, but not necessarily strongly themed. I expect most of the cards in this set will not be unique, but rather have several copies so that their frequency of appearing is greater.)
+
+		Components of a Development Card:
+		
+			i. Name.
+			
+			ii. Cost.
+			
+			iii. Text describing its effect.
+			
+		B. Influence Cards.
+		
+These cards allows players to influence other Non-Player Characters in the game, gaining their cooperation or loyalty in your quest to seize power. Typical examples: "Gain the Loyalty of a non-aligned Character of your choice (mark this with your Coat of Arms)," or "You may immediately use the Unique Action of the current Patriarch." (NOTE: Obviously the second of these examples would be quite a bit cheaper.)
+
+(NOTE about theme and design of these cards: Influence cards are central to Ascension's theme, and thus tend to be Unique and strongly themed. Some may involve bribery, for example, and would be quite expensive. Others might involve intimidation and might be cheaper but with high power requirements. Lots of space for creativity here.)
+
+
+		C. Aggression Cards
+		
+(NOTE: I'm not sure how great I want the scope of these cards to be. I'm also considering calling these interaction cards or some other name if the scope ends up extending beyond aggressive actions.)
+Aggression cards allow players to take action against other Player Characters. Example: "Replace all of any player's influence in any one county in Samos with your own." These cards tend to have high costs, and also frequently have only a probability to succeed rather than a guaranteed effect.
+
+(NOTE about theme and design of Aggression cards. I don't want these to be too prominent because of "rubber-banding" or "kingmaker" effects. But I think they have a role to play, especially given Ascension's theme. I think they should be pretty heavily tied to the Stability track: rare or even non-existent at high stability, but increasingly available/playable as Stability deteriorates. As I noted above, it's also possible that we want to expand this category to include cards that allow trades or diplomacy between players, rather than just aggressive action. 
+
+
+		D. Improvement Cards
+	
+These cards represent projects a player can undertake to raise their stature and contribute to Byzantium's legacy. Typical examples include public works projects, military campaigns, and sponsorship of artistic, scholarly, or cultural milestones. These cards have substantial prerequisites and/or costs, but usually grant Legitimacy, as well as other benefits specified on the card's text. (Recall that Legitimacy is one of the prerequisites for victory.)
+
+Components of an Improvement Card:
+
+	A. Name.
+	
+	B. Prerequisites: top-left, just like Agricola. Typical prerequisites: power, legitimacy, influence in specific regions or departments, number of loyal characters, STABILITY level, etc.
+	
+	C. Cost: top-right, like Agricola. Typical costs include gold (Solidi?!), power, and time. This last reflects the number of turns before the Improvement takes effect. (NOTE: I'm leaning towards a convention wherein the costs listed are incurred every turn if the Improvement takes several turns to complete. But I haven't ruled out just paying all costs in advance, or having some way to indicate both types of costs.)
+	
+	D. Legitimacy. Center-left, a number which indicates how much legitimacy is gained by completing the improvement.
+	
+	E. Text: explains the effects (if any) the improvement has beyond granting Legitimacy.
+	
+	F. Coat of Arms. Each improvement is thematically associated with a specific character; this is indicated by a coat of arms appearing bottom-center on the card. A player begins the game with (some? all?) of their character's associated improvements. (NOTE: this gives us another way to theme and balance characters besides their Unique Text.) Otherwise, a player gains a bonus when purchasing an improvement if the associated character is loyal to them. 
+
+(Note: 
+
+	Section VI: Acquiring Action Cards
+
+The improvement cards are shuffled and dealt onto a card row containing three sections, I, II, and III. Each section contains as many cards as there are players (or more likely is some more complicated function of the player number), so that 3x $Player_Number cards are displayed at any given time. On their turn, a player may take a card from this card pool and add it to their hand. The cost depends on which section they took from: X gold for taking from section I, 1.5X gold for taking from section II, and 2X gold for taking from section III. (NOTE: these specific numbers are subject to change, naturally.) At the start of each round, cards in section III are moved to section II, II to I, and $Player_Number new cards are dealt to section III.
+
+(NOTE: I'm stealing the mechanics of Civilization: Through the Ages here, because they work so nicely. The details of how this draft system functions and how much the cards cost will almost certainly need to be tweaked to achieve the game rhythm we want.) 
+
+
+
+	Section VII: Events
+	
+During the event phase of each round, the top card of the event deck is drawn, and its text is applied. At the start of the game, events are sorted into four piles based on the Stability number written on each card. At the start of the game, only the event cards marked 4 are shuffled. When Stability drops to 3, the corresponding event cards are added to the deck and the deck is reshuffled. This process is repeated when each lower Stability level is reached. Event cards are not removed from the deck if Stability later rises. 
+
+Players (and game developers designing Event cards!) should be aware that Events often have negative effects, and unlucky players can lose gold, power, and loyal characters due to the vagaries of fate. Furthermore, the effects of events become more dramatic as Stability drops. Fortunately, many character abilities can help players gain some control over the progression of events, or to mitigate their downsides. 
+
+
+	Section VIII: Stability
+	
+	
+	Appendix: Glossary
+	
+Capital: the seat of the emperor. Here reside the Orthodox Church and its Patriarch, the University and its Director, Generals and Admirals, the Chancellor and other figures of court, wealthy merchants, and other people of importance. 
+
+Character: An significant person in the Empire, represented by a Character Card. At the beginning of the game, each player will select one character as their own and attempt to install them upon the imperial throne. Some of the characters not chosen will appear in various roles as Non-Player Characters, and can be interacted with by the players.
+	
+Coat of Arms: a small token emblazoned with the characteristic symbol of a specific characters. These are placed on the gameboard and character cards to mark the growth of that player's influence, and to track various other game mechanics.
+
+Development: A number reflecting the population and prosperity of a county. Under normal circumstances, this is the maximum amount of influence that can be obtained from that region.
+
+Legitimacy: the stature of a player. The people will not accept an emperor whose accomplishments are insufficiently glorious. Tracked on the player sheet.
+
+Loyalty: a character marked with the coat of arms a player is considered loyal to that player. The player adds that character's power to their power total, and the character's text applies to the player. Loyalty is not permanent: should the coat of arms be lost for any reason, the character becomes neutral. 
+
+Province: A high-level administrative division of the empire. Each is further subdivided into counties, and the entire province is color-coded on the empire map. 
+
+Stability: A numerical measure of how well the empire is holding together as an administrative unit amidst the chaos of the succession crisis. Starts high, and tends to drop throughout the game unless the players take measures to prevent this. Has a variety of effects on gameplay mechanics. If it drops low enough, the game ends with the dissolution of the empire, and the winner is whoever has the most power at this point.

@@ -1,10 +1,10 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-04-09 Fri 12:39]
+#+CAPTION: Clock summary at [2021-04-11 Sun 23:01]
 | Headline                                 |    Time |      |      |
 |------------------------------------------+---------+------+------|
-| *Total time*                             | *19:24* |      |      |
+| *Total time*                             | *20:36* |      |      |
 |------------------------------------------+---------+------+------|
 | [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                  |   17:08 |      |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]      |         | 1:32 |      |
@@ -23,6 +23,8 @@
 | \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                |         | 0:09 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]              |         | 0:07 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]   |         | 1:25 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "recurs")\]\[recurs\]\]][recurs]]                                   |    1:12 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]  |         | 1:12 |      |
 #+END:
 
 * [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/14]
@@ -245,3 +247,12 @@ Repo is [[https://github.com/helins/binf.cljc][here]].
 :CATEGORY: off-grid
 :END:
 ** TODO Try sketchup of dome model on Windows
+* [[elisp:(org-projectile-open-project "recurs")][recurs]] [0/1]
+:PROPERTIES:
+:CATEGORY: recurs
+:END:
+** TODO Migrate editor in skyhook to recurs
+SCHEDULED: <2021-04-11 Sun>
+:LOGBOOK:
+CLOCK: [2021-04-11 Sun 21:48]--[2021-04-11 Sun 23:00] =>  1:12
+:END:
