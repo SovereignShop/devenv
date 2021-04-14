@@ -138,6 +138,54 @@ Players (and game developers designing Event cards!) should be aware that Events
 	Section VIII: Stability
 	
 	
+	Section IX: Setup Phase
+		
+Seect the Word Map appropriate for the number of players in the game. Each player chooses one character as their claimant for the throne. Each player should look on the back of that character card and place their Coat of Arms on the board accordingly. Then flip the card face-up and place it on your player board. 
+
+The remaining characters are shuffled and dealt to the World Map to fill the NPC roles. One at a time, flip over a character card and place it on the World Map in the role indicated on the bottom of that character's card. Possible roles: General, Courtier, Academic, Commoner, Governor. If a card is flipped and all the slots for that role are already filled, discard that character and keep drawing. Repeat this process until all roles are filled. 
+
+The game is now ready to begin. (NOTE: it may end up being more fun to flip the order of these two steps around, so that players can choose their character after seeing which NPCs will start in the game.)
+	
+	
+	
+	Section X: Gameplay
+	
+The game is played as a series of rounds. There is no set number of rounds; rather, the game continues until one of the of end-of-game conditions has been met during the Check Victory phase.
+
+		A. Collect Income
+		
+For each ESTATE they hold, the players collect one Solidus. They gain an additional one Solidus for having the most estates in a region that is the terminus of a trade route, or three Solidi for controlling both endpoints. Each Castle requires upkeep and reduces income by one Solidus per Castle. Some improvements also grant income, while others have a per-turn upkeep cost which reduces it. 
+
+If a player's MANPOWER is below their maximum (which is equal to their power rating), they gain one Manpower for each Castle they possess.
+
+		B. Event Phase
+		
+Reveal the top card of the Event deck. The events described in it's text occur immediately. This affects players according to the round order, so that the starting player evaluates the consequences of the event first, and so on.
+
+		C. Draft Action Cards
+
+Beginning with the starting player and continuing counter-clockwise, each player may draft an Action Card from the pool and place it in their hand, paying the appropriate costs.
+
+(NOTE: A few undecided questions here. (1) Does this process continue as long as at least one player wants to draft cards, or is it only one per player per round? (2) Is there a maximum hand size?)
+
+		D. Play Action CARDS
+		
+Same process as with drafting cards, except now I'm pretty sure this phase can go multiple times around the table. 
+
+		E. Check Victory Conditions
+		
+If any player has filled the Legitimacy and Power rows on their character sheet, they win. (Ties broken by player order? By something else? Unbroken?) If stability is zero, the empire dissolves and no one wins. (Some tiebreaker here as well?)
+
+(NOTE: Stability should be a rare but possible way for the game to end. We need to make sure that lowering the Stability isn't too easy, or losing players might be incentivized to torpedo the game. This might be okay in small doses actually, but too much definitely wouldn't be fun.)
+
+		F. Update Game State
+		
+Decrement Stability. If a new threshold is reached, shuffle in the appropriate Event and Action cards. 
+
+Reset the Action draft pool, moving section II and III cards down, dealing new section III cards, and discarding section I cards.
+
+Pass the starting player token clockwise.	
+	
 	Appendix: Glossary
 	
 Capital: the seat of the emperor. Here reside the Orthodox Church and its Patriarch, the University and its Director, Generals and Admirals, the Chancellor and other figures of court, wealthy merchants, and other people of importance. 
