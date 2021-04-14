@@ -1,33 +1,36 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-04-11 Sun 23:01]
-| Headline                                 |    Time |      |      |
-|------------------------------------------+---------+------+------|
-| *Total time*                             | *20:36* |      |      |
-|------------------------------------------+---------+------+------|
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                  |   17:08 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]      |         | 1:32 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]             |         | 0:21 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]  |         | 1:03 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                   |         | 0:37 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                  |         | 1:44 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]   |         | 7:29 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]  |         | 4:22 |      |
-| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]] |         |      | 2:00 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                     |    0:02 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                     |         | 0:02 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                |    2:14 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                  |         | 0:29 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                   |         | 0:04 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                |         | 0:09 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]              |         | 0:07 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]   |         | 1:25 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "recurs")\]\[recurs\]\]][recurs]]                                   |    1:12 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]  |         | 1:12 |      |
+#+CAPTION: Clock summary at [2021-04-13 Tue 17:50]
+| Headline                                  |    Time |      |      |
+|-------------------------------------------+---------+------+------|
+| *Total time*                              | *21:15* |      |      |
+|-------------------------------------------+---------+------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |   17:08 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |         | 1:32 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]              |         | 0:21 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]   |         | 1:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                    |         | 0:37 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                   |         | 1:44 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]    |         | 7:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]   |         | 4:22 |      |
+| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]]  |         |      | 2:00 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                      |    0:02 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                      |         | 0:02 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                 |    2:14 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                   |         | 0:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                    |         | 0:04 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |         | 0:09 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |         | 0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |         | 1:25 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |    1:51 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |         | 1:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |         | 0:11 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |         | 0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*stuff out reflections][stuff out reflections]]                 |         | 0:12 |      |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/14]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/15]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
@@ -247,20 +250,28 @@ Repo is [[https://github.com/helins/binf.cljc][here]].
 :CATEGORY: off-grid
 :END:
 ** TODO Try sketchup of dome model on Windows
-* [[elisp:(org-projectile-open-project "recurs")][recurs]] [0/3]
+* [[elisp:(org-projectile-open-project "toko")][toko]] [4/5]
 :PROPERTIES:
 :CATEGORY: recurs
 :END:
-** TODO Migrate editor in skyhook to recurs
+** DONE Migrate editor in skyhook to recurs
 SCHEDULED: <2021-04-11 Sun>
 :LOGBOOK:
 CLOCK: [2021-04-11 Sun 21:48]--[2021-04-11 Sun 23:00] =>  1:12
 :END:
-** TODO Rename to toko
+** DONE Rename to toko
 :LOGBOOK:
 CLOCK: [2021-04-13 Tue 17:08]--[2021-04-13 Tue 17:19] =>  0:11
 :END:
-** TODO replace editor in skyhook to use toko
+** DONE replace editor in skyhook to use toko
 :LOGBOOK:
-CLOCK: [2021-04-13 Tue 17:19]
+CLOCK: [2021-04-13 Tue 17:19]--[2021-04-13 Tue 17:35] =>  0:16
 :END:
+** DONE stuff out reflections
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 17:36]--[2021-04-13 Tue 17:48] =>  0:12
+:END:
+No warnings, but I feel like it's not catching everything. Moving on.
+** TODO Fix off-by-one error
+SCHEDULED: <2021-04-13 Tue>
+inserting new tokens is off by one seemingly, but all tests pass... It's not clear what broke.
