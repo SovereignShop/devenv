@@ -247,7 +247,7 @@ Repo is [[https://github.com/helins/binf.cljc][here]].
 :CATEGORY: off-grid
 :END:
 ** TODO Try sketchup of dome model on Windows
-* [[elisp:(org-projectile-open-project "recurs")][recurs]] [0/1]
+* [[elisp:(org-projectile-open-project "recurs")][recurs]] [0/3]
 :PROPERTIES:
 :CATEGORY: recurs
 :END:
@@ -255,4 +255,12 @@ Repo is [[https://github.com/helins/binf.cljc][here]].
 SCHEDULED: <2021-04-11 Sun>
 :LOGBOOK:
 CLOCK: [2021-04-11 Sun 21:48]--[2021-04-11 Sun 23:00] =>  1:12
+:END:
+** TODO Rename to toko
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 17:08]--[2021-04-13 Tue 17:19] =>  0:11
+:END:
+** TODO replace editor in skyhook to use toko
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 17:19]
 :END:

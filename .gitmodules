@@ -28,6 +28,6 @@
 [submodule "modules/off-grid"]
 	path = modules/off-grid
 	url = git@github.com:cartesian-theatrics/off-grid.git
-[submodule "modules/recurs"]
-	path = modules/recurs
-	url = git@github.com:cartesian-theatrics/recurs.git
+[submodule "modules/toko"]
+	path = modules/toko
+	url = git@github.com:cartesian-theatrics/toko.git
