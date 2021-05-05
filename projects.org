@@ -1,33 +1,36 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-04-13 Tue 17:50]
-| Headline                                  |    Time |      |      |
-|-------------------------------------------+---------+------+------|
-| *Total time*                              | *21:15* |      |      |
-|-------------------------------------------+---------+------+------|
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |   17:08 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |         | 1:32 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]              |         | 0:21 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]   |         | 1:03 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                    |         | 0:37 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                   |         | 1:44 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]    |         | 7:29 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]   |         | 4:22 |      |
-| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]]  |         |      | 2:00 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                      |    0:02 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                      |         | 0:02 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                 |    2:14 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                   |         | 0:29 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                    |         | 0:04 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |         | 0:09 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |         | 0:07 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |         | 1:25 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |    1:51 |      |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |         | 1:12 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |         | 0:11 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |         | 0:16 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*stuff out reflections][stuff out reflections]]                 |         | 0:12 |      |
+#+CAPTION: Clock summary at [2021-04-14 Wed 02:02]
+| Headline                                  |      Time |      |      |
+|-------------------------------------------+-----------+------+------|
+| *Total time*                              | *1d 5:15* |      |      |
+|-------------------------------------------+-----------+------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |     17:08 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |           | 1:32 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]              |           | 0:21 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]   |           | 1:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                    |           | 0:37 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                   |           | 1:44 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]    |           | 7:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]   |           | 4:22 |      |
+| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]]  |           |      | 2:00 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                      |      0:02 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                      |           | 0:02 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                 |      2:14 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                   |           | 0:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                    |           | 0:04 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |           | 0:09 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |           | 0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |           | 1:25 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |      9:51 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |           | 1:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |           | 0:11 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |           | 0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*stuff out reflections][stuff out reflections]]                 |           | 0:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix off-by-one error][Fix off-by-one error]]                  |           | 4:45 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix delete-text bug][Fix delete-text bug]]                   |           | 0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix delete newline on same line][Fix delete newline on same line]]       |           | 2:59 |      |
 #+END:
 
 * [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/15]
@@ -231,9 +234,6 @@ So far I have not been successfull get Nvidia drivers to work in the windows
 environment, as the nvidia plugion/backend for docker is not available in for
 Windows Docker. It seems to be possible but so far hasn't worked out.
 ** TODO Get MKL working in docker environment.
-:LOGBOOK:
-CLOCK: [2021-04-04 Sun 11:53]
-:END:
 * [[elisp:(org-projectile-open-project "codenames")][codenames]] [0/1]
 :PROPERTIES:
 :CATEGORY: codenames
@@ -245,12 +245,17 @@ CLOCK: [2021-04-04 Sun 11:53]
 :END:
 ** TODO Look into implementation based on
 Repo is [[https://github.com/helins/binf.cljc][here]].
-* [[elisp:(org-projectile-open-project "off-grid")][off-grid]] [0/1]
+* [[elisp:(org-projectile-open-project "off-grid")][off-grid]] [1/2]
 :PROPERTIES:
 :CATEGORY: off-grid
 :END:
 ** TODO Try sketchup of dome model on Windows
-* [[elisp:(org-projectile-open-project "toko")][toko]] [4/5]
+** DONE Dome life UV projection
+SCHEDULED: <2021-04-14 Wed>
+:LOGBOOK:
+CLOCK: [2021-04-14 Wed 12:30]--[2021-04-14 Wed 14:27] =>  1:57
+:END:
+* [[elisp:(org-projectile-open-project "toko")][toko]] [6/10]
 :PROPERTIES:
 :CATEGORY: recurs
 :END:
@@ -272,6 +277,50 @@ CLOCK: [2021-04-13 Tue 17:19]--[2021-04-13 Tue 17:35] =>  0:16
 CLOCK: [2021-04-13 Tue 17:36]--[2021-04-13 Tue 17:48] =>  0:12
 :END:
 No warnings, but I feel like it's not catching everything. Moving on.
-** TODO Fix off-by-one error
+** DONE Fix off-by-one error
 SCHEDULED: <2021-04-13 Tue>
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 18:00]--[2021-04-13 Tue 22:45] =>  4:45
+:END:
 inserting new tokens is off by one seemingly, but all tests pass... It's not clear what broke.
+** DONE Fix delete-text bug
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 22:45]--[2021-04-13 Tue 23:01] =>  0:16
+:END:
+Unable to move to finish-pos.
+
+- Cursor token is deleted.
+
+  update:
+  #+begin_src diff
+@@ -182,7 +182,7 @@ beginning of the line."
+
+ (defn move-prev-char
+   [{:keys [cursor/column cursor/column-offset cursor/line] :as cursor}]
+-  (if (zero? column)
++  (if (zero? (+ column column-offset))
+     (move-relative cursor -1 0)
+     (move-relative cursor 0 -1)))
+  #+end_src
+
+  seems to solve it.
+** TODO Fix delete newline on same line
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 23:03]--[2021-04-14 Wed 02:02] =>  2:59
+:END:
+
+Reproduce:
+- Delete text range that reaches from whitespace-token-whitespace.
+** TODO Fix undo bugs
+** TODO Implement multi-line strings
+:LOGBOOK:
+CLOCK: [2021-05-03 Mon 12:57]--[2021-05-03 Mon 13:00] =>  0:03
+:END:
+** TODO Implement middleware [2/3]
+:LOGBOOK:
+CLOCK: [2021-05-03 Mon 13:00]
+CLOCK: [2021-05-03 Mon 09:33]--[2021-05-03 Mon 10:57] =>  1:24
+:END:
+- [X] define protocols
+- [X] Reader middleware
+- [ ] Eval Middleware
