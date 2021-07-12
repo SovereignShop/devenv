@@ -221,5 +221,8 @@ RUN apt-get update && apt-get install -y wget
 # MKL version 2020.0-088
 RUN apt-get update && apt-get install -y intel-mkl
 
+# Install Openscad
+RUN apt-get update && apt-get isntall -y openscad
+
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
