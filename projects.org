@@ -318,9 +318,14 @@ CLOCK: [2021-05-03 Mon 12:57]--[2021-05-03 Mon 13:00] =>  0:03
 :END:
 ** TODO Implement middleware [2/3]
 :LOGBOOK:
-CLOCK: [2021-05-03 Mon 13:00]
 CLOCK: [2021-05-03 Mon 09:33]--[2021-05-03 Mon 10:57] =>  1:24
 :END:
 - [X] define protocols
 - [X] Reader middleware
 - [ ] Eval Middleware
+* heatsealer [1/2]
+** DONE Nozzle implementation
+:LOGBOOK:
+CLOCK: [2021-07-12 Mon 11:31]
+:END:
+** TODO Magnet shell
