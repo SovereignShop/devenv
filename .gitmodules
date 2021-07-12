@@ -3,46 +3,46 @@
 	url = https://github.com/hlissner/doom-emacs
 [submodule "modules/doom.d"]
 	path = modules/doom.d
-	url = git@github.com:cartesian-theatrics/doom.git
+	url = git@github.com:SovereignShop/doom.git
 [submodule "modules/skyhook"]
 	path = modules/skyhook
-	url = git@github.com:cartesian-theatrics/skyhook.git
+	url = git@github.com:SovereignShop/skyhook.git
 [submodule "modules/blog"]
 	path = modules/blog
 	url = git@github.com:jmicahc/blog.git
 [submodule "modules/practice"]
 	path = modules/practice
-	url = git@github.com:cartesian-theatrics/practice.git
+	url = git@github.com:SovereignShop/practice.git
 [submodule "modules/codenames"]
 	path = modules/codenames
-	url = git@github.com:cartesian-theatrics/codenames.git
+	url = git@github.com:SovereignShop/codenames.git
 [submodule "modules/dlfp"]
 	path = modules/dlfp
-	url = git@github.com:cartesian-theatrics/dlfp.git
+	url = git@github.com:SovereignShop/dlfp.git
 [submodule "modules/clj-rosbag"]
 	path = modules/clj-rosbag
-	url = https://github.com/cartesian-theatrics/clj-rosbag
+	url = https://github.com/SovereignShop/clj-rosbag
 [submodule "modules/clj-raft"]
 	path = modules/clj-raft
-	url = git@github.com:cartesian-theatrics/clj-raft.git
+	url = git@github.com:SovereignShop/clj-raft.git
 [submodule "modules/off-grid"]
 	path = modules/off-grid
-	url = git@github.com:cartesian-theatrics/off-grid.git
+	url = git@github.com:SovereignShop/off-grid.git
 [submodule "modules/toko"]
 	path = modules/toko
-	url = git@github.com:cartesian-theatrics/toko.git
+	url = git@github.com:SovereignShop/toko.git
 [submodule "modules/agricola"]
 	path = modules/agricola
-	url = git@github.com:cartesian-theatrics/agricola.git
+	url = git@github.com:SovereignShop/agricola.git
 [submodule "modules/heat_sealer"]
 	path = modules/heat_sealer
-	url = git@github.com:cartesian-theatrics/heat_sealer.git
+	url = git@github.com:SovereignShop/heat_sealer.git
 [submodule "modules/heatsealer"]
 	path = modules/heatsealer
-	url = git@github.com:cartesian-theatrics/heatsealer.main.git
+	url = git@github.com:SovereignShop/heatsealer.main.git
 [submodule "modules/blog-comments"]
 	path = modules/blog-comments
-	url = git@github.com:cartesian-theatrics/blog-comments.git
+	url = git@github.com:SovereignShop/blog-comments.git
 [submodule "modules/openscad/scad-utils"]
 	path = modules/openscad/scad-utils
 	url = git@github.com:openscad/scad-utils.git
@@ -57,4 +57,4 @@
 	url = https://github.com/mechadense/scad-lib-FDMscrews
 [submodule "modules/cura"]
 	path = modules/cura
-	url = git@github.com:cartesian-theatrics/cura.git
+	url = git@github.com:SovereignShop/cura.git
