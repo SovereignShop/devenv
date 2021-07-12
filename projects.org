@@ -1,10 +1,10 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-04-14 Wed 02:02]
+#+CAPTION: Clock summary at [2021-07-12 Mon 11:40]
 | Headline                                  |      Time |      |      |
 |-------------------------------------------+-----------+------+------|
-| *Total time*                              | *1d 5:15* |      |      |
+| *Total time*                              | *1d 8:46* |      |      |
 |-------------------------------------------+-----------+------+------|
 | [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |     17:08 |      |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |           | 1:32 |      |
@@ -23,7 +23,9 @@
 | \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |           | 0:09 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |           | 0:07 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |           | 1:25 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |      9:51 |      |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "off-grid")\]\[off-grid\]\]][off-grid]]                                  |      1:57 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Dome life UV projection][Dome life UV projection]]               |           | 1:57 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |     11:18 |      |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |           | 1:12 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |           | 0:11 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |           | 0:16 |      |
@@ -31,6 +33,10 @@
 | \_  [[file:/home/john/Workspace/projects.org::*Fix off-by-one error][Fix off-by-one error]]                  |           | 4:45 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Fix delete-text bug][Fix delete-text bug]]                   |           | 0:16 |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Fix delete newline on same line][Fix delete newline on same line]]       |           | 2:59 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement multi-line strings][Implement multi-line strings]]          |           | 0:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement middleware][Implement middleware]]                  |           | 1:24 |      |
+| [[file:/home/john/Workspace/projects.org::*heatsealer][heatsealer]]                                |      0:07 |      |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Nozzle implementation][Nozzle implementation]]                 |           | 0:07 |      |
 #+END:
 
 * [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/15]
@@ -207,7 +213,7 @@ DONE Get Sandbox running with Windows
 :CATEGORY: webrt-cljc
 :END:
 ** TODO Implement/study Minimal javascript example
-* [[elisp:(org-projectile-open-project "blog")][blog]] [0/2]
+* [[elisp:(org-projectile-open-project "blog")][blog]] [0/3]
 :PROPERTIES:
 :CATEGORY: blog
 :END:
@@ -217,6 +223,8 @@ Don't forget about Sayid! Can we maybe do a version of Sayid that is independent
 SCHEDULED: <2021-03-27 Sat>
 Need to make a docker-compose file with entry for the blog container. The containers
 should also be networked together.
+** TODO Add Comment section
+SCHEDULED: <2021-07-12 Mon>
 * [[elisp:(org-projectile-open-project "practice")][practice]] [0/2]
 :PROPERTIES:
 :CATEGORY: practice
@@ -323,9 +331,17 @@ CLOCK: [2021-05-03 Mon 09:33]--[2021-05-03 Mon 10:57] =>  1:24
 - [X] define protocols
 - [X] Reader middleware
 - [ ] Eval Middleware
-* heatsealer [1/2]
-** DONE Nozzle implementation
+* heatsealer [0/2]
+** TODO Nozzle implementation
+SCHEDULED: <2021-07-12 Mon>
 :LOGBOOK:
-CLOCK: [2021-07-12 Mon 11:31]
+CLOCK: [2021-07-12 Mon 11:31]--[2021-07-12 Mon 11:38] =>  0:07
 :END:
 ** TODO Magnet shell
+SCHEDULED: <2021-07-12 Mon>
+:LOGBOOK:
+CLOCK: [2021-07-12 Mon 11:38]
+:END:
+* Chores [0/1]
+** TODO Update my LinkedIn :ARCHIVE:
+SCHEDULED: <2021-07-13 Tue>
