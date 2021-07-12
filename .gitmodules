@@ -31,3 +31,30 @@
 [submodule "modules/toko"]
 	path = modules/toko
 	url = git@github.com:cartesian-theatrics/toko.git
+[submodule "modules/agricola"]
+	path = modules/agricola
+	url = git@github.com:cartesian-theatrics/agricola.git
+[submodule "modules/heat_sealer"]
+	path = modules/heat_sealer
+	url = git@github.com:cartesian-theatrics/heat_sealer.git
+[submodule "modules/heatsealer"]
+	path = modules/heatsealer
+	url = git@github.com:cartesian-theatrics/heatsealer.main.git
+[submodule "modules/blog-comments"]
+	path = modules/blog-comments
+	url = git@github.com:cartesian-theatrics/blog-comments.git
+[submodule "modules/openscad/scad-utils"]
+	path = modules/openscad/scad-utils
+	url = git@github.com:openscad/scad-utils.git
+[submodule "modules/openscad/list-comprehension-demos"]
+	path = modules/openscad/list-comprehension-demos
+	url = git@github.com:openscad/list-comprehension-demos.git
+[submodule "modules/openscad/threadlib"]
+	path = modules/openscad/threadlib
+	url = git@github.com:adrianschlatter/threadlib.git
+[submodule "modules/openscad/scad-lib-FDMscrews"]
+	path = modules/openscad/scad-lib-FDMscrews
+	url = https://github.com/mechadense/scad-lib-FDMscrews
+[submodule "modules/cura"]
+	path = modules/cura
+	url = git@github.com:cartesian-theatrics/cura.git
