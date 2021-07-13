@@ -34,9 +34,6 @@
 [submodule "modules/agricola"]
 	path = modules/agricola
 	url = git@github.com:SovereignShop/agricola.git
-[submodule "modules/heat_sealer"]
-	path = modules/heat_sealer
-	url = git@github.com:SovereignShop/heat_sealer.git
 [submodule "modules/heatsealer"]
 	path = modules/heatsealer
 	url = git@github.com:SovereignShop/heatsealer.main.git
