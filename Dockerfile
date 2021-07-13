@@ -222,7 +222,7 @@ RUN apt-get update && apt-get install -y wget
 RUN apt-get update && apt-get install -y intel-mkl
 
 # Install Openscad
-RUN apt-get update && apt-get isntall -y openscad
+RUN apt-get update && apt-get install -y openscad
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
