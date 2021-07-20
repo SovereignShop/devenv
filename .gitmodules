@@ -55,3 +55,9 @@
 [submodule "modules/cura"]
 	path = modules/cura
 	url = git@github.com:SovereignShop/cura.git
+[submodule "modules/vine-drill"]
+	path = modules/vine-drill
+	url = git@github.com:SovereignShop/vine-drill.git
+[submodule "modules/foam-generator"]
+	path = modules/foam-generator
+	url = git@github.com:cartesian-theatrics/foam-generator.git
