@@ -61,3 +61,6 @@
 [submodule "modules/foam-generator"]
 	path = modules/foam-generator
 	url = git@github.com:cartesian-theatrics/foam-generator.git
+[submodule "modules/cement-pump"]
+	path = modules/cement-pump
+	url = git@github.com:SovereignShop/cement-pump.git
