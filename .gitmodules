@@ -64,3 +64,9 @@
 [submodule "modules/cement-pump"]
 	path = modules/cement-pump
 	url = git@github.com:SovereignShop/cement-pump.git
+[submodule "modules/openscad/NopSCADlib"]
+	path = modules/openscad/NopSCADlib
+	url = git@github.com:nophead/NopSCADlib.git
+[submodule "modules/openscad/MarksEnclosureHelper"]
+	path = modules/openscad/MarksEnclosureHelper
+	url = git@github.com:sbambach/MarksEnclosureHelper.git
