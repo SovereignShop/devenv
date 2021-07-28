@@ -333,7 +333,7 @@ CLOCK: [2021-05-03 Mon 09:33]--[2021-05-03 Mon 10:57] =>  1:24
 - [X] define protocols
 - [X] Reader middleware
 - [ ] Eval Middleware
-* heatsealer [3/4]
+* heatsealer [3/5]
 ** DONE Nozzle implementation
 SCHEDULED: <2021-07-12 Mon>
 :LOGBOOK:
@@ -373,8 +373,25 @@ Features:
   This means we will not use the magnets as wheels. Instead, they will be mounted in the middle between
   the axles.
 - Tension surface: There should be a surface in the middle where there is high tension.
+* Foam Generator [0/1]
+** TODO v4 using propeller.
+SCHEDULED: <2021-07-26 Mon>
+:LOGBOOK:
+CLOCK: [2021-07-26 Mon 10:36]
+:END:
+Notes: we probably need an upper chamber with steel wool.
+* Cement Pump [0/1]
+openscad pipe libraries: https://www.stlfinder.com/3dmodels/openscad+pipe/.
 
-
+Crucial website for parts: https://thangs.com/
 * Chores [0/1]
 ** TODO Update my LinkedIn :ARCHIVE:
 SCHEDULED: <2021-07-14 Wed>
+* [[elisp:(org-projectile-open-project "foam-generator")][foam-generator]] [/]
+:PROPERTIES:
+:CATEGORY: foam-generator
+:END:
+* [[elisp:(org-projectile-open-project "toko")][toko]] [/]
+:PROPERTIES:
+:CATEGORY: toko
+:END:
