@@ -20,6 +20,7 @@ docker run\
        -v /tmp/.X11-unix:/tmp/.X11-unix:rw\
        -v /etc/timezone:/etc/timezone:ro\
        -v /etc/localtime:/etc/localtime:ro\
+       -v /etc/machine-id:/etc/machine-id:ro\
        -v ${HOME}/.telega:${HOME}/.telega\
        -v ${XDG_RUNTIME_DIR}/pulse:${XDG_RUNTIME_DIR}/pulse \
        -v ${XAUTHORITY}:${HOME}/.Xauthority\
