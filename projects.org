@@ -373,11 +373,15 @@ Features:
   This means we will not use the magnets as wheels. Instead, they will be mounted in the middle between
   the axles.
 - Tension surface: There should be a surface in the middle where there is high tension.
+** TODO Version 4
+:LOGBOOK:
+CLOCK: [2021-07-28 Wed 15:15]
+:END:
 * Foam Generator [0/1]
 ** TODO v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
 :LOGBOOK:
-CLOCK: [2021-07-26 Mon 10:36]
+CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
 :END:
 Notes: we probably need an upper chamber with steel wool.
 * Cement Pump [0/1]
