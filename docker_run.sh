@@ -24,6 +24,7 @@ docker run\
        -v ${HOME}/.telega:${HOME}/.telega\
        -v ${XDG_RUNTIME_DIR}/pulse:${XDG_RUNTIME_DIR}/pulse \
        -v ${XAUTHORITY}:${HOME}/.Xauthority\
+       -v ${HOME}/.config:${HOME}/.config\
        -v ${HOME}/.gitconfig:${HOME}/.gitconfig\
        -v ${HOME}/.local:${HOME}/.local\
        -v ${HOME}/.lein:${HOME}/.lein\
