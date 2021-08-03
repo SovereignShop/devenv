@@ -1,44 +1,48 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-07-14 Wed 14:11]
-| Headline                                  |       Time |          |      |
-|-------------------------------------------+------------+----------+------|
-| *Total time*                              | *2d 22:03* |          |      |
-|-------------------------------------------+------------+----------+------|
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |      17:08 |          |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |            |     1:32 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]              |            |     0:21 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]   |            |     1:03 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                    |            |     0:37 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                   |            |     1:44 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]    |            |     7:29 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]   |            |     4:22 |      |
-| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]]  |            |          | 2:00 |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                      |       0:02 |          |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                      |            |     0:02 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                 |       2:14 |          |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                   |            |     0:29 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                    |            |     0:04 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |            |     0:09 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |            |     0:07 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |            |     1:25 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "off-grid")\]\[off-grid\]\]][off-grid]]                                  |       1:57 |          |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Dome life UV projection][Dome life UV projection]]               |            |     1:57 |      |
-| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |      11:18 |          |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |            |     1:12 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |            |     0:11 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |            |     0:16 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*stuff out reflections][stuff out reflections]]                 |            |     0:12 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix off-by-one error][Fix off-by-one error]]                  |            |     4:45 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix delete-text bug][Fix delete-text bug]]                   |            |     0:16 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Fix delete newline on same line][Fix delete newline on same line]]       |            |     2:59 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement multi-line strings][Implement multi-line strings]]          |            |     0:03 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Implement middleware][Implement middleware]]                  |            |     1:24 |      |
-| [[file:/home/john/Workspace/projects.org::*heatsealer][heatsealer]]                                |   1d 13:24 |          |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Nozzle implementation][Nozzle implementation]]                 |            |     0:07 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Magnet shell][Magnet shell]]                          |            | 1d 11:16 |      |
-| \_  [[file:/home/john/Workspace/projects.org::*Next nozzle iteration.][Next nozzle iteration.]]                |            |     2:01 |      |
+#+CAPTION: Clock summary at [2021-08-02 Mon 15:34]
+| Headline                                  |      Time |          |      |
+|-------------------------------------------+-----------+----------+------|
+| *Total time*                              | *7d 6:52* |          |      |
+|-------------------------------------------+-----------+----------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |     17:08 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |           |     1:32 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]              |           |     0:21 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]   |           |     1:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                    |           |     0:37 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                   |           |     1:44 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]    |           |     7:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]   |           |     4:22 |      |
+| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]]  |           |          | 2:00 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                      |      0:02 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                      |           |     0:02 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                 |      2:14 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                   |           |     0:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                    |           |     0:04 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |           |     0:09 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |           |     0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |           |     1:25 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "off-grid")\]\[off-grid\]\]][off-grid]]                                  |      1:57 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Dome life UV projection][Dome life UV projection]]               |           |     1:57 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |     11:18 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |           |     1:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |           |     0:11 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |           |     0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*stuff out reflections][stuff out reflections]]                 |           |     0:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix off-by-one error][Fix off-by-one error]]                  |           |     4:45 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix delete-text bug][Fix delete-text bug]]                   |           |     0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix delete newline on same line][Fix delete newline on same line]]       |           |     2:59 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement multi-line strings][Implement multi-line strings]]          |           |     0:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement middleware][Implement middleware]]                  |           |     1:24 |      |
+| [[file:/home/john/Workspace/projects.org::*heatsealer][heatsealer]]                                |  5d 13:35 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Nozzle implementation][Nozzle implementation]]                 |           |     0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Magnet shell][Magnet shell]]                          |           | 1d 11:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Next nozzle iteration][Next nozzle iteration]]                 |           |  4d 2:12 |      |
+| [[file:/home/john/Workspace/projects.org::*Foam Generator][Foam Generator]]                            |      5:44 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*v4 using propeller.][v4 using propeller.]]                   |           |     5:44 |      |
+| [[file:/home/john/Workspace/projects.org::*Vane Motor][Vane Motor]]                                |      2:54 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*V1 prototype][V1 prototype]]                          |           |     2:54 |      |
 #+END:
 
 * [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/15]
@@ -364,8 +368,6 @@ CLOCK: [2021-07-14 Wed 12:09]--[2021-07-14 Wed 14:10] =>  2:01
 
 ** TODO Next Magnet Housing Iteration
 SCHEDULED: <2021-07-19 Mon>
-:LOGBOOK:
-CLOCK: [2021-07-19 Mon 10:04]
 :END:
 Features:
 - Wider: This will minimize tearing since it's rolling on more cool (strong) surface area.
@@ -375,7 +377,6 @@ Features:
 - Tension surface: There should be a surface in the middle where there is high tension.
 ** TODO Version 4
 :LOGBOOK:
-CLOCK: [2021-07-28 Wed 15:15]
 :END:
 * Foam Generator [0/1]
 ** TODO v4 using propeller.
@@ -388,10 +389,33 @@ Notes: we probably need an upper chamber with steel wool.
 openscad pipe libraries: https://www.stlfinder.com/3dmodels/openscad+pipe/.
 
 Crucial website for parts: https://thangs.com/
+* Vane Motor [0/1]
+** TODO V1 prototype [2/7]
+SCHEDULED: <2021-08-02 Mon>
+:LOGBOOK:
+CLOCK: [2021-08-02 Mon 11:38]--[2021-08-02 Mon 14:32] =>  2:54
+:END:
+- [X] Create engine inner block
+- [ ] Create engine outer block
+- [X] Create vanes
+- [ ] Create air inlet and outlets
+- [ ] Create full assembly.
+- [ ] Attempt to print full assembly in place
+- [ ] Attempt to print full assembly in parts
+  + [ ] Create standard bolts
+* Cabinetry Joints [2/3]
+** DONE 3-plane joints
+SCHEDULED: <2021-08-02 Mon>
+:LOGBOOK:
+CLOCK: [2021-08-02 Mon 17:45]--[2021-08-02 Mon 19:04] =>  1:19
+CLOCK: [2021-08-02 Mon 15:41]--[2021-08-02 Mon 17:05] =>  1:24
+:END:
+** TODO support joints
+** DONE 5-plane joints
 * Chores [0/1]
 ** TODO Update my LinkedIn :ARCHIVE:
 SCHEDULED: <2021-07-14 Wed>
-* [[elisp:(org-projectile-open-project "foam-generator")][foam-generator]] [/]
+* [[elisp:(org-projectile-open-project "foam-generator")][foam-generator]] [0/0]
 :PROPERTIES:
 :CATEGORY: foam-generator
 :END:

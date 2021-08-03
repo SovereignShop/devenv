@@ -73,3 +73,6 @@
 [submodule "modules/vane-motor"]
 	path = modules/vane-motor
 	url = git@github.com:SovereignShop/vane-motor.git
+[submodule "modules/cabnetry-joints"]
+	path = modules/cabinetry-joints
+	url = git@github.com:SovereignShop/cabnetry-joints.git
