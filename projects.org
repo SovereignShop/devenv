@@ -1,10 +1,10 @@
 #+TITLE: Projects
 
 #+BEGIN: clocktable :scope file :maxlevel 3 :link t
-#+CAPTION: Clock summary at [2021-08-02 Mon 15:34]
+#+CAPTION: Clock summary at [2021-08-02 Mon 19:06]
 | Headline                                  |      Time |          |      |
 |-------------------------------------------+-----------+----------+------|
-| *Total time*                              | *7d 6:52* |          |      |
+| *Total time*                              | *7d 9:35* |          |      |
 |-------------------------------------------+-----------+----------+------|
 | [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |     17:08 |          |      |
 | \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |           |     1:32 |      |
@@ -43,6 +43,8 @@
 | \_  [[file:/home/john/Workspace/projects.org::*v4 using propeller.][v4 using propeller.]]                   |           |     5:44 |      |
 | [[file:/home/john/Workspace/projects.org::*Vane Motor][Vane Motor]]                                |      2:54 |          |      |
 | \_  [[file:/home/john/Workspace/projects.org::*V1 prototype][V1 prototype]]                          |           |     2:54 |      |
+| [[file:/home/john/Workspace/projects.org::*Cabinetry Joints][Cabinetry Joints]]                          |      2:43 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*3-plane joints][3-plane joints]]                        |           |     2:43 |      |
 #+END:
 
 * [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/15]
@@ -378,40 +380,56 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* Foam Generator [0/1]
+* Foam Generator [0/2]
 ** TODO v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
 :LOGBOOK:
 CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
 :END:
 Notes: we probably need an upper chamber with steel wool.
+** TODO Shop Vacuum foam generator.
+SCHEDULED: <2021-08-04 Wed>
 * Cement Pump [0/1]
 openscad pipe libraries: https://www.stlfinder.com/3dmodels/openscad+pipe/.
 
 Crucial website for parts: https://thangs.com/
-* Vane Motor [0/1]
-** TODO V1 prototype [2/7]
+** TODO Static Mixer pump for shop vacuum
+SCHEDULED: <2021-08-04 Wed>
+Test printing a static mixer for vacuum pump. The static mixer
+should have two inlets and a mixing chamber.
+
+How far can we take concept of the vacuum hose joints? Can we do
+real-time cement mixing?
+* Vane Motor [0/0]
+** TODO V1 prototype [9/11]
 SCHEDULED: <2021-08-02 Mon>
 :LOGBOOK:
+CLOCK: [2021-08-03 Tue 10:10]--[2021-08-03 Wed 15:16] =>  5:06
 CLOCK: [2021-08-02 Mon 11:38]--[2021-08-02 Mon 14:32] =>  2:54
 :END:
 - [X] Create engine inner block
-- [ ] Create engine outer block
+- [X] Create engine outer block
 - [X] Create vanes
-- [ ] Create air inlet and outlets
-- [ ] Create full assembly.
-- [ ] Attempt to print full assembly in place
+- [X] Create air inlet and outlets
+- [X] bolt pattern
+- [X] Bearing slots for inner block
+- [X] top plate
+- [X] Bearing slot for top/bottom plates
+- [ ] Top plate ring
+- [X] Create full assembly.
 - [ ] Attempt to print full assembly in parts
   + [ ] Create standard bolts
-* Cabinetry Joints [2/3]
+* Cabinetry Joints [2/4]
 ** DONE 3-plane joints
 SCHEDULED: <2021-08-02 Mon>
 :LOGBOOK:
 CLOCK: [2021-08-02 Mon 17:45]--[2021-08-02 Mon 19:04] =>  1:19
 CLOCK: [2021-08-02 Mon 15:41]--[2021-08-02 Mon 17:05] =>  1:24
 :END:
-** TODO support joints
 ** DONE 5-plane joints
+** TODO support joints
+SCHEDULED: <2021-08-04 Wed>
+** TODO Hinge joints
 * Chores [0/1]
 ** TODO Update my LinkedIn :ARCHIVE:
 SCHEDULED: <2021-07-14 Wed>
