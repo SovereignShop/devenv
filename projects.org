@@ -47,7 +47,7 @@
 | \_  [[file:/home/john/Workspace/projects.org::*3-plane joints][3-plane joints]]                        |           |     2:43 |      |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/15]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/14]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
@@ -86,8 +86,7 @@ SCHEDULED: <2021-03-30 Tue>
 CLOCK: [2021-03-30 Tue 12:32]--[2021-03-30 Tue 14:16] =>  1:44
 :END:
 Tests are passing in Clojurescript now
-** TODO Exhaustive Tests of ~insert-chars~ :editor:
-SCHEDULED: <2021-03-30 Tue>
+** HOLD Exhaustive Tests of ~insert-chars~ :editor:
 :LOGBOOK:
 CLOCK: [2021-04-05 Mon 09:25]--[2021-04-05 Mon 09:25] =>  0:00
 CLOCK: [2021-04-04 Sun 21:21]--[2021-04-04 Sun 22:14] =>  0:53
@@ -109,8 +108,7 @@ How does the cursor move when inserting text?
    Patrick Brown
 
    DPLU
-** TODO Try putting newlines at position -1
-SCHEDULED: <2021-04-05 Mon>
+** HOLD Try putting newlines at position -1
 :LOGBOOK:
 CLOCK: [2021-04-07 Wed 23:55]--[2021-04-08 Thu 01:15] =>  1:20
 CLOCK: [2021-04-05 Mon 09:25]--[2021-04-05 Mon 10:27] =>  1:02
@@ -121,17 +119,13 @@ SCHEDULED: <2021-04-05 Mon>
 CLOCK: [2021-04-05 Mon 11:05]--[2021-04-05 Mon 13:05] =>  2:00
 :END:
 We need to do this because we can't always goto the ~[line ch]~ target.
-** TODO Move editor into separate repository :editor:
-SCHEDULED: <2021-03-30 Tue>
+** HOLD Move editor into separate repository :editor:
 Call it re-toke.
-** TODO Implement delete-text :editor:
-** TODO Add emacs as backend for editor :editor:
-SCHEDULED: <2021-04-03 Sat>
+** HOLD Implement delete-text :editor:
+** HOLD Add emacs as backend for editor :editor:
 Supporting emacs might be easy and will make it easier to develop and test.
-** TODO Fix insert \: character
-SCHEDULED: <2021-03-31 Wed>
-** TODO Insert newline :bug:
-SCHEDULED: <2021-03-31 Wed>
+** HOLD Fix insert \: character
+** HOLD Insert newline :bug:
 Exception raised when inserting a newline..
 
 #+begin_src shell
@@ -147,41 +141,32 @@ cursor.cljc:22 Uncaught Error: No protocol method ICursor.transact defined for t
     at eval (std_interceptors.cljc:133)
     at re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before (std_interceptors.cljc:131)
 #+end_src
-** TODO Support empty string in editor :bug:
-** TODO Fix inserting newline characters
-SCHEDULED: <2021-04-01 Thu>
+** HOLD Support empty string in editor :bug:
+** HOLD Fix inserting newline characters
 * [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig
 :END:
-** TODO Implement frames
-SCHEDULED: <2021-03-27 Sat>
+** HOLD Implement frames
 :LOGBOOK:
 CLOCK: [2021-03-25 Thu 15:59]--[2021-03-25 Thu 16:01] =>  0:02
 :END:
 Frames correspond to full chrome frames (headless).
-** TODO Implement Windows
-SCHEDULED: <2021-03-28 Sun>
+** HOLD Implement Windows
 *** Windows are movable within the current frame.
-** TODO Data Model Spec
-SCHEDULED: <2021-03-29 Mon>
+** HOLD Data Model Spec
 Capture current semantics in a Spec using Spec or Malli.
-** TODO Rename
-SCHEDULED: <2021-03-31 Wed>
+** HOLD Rename
 Swig is already a popular library. I need to come up with
 a new name.
-** TODO Finish Three.js Support.
-SCHEDULED: <2021-04-04 Sun>
-** TODO Docs
-SCHEDULED: <2021-04-06 Tue>
-** TODO Examples
-SCHEDULED: <2021-04-09 Fri>
-* [[elisp:(org-projectile-open-project "Workspace")][Workspace]] [6/7]
+** HOLD Finish Three.js Support.
+** HOLD Docs
+** HOLD Examples
+* [[elisp:(org-projectile-open-project "Workspace")][Workspace]] [7/7]
 :PROPERTIES:
 :CATEGORY: Workspace
 :END:
-** TODO Fix the agenda view
-SCHEDULED: <2021-04-05 Mon>
+** DONE Fix the agenda view
 ** DONE use org-projectile
 Manage tasks on a per-project basis.
 ** DONE Try xdg-open-server :environment:
@@ -216,11 +201,11 @@ CLOCK: [2021-03-23 Tue 11:21]--[2021-03-23 Tue 12:46] =>  1:25
 :END:
 
 DONE Get Sandbox running with Windows
-* [[elisp:(org-projectile-open-project "webrt-cljc")][webrt-cljc]] [0/0]
+* [[elisp:(org-projectile-open-project "webrt-cljc")][webrt-cljc]] [0/1]
 :PROPERTIES:
 :CATEGORY: webrt-cljc
 :END:
-** TODO Implement/study Minimal javascript example
+** HOLD Implement/study Minimal javascript example
 * [[elisp:(org-projectile-open-project "blog")][blog]] [0/3]
 :PROPERTIES:
 :CATEGORY: blog
@@ -228,19 +213,15 @@ DONE Get Sandbox running with Windows
 ** TODO Blog post/stream on Sayid
 Don't forget about Sayid! Can we maybe do a version of Sayid that is independent of emacs and integrates with clj-doc?
 ** TODO Docker-Compose
-SCHEDULED: <2021-03-27 Sat>
 Need to make a docker-compose file with entry for the blog container. The containers
 should also be networked together.
 ** TODO Add Comment section
-SCHEDULED: <2021-07-12 Mon>
 * [[elisp:(org-projectile-open-project "practice")][practice]] [0/2]
 :PROPERTIES:
 :CATEGORY: practice
 :END:
 ** TODO Practice RETE algorithm
-SCHEDULED: <2021-03-27 Sat +2d>
 ** TODO Practice RAFT protocol
-SCHEDULED: <2021-03-27 Sat +2d>
 * [[elisp:(org-projectile-open-project "dlfp")][dlfp]] [0/2]
 :PROPERTIES:
 :CATEGORY: dlfp
@@ -380,7 +361,7 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* Foam Generator [0/2]
+* Foam Generator [0/3]
 ** TODO v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
 :LOGBOOK:
@@ -389,6 +370,8 @@ CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
 Notes: we probably need an upper chamber with steel wool.
 ** TODO Shop Vacuum foam generator.
 SCHEDULED: <2021-08-04 Wed>
+** TODO Peristaltic Pump
+The peristaltic pump should attach directly to the vane Motorola
 * Cement Pump [0/1]
 openscad pipe libraries: https://www.stlfinder.com/3dmodels/openscad+pipe/.
 
@@ -400,7 +383,7 @@ should have two inlets and a mixing chamber.
 
 How far can we take concept of the vacuum hose joints? Can we do
 real-time cement mixing?
-* Vane Motor [0/0]
+* Vane Motor [0/1]
 ** TODO V1 prototype [9/11]
 SCHEDULED: <2021-08-02 Mon>
 :LOGBOOK:
