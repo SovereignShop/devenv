@@ -349,8 +349,7 @@ CLOCK: [2021-07-14 Wed 12:09]--[2021-07-14 Wed 14:10] =>  2:01
       by the time you get to the edge of the press.
 - [ ] Try a magnet housing using flex wheel with belt.
 
-** TODO Next Magnet Housing Iteration
-SCHEDULED: <2021-07-19 Mon>
+** HOLD Next Magnet Housing Iteration
 :END:
 Features:
 - Wider: This will minimize tearing since it's rolling on more cool (strong) surface area.
@@ -361,8 +360,16 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* Foam Generator [0/3]
-** TODO v4 using propeller.
+* PU Sprayer [0/3]
+** TODO check valve
+SCHEDULED: <2021-08-04 Wed>
+:LOGBOOK:
+CLOCK: [2021-08-04 Wed 13:29]--[2021-08-04 Wed 22:02] =>  8:33
+:END:
+** TODO Piston
+** TODO Static Mixing nozzle
+* Foam Generator [1/4]
+** DONE v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
 :LOGBOOK:
 CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
@@ -370,6 +377,7 @@ CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
 Notes: we probably need an upper chamber with steel wool.
 ** TODO Shop Vacuum foam generator.
 SCHEDULED: <2021-08-04 Wed>
+** TODO Recycling mixing chamber
 ** TODO Peristaltic Pump
 The peristaltic pump should attach directly to the vane Motorola
 * Cement Pump [0/1]
@@ -387,6 +395,7 @@ real-time cement mixing?
 ** TODO V1 prototype [9/11]
 SCHEDULED: <2021-08-02 Mon>
 :LOGBOOK:
+CLOCK: [2021-08-04 Wed 10:35]--[2021-08-04 Wed 13:23] =>  2:48
 CLOCK: [2021-08-03 Tue 10:10]--[2021-08-03 Wed 15:16] =>  5:06
 CLOCK: [2021-08-02 Mon 11:38]--[2021-08-02 Mon 14:32] =>  2:54
 :END:

@@ -76,3 +76,9 @@
 [submodule "modules/cabnetry-joints"]
 	path = modules/cabinetry-joints
 	url = git@github.com:SovereignShop/cabnetry-joints.git
+[submodule "modules/pu-sprayer"]
+	path = modules/pu-sprayer
+	url = git@github.com:SovereignShop/pu-sprayer.git
+[submodule "modules/vacuum-couplings"]
+	path = modules/vacuum-couplings
+	url = git@github.com:SovereignShop/vacuum-couplings.git
