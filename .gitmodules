@@ -82,3 +82,6 @@
 [submodule "modules/vacuum-couplings"]
 	path = modules/vacuum-couplings
 	url = git@github.com:SovereignShop/vacuum-couplings.git
+[submodule "modules/butterfly-motor"]
+	path = modules/butterfly-motor
+	url = git@github.com:SovereignShop/butterfly-motor.git
