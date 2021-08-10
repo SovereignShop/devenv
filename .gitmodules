@@ -85,3 +85,6 @@
 [submodule "modules/butterfly-motor"]
 	path = modules/butterfly-motor
 	url = git@github.com:SovereignShop/butterfly-motor.git
+[submodule "modules/fdm-bearings"]
+	path = modules/fdm-bearings
+	url = git@github.com:SovereignShop/fdm-bearings.git
