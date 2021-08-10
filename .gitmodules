@@ -88,3 +88,6 @@
 [submodule "modules/fdm-bearings"]
 	path = modules/fdm-bearings
 	url = git@github.com:SovereignShop/fdm-bearings.git
+[submodule "modules/printer-calibration"]
+	path = modules/printer-calibration
+	url = git@github.com:SovereignShop/printer-calibration.git
