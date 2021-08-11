@@ -225,6 +225,9 @@ RUN apt-get update && apt-get install -y intel-mkl
 RUN apt-get update && apt-get install -y openscad
 
 ENV OPENSCADPATH=~/Workspace/modules/openscad
+ENV NVIDIA_VISIBLE_DEVICES all
+ENV NVIDIA_DRIVER_CAPABILITIES compute,utility,display
+
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
