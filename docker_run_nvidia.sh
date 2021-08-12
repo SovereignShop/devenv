@@ -3,7 +3,7 @@ set -euo pipefail
 
 DIR=$(pwd)
 
-nvidia-docker run\
+docker run\
        --rm\
        --privileged\
        -it\
