@@ -169,6 +169,7 @@ RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasoun
 # Install TD for telegram client.
 RUN git clone https://github.com/tdlib/td.git \
     && cd td\
+    && git reset --hard d161323858a782bc500d188b9ae916982526c262\
     && mkdir build && cd build && cmake ../\
     && make -j8\
     && make install\
@@ -186,10 +187,10 @@ RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.
     rm -rf libtgvoip-2.4.2/ libtgvoip_2.4.2-1.debian.tar.xz
 
 # Deps for Emacs Application Framework
-RUN git clone --depth=1 https://github.com/manateelazycat/emacs-application-framework
-COPY ./bin/install-eaf.sh /emacs-application-framework/install.sh
-RUN cd /emacs-application-framework && ./install.sh
-RUN python3 -m pip install pymupdf epc retrying
+# RUN git clone --depth=1 https://github.com/manateelazycat/emacs-application-framework
+# COPY ./bin/install-eaf.sh /emacs-application-framework/install.sh
+# RUN cd /emacs-application-framework && ./install.sh
+# RUN python3 -m pip install pymupdf epc retrying
 
 # sqlite3 for forge org-roam
 RUN apt-get update && apt-get install sqlite3
