@@ -91,3 +91,6 @@
 [submodule "modules/printer-calibration"]
 	path = modules/printer-calibration
 	url = git@github.com:SovereignShop/printer-calibration.git
+[submodule "modules/openscad/dotSCAD"]
+	path = modules/openscad/dotSCAD
+	url = https://github.com/JustinSDK/dotSCAD
