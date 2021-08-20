@@ -1,33 +1,51 @@
 
 # Table of Contents
 
-1.  [Installing](#orgd203019)
-    1.  [Windows](#org690fffa)
-    2.  [Linux](#org90263c7)
-2.  [Development](#orge2f6caf)
-    1.  [Colaborative editing](#org1a12691)
-    2.  [Communication](#orgb93efc5)
-    3.  [Workflow](#org7ae4f94)
-    4.  [Essential Commands](#orge3f9089)
+1.  [Installing](#orgcb2b4fe)
+    1.  [Windows](#org4a18a5c)
+    2.  [Linux](#orgde1897c)
+2.  [Development](#org6ab7f99)
+    1.  [Colaborative editing](#orgb27c887)
+    2.  [Communication](#orgc09c8dd)
+    3.  [Workflow](#org7bebd1e)
+    4.  [Essential Commands](#orgdbedd05)
 
 ![img](./resources/images/environment.png)
 
-This is the docker environment for Gamedev.
+This is the docker environment for Sovereign Shop development.
 It includes other Repos as [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). These include:
 
 -   `modules/doom.d`: The doom emacs config directory.
 -   `moduues/emacs.d`: The doom emacs install directory.
--   `modules/skyhook`: Working repo for the EuroZone project.
+-   `modules/skyhook`: Working repo for the (formerly) EuroZone project, now evolving.
+-   `modules/skyhook/deps/modules/swig`: Decomplected WYSYWIG for Clojurescript
+-   `modules/toko`: Delta-based tokenizer for automatic on-line serialization of textual documents as facts.
+-   `modules/butterfly-motor`: OpenSCAD Pneumatic motor.
+-   `modules/heatsealer`: OpenSCAD Heat Sealer for welding plastic sheets.
+-   `modules/foam-generator`: Foam generator for making aircrete.
+-   `modules/pu-sprayer`: Polyurethane spray gun for DIYers.
+-   `modules/vane-motor`: Vane style pneumatic motor.
+    `modules/cement-pump`: Investigations into designs for a low-cost cement pump.
+-   `modules/cabinetry-joins`: Simple fdm-optimized joints for low-cost storage.
+-   `modules/vine-drill`: investigations into well-drilling machine based on a [vine robot](https://www.youtube.com/results?search_query=vine+robot)
+-   `modules/dlfp`: Investigations of Dragon&rsquo;s Deep Learning For Programmers. Includes book and code.
+-   `modules/codenames`: An implementation of the game Codenames in clojure/clojurescript.
+-   `modules/blog`: My personal blog: www.cartesiantheatrics.com
+-   `modules/clj-raft`: Repo for RAFT algorithm implementation.
+-   `modules/clj-rosbag`: ROS bag reader implementation in Clojure.
+-   `modules/practice`: Cross-disciplinary practice problems based on org-mode spaced repetition framework
 
 The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 
 
-<a id="orgd203019"></a>
+<a id="orgcb2b4fe"></a>
 
 # Installing
 
+Make sure to do a `git submodule update --recursive --init` before installing.
 
-<a id="org690fffa"></a>
+
+<a id="org4a18a5c"></a>
 
 ## Windows
 
@@ -63,7 +81,7 @@ The environment includes Python, Clojure, Java, Node.js, and Clojurescript.
 -   Run docker container: `./docker_run_windows.sh` (this will also take a long time the first time)
 
 
-<a id="org90263c7"></a>
+<a id="orgde1897c"></a>
 
 ## Linux
 
@@ -73,12 +91,12 @@ Once you have docker installed, Simply run:
 2.  `./docker_run.sh-` (in this directory)
 
 
-<a id="orge2f6caf"></a>
+<a id="org6ab7f99"></a>
 
 # Development
 
 
-<a id="org1a12691"></a>
+<a id="orgb27c887"></a>
 
 ## Colaborative editing
 
@@ -92,7 +110,7 @@ environment here. I&rsquo;ve tested it already with two computers and it works
 wonderfully.
 
 
-<a id="orgb93efc5"></a>
+<a id="orgc09c8dd"></a>
 
 ## Communication
 
@@ -104,7 +122,7 @@ Just run `M-x telega` (say yes to the compile questions) to connect the emacs
 client to your telegram desktop.
 
 
-<a id="org7ae4f94"></a>
+<a id="org7bebd1e"></a>
 
 ## Workflow
 
@@ -114,7 +132,7 @@ client to your telegram desktop.
 -   Use `M-x org-capture` to add a todo/journal entry without interrupting your workflow.
 
 
-<a id="orge3f9089"></a>
+<a id="orgdbedd05"></a>
 
 ## Essential Commands
 
