@@ -94,3 +94,12 @@
 [submodule "modules/openscad/dotSCAD"]
 	path = modules/openscad/dotSCAD
 	url = https://github.com/JustinSDK/dotSCAD
+[submodule "modules/scad-paths"]
+	path = modules/scad-paths
+	url = git@github.com:SovereignShop/scad-paths.git
+[submodule "modules/keys"]
+	path = modules/keys
+	url = git@github.com:SovereignShop/keys.git
+[submodule "modules/clj-tf"]
+	path = modules/clj-tf
+	url = https://github.com/cartesian-theatrics/clj-tf
