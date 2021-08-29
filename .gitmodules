@@ -103,3 +103,9 @@
 [submodule "modules/clj-tf"]
 	path = modules/clj-tf
 	url = https://github.com/cartesian-theatrics/clj-tf
+[submodule "modules/scad-cases"]
+	path = modules/scad-cases
+	url = git@github.com:SovereignShop/scad-cases.git
+[submodule "modules/dome-home"]
+	path = modules/dome-home
+	url = git@github.com:SovereignShop/dome-home.git
