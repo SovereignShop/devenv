@@ -109,3 +109,6 @@
 [submodule "modules/dome-home"]
 	path = modules/dome-home
 	url = git@github.com:SovereignShop/dome-home.git
+[submodule "modules/re-posh"]
+	path = modules/re-posh
+	url = git@github.com:cartesian-theatrics/re-posh.git
