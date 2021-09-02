@@ -47,7 +47,7 @@
 | \_  [[file:/home/john/Workspace/projects.org::*3-plane joints][3-plane joints]]                        |           |     2:43 |      |
 #+END:
 
-* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/14]
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/17]
 :PROPERTIES:
 :CATEGORY: skyhook
 :END:
@@ -143,6 +143,13 @@ cursor.cljc:22 Uncaught Error: No protocol method ICursor.transact defined for t
 #+end_src
 ** HOLD Support empty string in editor :bug:
 ** HOLD Fix inserting newline characters
+** TODO Eval
+** TODO Redo swig events
+- two transactions.
+- First, transact event locally.
+- Second, invoke event listeners on new db.
+- Concatenate tx-data
+** TODO Fix maximize/minimize
 * [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
 :PROPERTIES:
 :CATEGORY: swig
