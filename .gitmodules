@@ -112,3 +112,6 @@
 [submodule "modules/re-posh"]
 	path = modules/re-posh
 	url = git@github.com:cartesian-theatrics/re-posh.git
+[submodule "modules/opencascade.js-examples"]
+	path = modules/opencascade.js-examples
+	url = git@github.com:donalffons/opencascade.js-examples.git

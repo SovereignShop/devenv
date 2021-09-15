@@ -367,14 +367,17 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* PU Sprayer [0/3]
-** TODO check valve
+* PU Sprayer [3/4]
+** DONE check valve
 SCHEDULED: <2021-08-04 Wed>
 :LOGBOOK:
 CLOCK: [2021-08-04 Wed 13:29]--[2021-08-04 Wed 22:02] =>  8:33
 :END:
-** TODO Piston
-** TODO Static Mixing nozzle
+** DONE Piston
+** DONE Static Mixing nozzle
+** TODO Bolted, sealed joints
+We need to partition the path into sections, each section
+consisting of a sequence of segments.
 * Foam Generator [1/4]
 ** DONE v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
