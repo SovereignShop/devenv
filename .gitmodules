@@ -115,3 +115,6 @@
 [submodule "modules/opencascade.js-examples"]
 	path = modules/opencascade.js-examples
 	url = git@github.com:donalffons/opencascade.js-examples.git
+[submodule "modules/cljcsg"]
+	path = modules/cljcsg
+	url = git@github.com:SovereignShop/cljcsg.git
