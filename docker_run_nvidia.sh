@@ -3,10 +3,11 @@ set -euo pipefail
 
 DIR=$(pwd)
 
-docker run\
+nvidia-docker run\
        --rm\
        --privileged\
        -it\
+       -e NVIDIA_DRIVER_CAPABILITIES=all\
        --gpus all\
        -p 8080:8080\
        -p 9630:9630\
