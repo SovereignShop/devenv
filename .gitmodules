@@ -118,3 +118,12 @@
 [submodule "modules/cljcsg"]
 	path = modules/cljcsg
 	url = git@github.com:SovereignShop/cljcsg.git
+[submodule "modules/elastic-chamber"]
+	path = modules/elastic-chamber
+	url = git@github.com:SovereignShop/elastic-chamber.git
+[submodule "modules/triangles"]
+	path = modules/triangles
+	url = git@github.com:SovereignShop/triangles.git
+[submodule "modules/vcsg"]
+	path = modules/vcsg
+	url = git@github.com:SovereignShop/vcsg.git
