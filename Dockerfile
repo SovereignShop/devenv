@@ -248,5 +248,8 @@ RUN ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 libOpenCL.so
 #     && sudo apt-get update\
 #     && sudo apt-get -y install cuda
 
+# PCL Tools
+RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
+
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
