@@ -127,3 +127,6 @@
 [submodule "modules/vcsg"]
 	path = modules/vcsg
 	url = git@github.com:SovereignShop/vcsg.git
+[submodule "modules/scad-etc"]
+	path = modules/scad-etc
+	url = git@github.com:SovereignShop/scad-etc.git
