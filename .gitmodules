@@ -130,3 +130,6 @@
 [submodule "modules/scad-etc"]
 	path = modules/scad-etc
 	url = git@github.com:SovereignShop/scad-etc.git
+[submodule "modules/Marlin"]
+	path = modules/Marlin
+	url = https://github.com/MarlinFirmware/Marlin.git
