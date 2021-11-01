@@ -251,5 +251,8 @@ RUN ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 libOpenCL.so
 # PCL Tools
 RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
 
+# PlatformIO
+RUN pip install -U platformio
+
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
