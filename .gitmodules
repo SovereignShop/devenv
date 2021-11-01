@@ -102,7 +102,7 @@
 	url = git@github.com:SovereignShop/keys.git
 [submodule "modules/clj-tf"]
 	path = modules/clj-tf
-	url = https://github.com/cartesian-theatrics/clj-tf
+	url = git@github.com:cartesian-theatrics/clj-tf
 [submodule "modules/scad-cases"]
 	path = modules/scad-cases
 	url = git@github.com:SovereignShop/scad-cases.git
@@ -133,3 +133,6 @@
 [submodule "modules/Marlin"]
 	path = modules/Marlin
 	url = https://github.com/MarlinFirmware/Marlin.git
+[submodule "modules/Ender-3"]
+	path = modules/Ender-3
+	url = git@github.com:Creality3DPrinting/Ender-3.git
