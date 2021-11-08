@@ -367,7 +367,7 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* PU Sprayer [3/4]
+* PU Sprayer [3/7]
 ** DONE check valve
 SCHEDULED: <2021-08-04 Wed>
 :LOGBOOK:
@@ -378,6 +378,9 @@ CLOCK: [2021-08-04 Wed 13:29]--[2021-08-04 Wed 22:02] =>  8:33
 ** TODO Bolted, sealed joints
 We need to partition the path into sections, each section
 consisting of a sequence of segments.
+** TODO Smaller check valve inner walls
+** TODO remove bottom seal gap
+** TODO Inverted piston head.
 * Foam Generator [1/4]
 ** DONE v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
