@@ -367,7 +367,7 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* PU Sprayer [3/7]
+* PU Sprayer [9/11]
 ** DONE check valve
 SCHEDULED: <2021-08-04 Wed>
 :LOGBOOK:
@@ -375,12 +375,27 @@ CLOCK: [2021-08-04 Wed 13:29]--[2021-08-04 Wed 22:02] =>  8:33
 :END:
 ** DONE Piston
 ** DONE Static Mixing nozzle
-** TODO Bolted, sealed joints
+** DONE Rotation device.
+** DONE remove bottom seal gap
+** DONE Inverted piston head.
+** KILL Bolted, sealed joints
 We need to partition the path into sections, each section
 consisting of a sequence of segments.
-** TODO Smaller check valve inner walls
-** TODO remove bottom seal gap
-** TODO Inverted piston head.
+** DONE Smaller check valve inner walls
+** DONE Smooth contours
+- [X] Redo bottom plate
+- [X] Smooth edges
+** TODO Static Mixer
+** TODO Handles
+* VCSG [0/2]
+** TODO Mesh Points
+*** TODO Deal with boundaries
+Try to discretize the z axis, so even under rotation and translation
+all points fall into a discrete z layer. Points remain sorted by z,
+then meshing just proceeds based on adjacent z layers.
+
+Try "moving" boundary points while filtering to lie on the boundaries.
+** TODO GPU based sampling.
 * Foam Generator [1/4]
 ** DONE v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
