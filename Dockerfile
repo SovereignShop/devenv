@@ -255,7 +255,7 @@ RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
 RUN pip install -U platformio
 
 # Klipper
-RUN apt install -y gcc-arm-none-eabi
+RUN apt install -y gcc-arm-none-eabi avr-libc
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

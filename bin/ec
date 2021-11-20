@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f200b03b1dcb18c8c6ab27f744eafb19d4e8d67b34d05ec2d3501c55abf1805f
-size 47
+#!/usr/bin/env bash
+emacsclient --no-wait "$@"
