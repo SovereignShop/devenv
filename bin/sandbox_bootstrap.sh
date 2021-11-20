@@ -1,16 +1,3 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-# Remap caps to escape.
-# setxkbmap -option caps:escape
-# xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-
-# export PYTHONPATH=${HOME}/Workspace/shining_software/src:${PYTHONPATH};
-export PATH=/opt/gnu/bin:${HOME}/.local/bin:${HOME}/.emacs.d/bin:${HOME}/Workspace/bin:${PATH};
-if [ -d ~/.emacs.d/.local ]; then
-    doom sync;
-else
-    cd ~/.emacs.d/bin && ./doom install && cd ~/;
-fi
-
-exec "$@"
+version https://git-lfs.github.com/spec/v1
+oid sha256:0caedee695a04b3e1e27c566335647b1465a9df3b7c7b7ddddc5e9649e72caad
+size 437

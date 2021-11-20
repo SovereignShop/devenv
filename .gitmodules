@@ -136,3 +136,9 @@
 [submodule "modules/Ender-3"]
 	path = modules/Ender-3
 	url = git@github.com:Creality3DPrinting/Ender-3.git
+[submodule "modules/klipper-web-control-docker"]
+	path = modules/klipper-web-control-docker
+	url = git@github.com:SovereignShop/klipper-web-control-docker.git
+[submodule "modules/klipper"]
+	path = modules/klipper
+	url = git@github.com:Klipper3d/klipper.git

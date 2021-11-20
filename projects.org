@@ -367,7 +367,8 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* PU Sprayer [9/11]
+* PU Sprayer [10/19]
+DEADLINE: <2021-11-22 Mon>
 ** DONE check valve
 SCHEDULED: <2021-08-04 Wed>
 :LOGBOOK:
@@ -386,7 +387,21 @@ consisting of a sequence of segments.
 - [X] Redo bottom plate
 - [X] Smooth edges
 ** TODO Static Mixer
-** TODO Handles
+*** TODO Static mixer attachment mechanism
+** TODO Update check valve to use circular spring housing
+** DONE Isocyanate SBR rubber exposure test.
+** TODO Weighted attachments
+Need to design attachments that hold the weights
+to keep the models submerged while curing.
+** TODO Inserts for dip coating
+- Find non-stick material coating (probably PTFE).
+- Inserts for check-valves.
+- Inserts for top lid.
+** TODO Unify thread holes
+** TODO Test piston head with graphite
+** TODO Handle
+** TODO Assembly
+** TODO Test
 * VCSG [0/2]
 ** TODO Mesh Points
 *** TODO Deal with boundaries
