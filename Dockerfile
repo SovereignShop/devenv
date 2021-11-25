@@ -200,7 +200,6 @@ COPY asEnvUser /usr/local/sbin/
 RUN chown root /usr/local/sbin/asEnvUser \
     && chmod 700  /usr/local/sbin/asEnvUser
 
-COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 # Install Git LFS (Large File Storage) for dlfp repo
 RUN apt-get update && apt-get install git-lfs
@@ -253,6 +252,8 @@ RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
 
 # PlatformIO
 RUN pip install -U platformio
+
+COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]
