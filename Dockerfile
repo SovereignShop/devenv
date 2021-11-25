@@ -253,6 +253,10 @@ RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
 # PlatformIO
 RUN pip install -U platformio
 
+=======
+# Klipper
+RUN apt install -y gcc-arm-none-eabi avr-libc
+
 COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 ENTRYPOINT ["asEnvUser"]
