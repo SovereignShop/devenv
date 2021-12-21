@@ -228,7 +228,7 @@ ENV OPENSCADPATH=~/Workspace/modules/openscad
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES all
 
-ADD lib/lib* /usr/lib/x86_64-linux-gnu/
+# ADD lib/lib* /usr/lib/x86_64-linux-gnu/
 RUN ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 libOpenCL.so
 
 # RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin\
@@ -253,7 +253,7 @@ RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
 # PlatformIO
 RUN pip install -U platformio
 
-=======
+# =======
 # Klipper
 RUN apt install -y gcc-arm-none-eabi avr-libc
 
