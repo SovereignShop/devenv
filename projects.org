@@ -476,3 +476,12 @@ SCHEDULED: <2021-07-14 Wed>
 :PROPERTIES:
 :CATEGORY: toko
 :END:
+* Printer Enclosure
+** TODO Side fans
+** TODO Wiring.
+** TODO filament spools
+** TODO Webcam Mounts
+** TODO Power management
+** TODO Flex seal cleanup
+** TODO Thermal management system
+** TODO Humidity control system
