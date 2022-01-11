@@ -88,3 +88,9 @@ Take Away:
 From the comments:
 - Know why you are making the game.
   + Should we be trying to make money? Why not exactly?
+* First Amazon Product
+
+1. GTIN (US) or EAN (Europe)
+   Can be found at this website:
+   https://www.gs1.org/standards/get-barcodes
+2.

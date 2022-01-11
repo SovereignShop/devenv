@@ -367,7 +367,7 @@ Features:
 ** TODO Version 4
 :LOGBOOK:
 :END:
-* PU Sprayer [10/19]
+* PU Sprayer [16/24]
 DEADLINE: <2021-11-22 Mon>
 ** DONE check valve
 SCHEDULED: <2021-08-04 Wed>
@@ -386,22 +386,176 @@ consisting of a sequence of segments.
 ** DONE Smooth contours
 - [X] Redo bottom plate
 - [X] Smooth edges
-** TODO Static Mixer
-*** TODO Static mixer attachment mechanism
-** TODO Update check valve to use circular spring housing
+** TODO Schedule Redesign
+SCHEDULED: <2022-01-10 Mon 15:00-17:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283614696136000"
+:entry-id: 1b839haacb2qehnb9fqsmncpbc/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+** KILL Static Mixer
+SCHEDULED: <2022-01-10 Mon>
+*** KILL Static mixer attachment mechanism
+** DONE Simple jig for submerging and handling while dipping.
+SCHEDULED: <2022-01-03 Mon>
+
+- cone shaped
+- magnetic
+- Attaches to walls of bath.
+** KILL Unify piston top joints with top static mixer segment
+SCHEDULED: <2022-01-04 Tue>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283605085426000"
+:entry-id: 22gkifsnmjfjsn45smjim9opsk/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+** KILL Solution for coating interior of upper mixing chamber.
+SCHEDULED: <2022-01-05 Wed>
+:PROPERTIES:
+:org-gcal-managed: org
+:END:
+Try using a silicone cannester.
+** DONE Update check valve to use circular spring housing
+SCHEDULED: <2022-01-03 Mon>
+** DONE Update size of check valve to allow for coating
+SCHEDULED: <2022-01-03 Mon>
+** TODO Redesign bottom plate to be removable.
+SCHEDULED: <2022-01-16 Sun>
 ** DONE Isocyanate SBR rubber exposure test.
-** TODO Weighted attachments
-Need to design attachments that hold the weights
-to keep the models submerged while curing.
 ** TODO Inserts for dip coating
 - Find non-stick material coating (probably PTFE).
 - Inserts for check-valves.
 - Inserts for top lid.
 ** TODO Unify thread holes
+SCHEDULED: <2022-01-15 Sat 11:00>
 ** TODO Test piston head with graphite
+SCHEDULED: <2022-01-08 Sat 10:00>
 ** TODO Handle
+SCHEDULED: <2022-01-14 Fri 01:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283606520084000"
+:entry-id: 7t163njmi32i14qb5vrt2m196o/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
 ** TODO Assembly
 ** TODO Test
+* Sovereign Shop
+** TODO Become an ebay seller
+SCHEDULED: <2022-01-11 Tue 09:00-10:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283611580382000"
+:entry-id: ljee7mh1c4jv07pp1msbsnuoj0/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+** TODO Become an Etsy seller
+SCHEDULED: <2022-01-11 Tue 11:00-12:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283611594460000"
+:entry-id: o92dq9f341gbumsb0j39ld6otk/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+** TODO Amazon Seller tutorials
+SCHEDULED: <2022-01-11 Tue 14:00-15:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283611719382000"
+:entry-id: e5i3rumc6ja8ivgq62ja0u44mg/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+* Caulk Tube
+ ** DONE Spiralized Spout
+SCHEDULED: <2022-01-10 Mon 17:00-17:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613873372000"
+:entry-id: 65342ggigov05opr8m0e2mglbo/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+ ** DONE Spiralized Stem
+SCHEDULED: <2022-01-10 Mon 17:30-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613883740000"
+:entry-id: a71i2mup2ov9d248f01faap74k/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+ ** TODO Optimize a printer
+SCHEDULED: <2022-01-10 Mon 18:10-19:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613898256000"
+:entry-id: f6pjlaonuc7l898jp05mu3fhn8/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+- Make sure the save the cura profile and if necessary klipper settings.
+ ** DONE Get Acid smoothing container
+SCHEDULED: <2022-01-10 Mon 20:00-21:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613912656000"
+:entry-id: ag1209e6vm6m8d9pg1cp280oo8/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+Probably best to get another glass set from target.
+** TODO Assemble Tube
+SCHEDULED: <2022-01-10 Mon 21:00-21:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613920658000"
+:entry-id: kv00ot4caem4dfae2spin1dju4/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+** TODO Write product description
+SCHEDULED: <2022-01-10 Mon 22:00-22:20>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613930308000"
+:entry-id: 8e0hk8j4ht97hujdds80bru1hs/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+** TODO Take Photos
+SCHEDULED: <2022-01-10 Mon 21:30-22:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613944596000"
+:entry-id: 21dk4cpjab4n3t4bs319brm67k/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+* Print Farm
+** DONE install drawers
+SCHEDULED: <2022-01-03 Mon>
+** DONE Print vertical spool holders
 * VCSG [0/2]
 ** TODO Mesh Points
 *** TODO Deal with boundaries
@@ -411,31 +565,31 @@ then meshing just proceeds based on adjacent z layers.
 
 Try "moving" boundary points while filtering to lie on the boundaries.
 ** TODO GPU based sampling.
-* Foam Generator [1/4]
+* Foam Generator [2/4]
 ** DONE v4 using propeller.
 SCHEDULED: <2021-07-26 Mon>
 :LOGBOOK:
 CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
 :END:
 Notes: we probably need an upper chamber with steel wool.
-** TODO Shop Vacuum foam generator.
+** DONE Shop Vacuum foam generator.
 SCHEDULED: <2021-08-04 Wed>
 ** TODO Recycling mixing chamber
 ** TODO Peristaltic Pump
 The peristaltic pump should attach directly to the vane Motorola
-* Cement Pump [0/1]
+* Cement Pump [1/1]
 openscad pipe libraries: https://www.stlfinder.com/3dmodels/openscad+pipe/.
 
 Crucial website for parts: https://thangs.com/
-** TODO Static Mixer pump for shop vacuum
+** KILL Static Mixer pump for shop vacuum
 SCHEDULED: <2021-08-04 Wed>
 Test printing a static mixer for vacuum pump. The static mixer
 should have two inlets and a mixing chamber.
 
 How far can we take concept of the vacuum hose joints? Can we do
 real-time cement mixing?
-* Vane Motor [0/1]
-** TODO V1 prototype [9/11]
+* Vane Motor [1/1]
+** KILL V1 prototype [9/11]
 SCHEDULED: <2021-08-02 Mon>
 :LOGBOOK:
 CLOCK: [2021-08-04 Wed 10:35]--[2021-08-04 Wed 13:23] =>  2:48
@@ -454,7 +608,7 @@ CLOCK: [2021-08-02 Mon 11:38]--[2021-08-02 Mon 14:32] =>  2:54
 - [X] Create full assembly.
 - [ ] Attempt to print full assembly in parts
   + [ ] Create standard bolts
-* Cabinetry Joints [2/4]
+* Cabinetry Joints [3/4]
 ** DONE 3-plane joints
 SCHEDULED: <2021-08-02 Mon>
 :LOGBOOK:
@@ -462,7 +616,7 @@ CLOCK: [2021-08-02 Mon 17:45]--[2021-08-02 Mon 19:04] =>  1:19
 CLOCK: [2021-08-02 Mon 15:41]--[2021-08-02 Mon 17:05] =>  1:24
 :END:
 ** DONE 5-plane joints
-** TODO support joints
+** KILL support joints
 SCHEDULED: <2021-08-04 Wed>
 ** TODO Hinge joints
 * Chores [0/1]
@@ -478,7 +632,7 @@ SCHEDULED: <2021-07-14 Wed>
 :END:
 * Printer Enclosure
 ** TODO Side fans
-** TODO Wiring.
+** DONE Wiring.
 ** TODO filament spools
 ** TODO Webcam Mounts
 ** TODO Power management
