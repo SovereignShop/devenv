@@ -1,35 +1,455 @@
 #+TITLE: Backlog
 
+#+BEGIN: clocktable :scope file :maxlevel 3 :link t
+#+CAPTION: Clock summary at [2021-08-02 Mon 19:06]
+| Headline                                  |      Time |          |      |
+|-------------------------------------------+-----------+----------+------|
+| *Total time*                              | *7d 9:35* |          |      |
+|-------------------------------------------+-----------+----------+------|
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "skyhook")\]\[skyhook\]\]][skyhook]]                                   |     17:08 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement initial version of ~insert-chars~][Implement initial version of...]]       |           |     1:32 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement ~delete-chars~][Implement ~delete-chars~]]              |           |     0:21 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Test insert-text/delete-text and browser and identify new bugs/tasks][Test insert-text/delete-text and...]]   |           |     1:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix ~token-length~][Fix ~token-length~]]                    |           |     0:37 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Editor cljc support][Editor cljc support]]                   |           |     1:44 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Exhaustive Tests of ~insert-chars~][Exhaustive Tests of ~insert-chars~]]    |           |     7:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try putting newlines at position -1][Try putting newlines at position -1]]   |           |     4:22 |      |
+| \_    [[file:/home/john/Workspace/projects.org::*Get rid of fixed point calculation][Get rid of fixed point calculation]]  |           |          | 2:00 |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "swig")\]\[swig\]\]][swig]]                                      |      0:02 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement frames][Implement frames]]                      |           |     0:02 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "Workspace")\]\[Workspace\]\]][Workspace]]                                 |      2:14 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try xdg-open-server][Try xdg-open-server]]                   |           |     0:29 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix launch install][Fix launch install]]                    |           |     0:04 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix time in container][Fix time in container]]                 |           |     0:09 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Try out NixOS on WSL 2.][Try out NixOS on WSL 2.]]               |           |     0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Write windows install instructions][Write windows install instructions]]    |           |     1:25 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "off-grid")\]\[off-grid\]\]][off-grid]]                                  |      1:57 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Dome life UV projection][Dome life UV projection]]               |           |     1:57 |      |
+| [[file:/home/john/Workspace/projects.org::*\[\[elisp:(org-projectile-open-project "toko")\]\[toko\]\]][toko]]                                      |     11:18 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Migrate editor in skyhook to recurs][Migrate editor in skyhook to recurs]]   |           |     1:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Rename to toko][Rename to toko]]                        |           |     0:11 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*replace editor in skyhook to use toko][replace editor in skyhook to use toko]] |           |     0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*stuff out reflections][stuff out reflections]]                 |           |     0:12 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix off-by-one error][Fix off-by-one error]]                  |           |     4:45 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix delete-text bug][Fix delete-text bug]]                   |           |     0:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Fix delete newline on same line][Fix delete newline on same line]]       |           |     2:59 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement multi-line strings][Implement multi-line strings]]          |           |     0:03 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Implement middleware][Implement middleware]]                  |           |     1:24 |      |
+| [[file:/home/john/Workspace/projects.org::*heatsealer][heatsealer]]                                |  5d 13:35 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Nozzle implementation][Nozzle implementation]]                 |           |     0:07 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Magnet shell][Magnet shell]]                          |           | 1d 11:16 |      |
+| \_  [[file:/home/john/Workspace/projects.org::*Next nozzle iteration][Next nozzle iteration]]                 |           |  4d 2:12 |      |
+| [[file:/home/john/Workspace/projects.org::*Foam Generator][Foam Generator]]                            |      5:44 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*v4 using propeller.][v4 using propeller.]]                   |           |     5:44 |      |
+| [[file:/home/john/Workspace/projects.org::*Vane Motor][Vane Motor]]                                |      2:54 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*V1 prototype][V1 prototype]]                          |           |     2:54 |      |
+| [[file:/home/john/Workspace/projects.org::*Cabinetry Joints][Cabinetry Joints]]                          |      2:43 |          |      |
+| \_  [[file:/home/john/Workspace/projects.org::*3-plane joints][3-plane joints]]                        |           |     2:43 |      |
+#+END:
 
-* [ ] Editor Features
-The editor dynamically joins scene objects with text objects.
+* [[elisp:(org-projectile-open-project "skyhook")][skyhook]] [5/17]
+:PROPERTIES:
+:CATEGORY: skyhook
+:END:
+** DONE Implement initial version of ~insert-chars~
+SCHEDULED: <2021-03-26 Fri>
+:LOGBOOK:
+CLOCK: [2021-03-25 Thu 19:13]--[2021-03-25 Thu 20:45] =>  1:32
+:END:
+Some tests work, cursor position is probably not properly maintained.
+** DONE Implement ~delete-chars~
+SCHEDULED: <2021-03-28 Sun>
+:LOGBOOK:
+CLOCK: [2021-03-29 Mon 17:30]--[2021-03-29 Mon 17:51] =>  0:21
+CLOCK: [2021-03-28 Sun 21:57]--[2021-03-28 Sun 21:57] =>  0:00
+:END:
+The three existing tests for this are now working, although I'm sure there are
+other bugs. Fortunately the code looks like cleaner although it is still a big
+doozy. It's workable enough to allow us to move forward.
+** DONE Test insert-text/delete-text and browser and identify new bugs/tasks
+SCHEDULED: <2021-03-29 Mon>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 14:18]--[2021-03-30 Tue 14:55] =>  0:37
+CLOCK: [2021-03-29 Mon 18:02]--[2021-03-29 Mon 18:28] =>  0:26
+:END:
+Basic browser functionality restored
+** DONE Fix ~token-length~
+SCHEDULED: <2021-03-30 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 17:31]--[2021-03-30 Tue 18:08] =>  0:37
+:END:
+There's a problem with newlines having token-length of 1 or zero depending on
+whether they are rendered or not.
+** DONE Editor cljc support
+SCHEDULED: <2021-03-30 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-30 Tue 12:32]--[2021-03-30 Tue 14:16] =>  1:44
+:END:
+Tests are passing in Clojurescript now
+** HOLD Exhaustive Tests of ~insert-chars~ :editor:
+:LOGBOOK:
+CLOCK: [2021-04-05 Mon 09:25]--[2021-04-05 Mon 09:25] =>  0:00
+CLOCK: [2021-04-04 Sun 21:21]--[2021-04-04 Sun 22:14] =>  0:53
+CLOCK: [2021-04-04 Sun 20:17]--[2021-04-04 Sun 20:21] =>  0:04
+CLOCK: [2021-04-03 Sat 19:51]--[2021-04-03 Sat 23:46] =>  3:55
+CLOCK: [2021-03-30 Tue 18:09]--[2021-03-30 Tue 19:24] =>  1:15
+CLOCK: [2021-03-30 Tue 14:57]--[2021-03-30 Tue 16:18] =>  1:21
+CLOCK: [2021-03-30 Tue 14:17]--[2021-03-30 Tue 14:18] =>  0:01
+:END:
+Write more exhaustive tests of ~insert-chars~. The function
+will probably need to be re-written.
 
+Moving the cursor out of the insert region is not going well...
+How does the cursor move when inserting text?
+1. new token created at cursor point -> column-offset = 0
+2. current token extended -> no change.
+3. newline inserted at cursor point -> line increments.
+
+   Patrick Brown
+
+   DPLU
+** HOLD Try putting newlines at position -1
+:LOGBOOK:
+CLOCK: [2021-04-07 Wed 23:55]--[2021-04-08 Thu 01:15] =>  1:20
+CLOCK: [2021-04-05 Mon 09:25]--[2021-04-05 Mon 10:27] =>  1:02
+:END:
+*** DONE Get rid of fixed point calculation
+SCHEDULED: <2021-04-05 Mon>
+:LOGBOOK:
+CLOCK: [2021-04-05 Mon 11:05]--[2021-04-05 Mon 13:05] =>  2:00
+:END:
+We need to do this because we can't always goto the ~[line ch]~ target.
+** HOLD Move editor into separate repository :editor:
+Call it re-toke.
+** HOLD Implement delete-text :editor:
+** HOLD Add emacs as backend for editor :editor:
+Supporting emacs might be easy and will make it easier to develop and test.
+** HOLD Fix insert \: character
+** HOLD Insert newline :bug:
+Exception raised when inserting a newline..
+
+#+begin_src shell
+cursor.cljc:22 Uncaught Error: No protocol method ICursor.transact defined for type null:
+    at Object.cljs$core$missing_protocol [as missing_protocol] (core.cljs:324)
+    at skyhook$editor$impl$cursor$ICursor$transact$dyn_749964 (cursor.cljc:22)
+    at Object.skyhook$editor$impl$cursor$transact [as transact] (cursor.cljc:22)
+    at eval (cursor.cljc:328)
+    at Object.skyhook$editor$cursor$insert_text [as insert_text] (cursor.cljc:328)
+    at Object.skyhook$editor$adapters$codemirror$on_change [as on_change] (codemirror.cljc:14)
+    at skyhook$events$editor$reg_editor_change (editor.cljs:23)
+    at eval (events.cljc:10)
+    at eval (std_interceptors.cljc:133)
+    at re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before (std_interceptors.cljc:131)
+#+end_src
+** HOLD Support empty string in editor :bug:
+** HOLD Fix inserting newline characters
+** TODO Eval
+** TODO Redo swig events
+- two transactions.
+- First, transact event locally.
+- Second, invoke event listeners on new db.
+- Concatenate tx-data
+** TODO Fix maximize/minimize
+* [[elisp:(org-projectile-open-project "swig")][swig]] [0/7]
+:PROPERTIES:
+:CATEGORY: swig
+:END:
+** HOLD Implement frames
+:LOGBOOK:
+CLOCK: [2021-03-25 Thu 15:59]--[2021-03-25 Thu 16:01] =>  0:02
+:END:
+Frames correspond to full chrome frames (headless).
+** HOLD Implement Windows
+*** Windows are movable within the current frame.
+** HOLD Data Model Spec
+Capture current semantics in a Spec using Spec or Malli.
+** HOLD Rename
+Swig is already a popular library. I need to come up with
+a new name.
+** HOLD Finish Three.js Support.
+** HOLD Docs
+** HOLD Examples
+* [[elisp:(org-projectile-open-project "Workspace")][Workspace]] [7/7]
+:PROPERTIES:
+:CATEGORY: Workspace
+:END:
+** DONE Fix the agenda view
+** DONE use org-projectile
+Manage tasks on a per-project basis.
+** DONE Try xdg-open-server :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 13:00]--[2021-03-23 Tue 13:29] =>  0:00
+:END:
+Try to use [[https://github.com/kitsunyan/xdg-open-server][xdg-open-server]] to open links in host.
+
+Conclusion: not immediately feasible. WSL2 is a strange beast.
+** DONE Fix launch install :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:09]--[2021-03-23 Tue 11:13] =>  0:02
+:END:
+** DONE Fix time in container :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:00]--[2021-03-23 Tue 11:09] => -7:08
+:END:
+** DONE Try out NixOS on WSL 2. :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:13]--[2021-03-23 Tue 11:20] =>  0:01
+:END:
+Found out WSL2 also does not support systemd natively. This is also not worth worrying about.
+The above fix for time in container is satisfactory for now.
+** DONE Write windows install instructions :environment:
+SCHEDULED: <2021-03-23 Tue>
+:LOGBOOK:
+CLOCK: [2021-03-23 Tue 11:21]--[2021-03-23 Tue 12:46] =>  1:25
+:END:
+
+DONE Get Sandbox running with Windows
+* [[elisp:(org-projectile-open-project "webrt-cljc")][webrt-cljc]] [0/1]
+:PROPERTIES:
+:CATEGORY: webrt-cljc
+:END:
+** HOLD Implement/study Minimal javascript example
+* [[elisp:(org-projectile-open-project "blog")][blog]] [0/3]
+:PROPERTIES:
+:CATEGORY: blog
+:END:
+** TODO Blog post/stream on Sayid
+Don't forget about Sayid! Can we maybe do a version of Sayid that is independent of emacs and integrates with clj-doc?
+** TODO Docker-Compose
+Need to make a docker-compose file with entry for the blog container. The containers
+should also be networked together.
+** TODO Add Comment section
+* [[elisp:(org-projectile-open-project "practice")][practice]] [0/2]
+:PROPERTIES:
+:CATEGORY: practice
+:END:
+** TODO Practice RETE algorithm
+** TODO Practice RAFT protocol
+* [[elisp:(org-projectile-open-project "dlfp")][dlfp]] [0/2]
+:PROPERTIES:
+:CATEGORY: dlfp
+:END:
+** TODO Get Deep Diamond working in Docker environemnt
+So far I have not been successfull get Nvidia drivers to work in the windows
+environment, as the nvidia plugion/backend for docker is not available in for
+Windows Docker. It seems to be possible but so far hasn't worked out.
+** TODO Get MKL working in docker environment.
+* [[elisp:(org-projectile-open-project "codenames")][codenames]] [0/1]
+:PROPERTIES:
+:CATEGORY: codenames
+:END:
+** TODO Get it working again...
+* [[elisp:(org-projectile-open-project "clj-rosbag")][clj-rosbag]] [0/1]
+:PROPERTIES:
+:CATEGORY: clj-rosbag
+:END:
+** TODO Look into implementation based on
+Repo is [[https://github.com/helins/binf.cljc][here]].
+* [[elisp:(org-projectile-open-project "off-grid")][off-grid]] [1/2]
+:PROPERTIES:
+:CATEGORY: off-grid
+:END:
+** TODO Try sketchup of dome model on Windows
+** DONE Dome life UV projection
+SCHEDULED: <2021-04-14 Wed>
+:LOGBOOK:
+CLOCK: [2021-04-14 Wed 12:30]--[2021-04-14 Wed 14:27] =>  1:57
+:END:
+* [[elisp:(org-projectile-open-project "toko")][toko]] [6/10]
+:PROPERTIES:
+:CATEGORY: recurs
+:END:
+** DONE Migrate editor in skyhook to recurs
+SCHEDULED: <2021-04-11 Sun>
+:LOGBOOK:
+CLOCK: [2021-04-11 Sun 21:48]--[2021-04-11 Sun 23:00] =>  1:12
+:END:
+** DONE Rename to toko
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 17:08]--[2021-04-13 Tue 17:19] =>  0:11
+:END:
+** DONE replace editor in skyhook to use toko
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 17:19]--[2021-04-13 Tue 17:35] =>  0:16
+:END:
+** DONE stuff out reflections
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 17:36]--[2021-04-13 Tue 17:48] =>  0:12
+:END:
+No warnings, but I feel like it's not catching everything. Moving on.
+** DONE Fix off-by-one error
+SCHEDULED: <2021-04-13 Tue>
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 18:00]--[2021-04-13 Tue 22:45] =>  4:45
+:END:
+inserting new tokens is off by one seemingly, but all tests pass... It's not clear what broke.
+** DONE Fix delete-text bug
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 22:45]--[2021-04-13 Tue 23:01] =>  0:16
+:END:
+Unable to move to finish-pos.
+
+- Cursor token is deleted.
+
+  update:
+  #+begin_src diff
+@@ -182,7 +182,7 @@ beginning of the line."
+
+ (defn move-prev-char
+   [{:keys [cursor/column cursor/column-offset cursor/line] :as cursor}]
+-  (if (zero? column)
++  (if (zero? (+ column column-offset))
+     (move-relative cursor -1 0)
+     (move-relative cursor 0 -1)))
+  #+end_src
+
+  seems to solve it.
+** TODO Fix delete newline on same line
+:LOGBOOK:
+CLOCK: [2021-04-13 Tue 23:03]--[2021-04-14 Wed 02:02] =>  2:59
+:END:
+
+Reproduce:
+- Delete text range that reaches from whitespace-token-whitespace.
+** TODO Fix undo bugs
+** TODO Implement multi-line strings
+:LOGBOOK:
+CLOCK: [2021-05-03 Mon 12:57]--[2021-05-03 Mon 13:00] =>  0:03
+:END:
+** TODO Implement middleware [2/3]
+:LOGBOOK:
+CLOCK: [2021-05-03 Mon 09:33]--[2021-05-03 Mon 10:57] =>  1:24
+:END:
+- [X] define protocols
+- [X] Reader middleware
+- [ ] Eval Middleware
+* heatsealer [3/5]
+** DONE Nozzle implementation
+SCHEDULED: <2021-07-12 Mon>
+:LOGBOOK:
+CLOCK: [2021-07-12 Mon 11:31]--[2021-07-12 Mon 11:38] =>  0:07
+:END:
+** DONE Magnet shell
+SCHEDULED: <2021-07-12 Mon>
+:LOGBOOK:
+CLOCK: [2021-07-12 Mon 11:38]--[2021-07-13 Tue 22:54] => 35:16
+:END:
+** DONE Next nozzle iteration [2/7]
+SCHEDULED: <2021-07-15 Thu>
+:LOGBOOK:
+CLOCK: [2021-07-15 Thu 09:53]--[2021-07-19 Mon 10:04] => 96:11
+CLOCK: [2021-07-14 Wed 12:09]--[2021-07-14 Wed 14:10] =>  2:01
+:END:
+- [X] Move axle housing up along nozzle to (1) minimize interference and (2) to minimize warping prior to pressing.
+- [X] Compose all parts in single view.
+- [ ] Make magnet orientation distinguishable visually.
+- [ ] Slight bump where outer magnets connect to nozzle. This
+      will sightly increase friction but also great improve
+      holding strength.
+- [ ] Smaller side housings for outer magnets. Plastic tends to catch On
+      them and tear.
+- [ ] Try narrow nozzle opening. The gradient of heat should drop off significantly
+      by the time you get to the edge of the press.
+- [ ] Try a magnet housing using flex wheel with belt.
+
+** HOLD Next Magnet Housing Iteration
+:END:
 Features:
-- As user pans the camera, text values update automatically.
-- Project hidden values into editor.
+- Wider: This will minimize tearing since it's rolling on more cool (strong) surface area.
+- Optimum magnet orientation: orient round magnets so that attract each other with maximum force.
+  This means we will not use the magnets as wheels. Instead, they will be mounted in the middle between
+  the axles.
+- Tension surface: There should be a surface in the middle where there is high tension.
+** TODO Version 4
+:LOGBOOK:
+:END:
 
-** [ ] insert-chars :fn:
-Takes a start position text, updates tokens or creating new ones as needed.
-** [ ] delete-chars :fn:
-Takes a start position and a length, updates tokens.
-** [ ] cursor-form :fn:
-Returns the form at ~point~.
-** [ ] form-cursor :fn:
-Returns a cursor over forms in constant time. ~(iterate next-form cursor)~
-yields a depth-first search over forms.
-** [ ] entity-cursor :fn:
-Return a cursor over entities associated with forms in the editor.
-** [ ] Starting The Game
-Starting the game is all about developing a minimum viable physics. Initially
-there is just lift-and-drop physics
 
-*** [ ] Drag-and-drop pieces on a board.
-*** [ ] Turn-based card game
-*** [ ] Turn-based
-** [ ] Peer-to-Peer
-Eurozone games are mostly Peer-to-Peer, with a small hosted service for discover (unless tuntox).
+* VCSG [0/2]
+** TODO Mesh Points
+*** TODO Deal with boundaries
+Try to discretize the z axis, so even under rotation and translation
+all points fall into a discrete z layer. Points remain sorted by z,
+then meshing just proceeds based on adjacent z layers.
 
-*** [ ] Find an existing demonstration of the RAFT protocol.
-*** [ ] Implement it in Clojure(Script).
-*** [ ] Make updates opportunistic.
-*** [ ] Implement webrtclj or extend sente.
+Try "moving" boundary points while filtering to lie on the boundaries.
+** TODO GPU based sampling.
+* Foam Generator [2/4]
+** DONE v4 using propeller.
+SCHEDULED: <2021-07-26 Mon>
+:LOGBOOK:
+CLOCK: [2021-07-28 Wed 9:30]--[2021-07-28 Wed 15:14] =>  5:44
+:END:
+Notes: we probably need an upper chamber with steel wool.
+** DONE Shop Vacuum foam generator.
+SCHEDULED: <2021-08-04 Wed>
+** TODO Recycling mixing chamber
+** TODO Peristaltic Pump
+The peristaltic pump should attach directly to the vane Motorola
+
+* Cement Pump [1/1]
+openscad pipe libraries: https://www.stlfinder.com/3dmodels/openscad+pipe/.
+
+Crucial website for parts: https://thangs.com/
+** KILL Static Mixer pump for shop vacuum
+SCHEDULED: <2021-08-04 Wed>
+Test printing a static mixer for vacuum pump. The static mixer
+should have two inlets and a mixing chamber.
+
+How far can we take concept of the vacuum hose joints? Can we do
+real-time cement mixing?
+* Vane Motor [1/1]
+** KILL V1 prototype [9/11]
+SCHEDULED: <2021-08-02 Mon>
+:LOGBOOK:
+CLOCK: [2021-08-04 Wed 10:35]--[2021-08-04 Wed 13:23] =>  2:48
+CLOCK: [2021-08-03 Tue 10:10]--[2021-08-03 Wed 15:16] =>  5:06
+CLOCK: [2021-08-02 Mon 11:38]--[2021-08-02 Mon 14:32] =>  2:54
+:END:
+- [X] Create engine inner block
+- [X] Create engine outer block
+- [X] Create vanes
+- [X] Create air inlet and outlets
+- [X] bolt pattern
+- [X] Bearing slots for inner block
+- [X] top plate
+- [X] Bearing slot for top/bottom plates
+- [ ] Top plate ring
+- [X] Create full assembly.
+- [ ] Attempt to print full assembly in parts
+  + [ ] Create standard bolts
+* Cabinetry Joints [3/4]
+** DONE 3-plane joints
+SCHEDULED: <2021-08-02 Mon>
+:LOGBOOK:
+CLOCK: [2021-08-02 Mon 17:45]--[2021-08-02 Mon 19:04] =>  1:19
+CLOCK: [2021-08-02 Mon 15:41]--[2021-08-02 Mon 17:05] =>  1:24
+:END:
+** DONE 5-plane joints
+** KILL support joints
+SCHEDULED: <2021-08-04 Wed>
+** TODO Hinge joints
+* Chores [0/1]
+** TODO Update my LinkedIn :ARCHIVE:
+SCHEDULED: <2021-07-14 Wed>
+* [[elisp:(org-projectile-open-project "foam-generator")][foam-generator]] [0/0]
+:PROPERTIES:
+:CATEGORY: foam-generator
+:END:
+* [[elisp:(org-projectile-open-project "toko")][toko]] [/]
+:PROPERTIES:
+:CATEGORY: toko
+:END:
+* Printer Enclosure
+** TODO Side fans
+** DONE Wiring.
+** TODO filament spools
+** TODO Webcam Mounts
+** TODO Power management
+** TODO Flex seal cleanup
+** TODO Thermal management system
+** TODO Humidity control system

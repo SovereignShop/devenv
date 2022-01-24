@@ -41,4 +41,5 @@ nvidia-docker run\
        -v ${HOME}/.mozilla:${HOME}/.mozilla\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
+       -v ${DIR}/modules/doom-modules/exwm-module-for-doom-emacs:${HOME}/.emacs.d/modules/custom/exwm-module-for-doom-emacs\
        gamedev:latest emacs -fs
