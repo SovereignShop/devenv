@@ -1,100 +1,46 @@
 #+TITLE: Projects
 
-* PU Sprayer [7/8]
+* PU Sprayer [0/3]
 DEADLINE: <2021-11-22 Mon>
-** DONE Design simplified new spiralized model
-SCHEDULED: <2022-01-17 Mon 10:00-18:00>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:ETag:     "3283877016666000"
-:entry-id: 5150459vvf7r1s9asu34tvdah8/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
-
-** DONE Optimize two printers
-SCHEDULED: <2022-01-18 Tue 10:00-18:00>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:ETag:     "3283877057350000"
-:entry-id: j6t31rq1cu33jmq7gu9b8maed0/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
-** DONE Rubber dipping procedure
-SCHEDULED: <2022-01-19 Wed 10:00-18:00>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:ETag:     "3283877066220000"
-:entry-id: 57fsc5ga6dtpcv296s255q0nn0/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
-** DONE Rubber dipping procedure
-SCHEDULED: <2022-01-20 Thu 10:00-18:00>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:ETag:     "3283877076994000"
-:entry-id: nhkppsjp59ff9saqronoje8epo/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
-** TODO Test a piston for suction and air tightness
-SCHEDULED: <2022-01-24 Mon>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:ETag:     "3283877996926000"
-:entry-id: 2r2nmab2epr5bie4h76vlkauqs/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
-** DONE Become an ebay seller
-SCHEDULED: <2022-01-17 Mon 11:00-12:00>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
-:ETag:     "3283611580382000"
-:entry-id: ljee7mh1c4jv07pp1msbsnuoj0/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
-** DONE Schedule for rest of week
-:LOGBOOK:
-CLOCK: [2022-01-11 Tue 13:18]--[2022-01-11 Tue 14:10] =>  0:52
-:END:
-** DONE Purchase boxes and other packaging supplies
-SCHEDULED: <2022-01-11 Tue 18:00-20:00>
-:PROPERTIES:
-:org-gcal-managed: org
-:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
-:ETag:     "3283892363244000"
-:entry-id: oh3l7b18748jg534ud1vr6ki3k/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
-:END:
-:org-gcal:
-:END:
+** TODO Write down dip procedure
+SCHEDULED: <2022-02-05 Sat>
+** TODO Design the nozzles
+SCHEDULED: <2022-01-31 Mon>
+** TODO Design handle
+SCHEDULED: <2022-02-01 Tue>
 * Caulk Tube
 ** KILL Implement flex nozzle
 :LOGBOOK:
 CLOCK: [2022-01-14 Fri 12:08]--[2022-01-16 Sun 16:03] => 51:55
 :END:
-** TODO Print two new prototypes
+** TODO Print one new prototype
 SCHEDULED: <2022-01-23 Sun>
 ** TODO Take new photos
 SCHEDULED: <2022-01-23 Sun>
-* Print Farm [0/6]
+* Print Farm [5/12]
 ** TODO Insulate build plates
+SCHEDULED: <2022-01-25 Tue>
+** TODO Better workflow for printing models
+SCHEDULED: <2022-01-25 Tue>
+** DONE Install 2m extruder cables
+SCHEDULED: <2022-01-25 Tue>
+** DONE Install aluminum heat blocks and silicone socks
 SCHEDULED: <2022-01-25 Tue>
 ** TODO door handle
 ** TODO Install webcams
 SCHEDULED: <2022-01-25 Tue>
 ** TODO Setup time-lapse
 SCHEDULED: <2022-01-25 Tue>
-** TODO Install chamber heater
+** DONE Install chamber heater
 SCHEDULED: <2022-01-25 Tue>
 ** TODO Order essential replacement parts
 SCHEDULED: <2022-01-25 Tue>
+** DONE Get a vacuum chamber
+SCHEDULED: <2022-01-31 Mon>
+** DONE Get more solvents
+SCHEDULED: <2022-01-31 Mon>
+** TODO Relevel bed.
+SCHEDULED: <2022-01-31 Mon>
+* Squeeze Tube
+** TODO Create repository for squeeze tube
+** TODO
