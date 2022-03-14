@@ -1,46 +1,46 @@
 #+TITLE: Projects
 
-* PU Sprayer [0/3]
+* PU Sprayer [3/3]
 DEADLINE: <2021-11-22 Mon>
-** TODO Write down dip procedure
+** DONE Write down dip procedure
 SCHEDULED: <2022-02-05 Sat>
-** TODO Design the nozzles
-SCHEDULED: <2022-01-31 Mon>
-** TODO Design handle
-SCHEDULED: <2022-02-01 Tue>
+** DONE Redesign check valve mechanism
+SCHEDULED: <2022-02-28 Mon>
+** DONE Solve TPU molds for SBR
+SCHEDULED: <2022-03-07 Mon>
 * Caulk Tube
 ** KILL Implement flex nozzle
 :LOGBOOK:
 CLOCK: [2022-01-14 Fri 12:08]--[2022-01-16 Sun 16:03] => 51:55
 :END:
-** TODO Print one new prototype
+** DONE Take new photos
 SCHEDULED: <2022-01-23 Sun>
-** TODO Take new photos
-SCHEDULED: <2022-01-23 Sun>
-* Print Farm [5/12]
-** TODO Insulate build plates
+** DONE Print an inventory
+SCHEDULED: <2022-02-28 Mon>
+* Print Farm [10/11]
+** DONE Insulate build plates
 SCHEDULED: <2022-01-25 Tue>
-** TODO Better workflow for printing models
+** DONE Finish and Calibrate Kossel 3
+SCHEDULED: <2022-02-28 Mon>
+** DONE Calibrate Kossel 5
+SCHEDULED: <2022-02-28 Mon>
+** DONE Redesign cooling fan mount
+SCHEDULED: <2022-03-07 Mon>
+** DONE Better workflow for printing models
 SCHEDULED: <2022-01-25 Tue>
 ** DONE Install 2m extruder cables
 SCHEDULED: <2022-01-25 Tue>
 ** DONE Install aluminum heat blocks and silicone socks
 SCHEDULED: <2022-01-25 Tue>
-** TODO door handle
-** TODO Install webcams
-SCHEDULED: <2022-01-25 Tue>
-** TODO Setup time-lapse
-SCHEDULED: <2022-01-25 Tue>
 ** DONE Install chamber heater
-SCHEDULED: <2022-01-25 Tue>
-** TODO Order essential replacement parts
 SCHEDULED: <2022-01-25 Tue>
 ** DONE Get a vacuum chamber
 SCHEDULED: <2022-01-31 Mon>
 ** DONE Get more solvents
 SCHEDULED: <2022-01-31 Mon>
-** TODO Relevel bed.
-SCHEDULED: <2022-01-31 Mon>
+** TODO Find a dichloromethane supplier
+SCHEDULED: <2022-03-08 Tue>
 * Squeeze Tube
 ** TODO Create repository for squeeze tube
-** TODO
+* Couplings
+* Hydroponics
