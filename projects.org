@@ -1,13 +1,16 @@
 #+TITLE: Projects
 
-* PU Sprayer [3/3]
+* PU Sprayer [0/5]
 DEADLINE: <2021-11-22 Mon>
-** DONE Write down dip procedure
-SCHEDULED: <2022-02-05 Sat>
-** DONE Redesign check valve mechanism
-SCHEDULED: <2022-02-28 Mon>
-** DONE Solve TPU molds for SBR
-SCHEDULED: <2022-03-07 Mon>
+** TODO Tune check valve mechanism
+SCHEDULED: <2022-03-14 Mon>
+** TODO Print a test model
+SCHEDULED: <2022-03-14 Mon>
+** TODO Handle
+SCHEDULED: <2022-03-14 Mon>
+** TODO Low friction piston head
+SCHEDULED: <2022-03-14 Mon>
+** TODO Pump designs
 * Caulk Tube
 ** KILL Implement flex nozzle
 :LOGBOOK:
@@ -17,30 +20,19 @@ CLOCK: [2022-01-14 Fri 12:08]--[2022-01-16 Sun 16:03] => 51:55
 SCHEDULED: <2022-01-23 Sun>
 ** DONE Print an inventory
 SCHEDULED: <2022-02-28 Mon>
-* Print Farm [10/11]
-** DONE Insulate build plates
-SCHEDULED: <2022-01-25 Tue>
-** DONE Finish and Calibrate Kossel 3
-SCHEDULED: <2022-02-28 Mon>
-** DONE Calibrate Kossel 5
-SCHEDULED: <2022-02-28 Mon>
-** DONE Redesign cooling fan mount
-SCHEDULED: <2022-03-07 Mon>
-** DONE Better workflow for printing models
-SCHEDULED: <2022-01-25 Tue>
-** DONE Install 2m extruder cables
-SCHEDULED: <2022-01-25 Tue>
-** DONE Install aluminum heat blocks and silicone socks
-SCHEDULED: <2022-01-25 Tue>
-** DONE Install chamber heater
-SCHEDULED: <2022-01-25 Tue>
-** DONE Get a vacuum chamber
-SCHEDULED: <2022-01-31 Mon>
-** DONE Get more solvents
-SCHEDULED: <2022-01-31 Mon>
-** TODO Find a dichloromethane supplier
-SCHEDULED: <2022-03-08 Tue>
 * Squeeze Tube
-** TODO Create repository for squeeze tube
-* Couplings
-* Hydroponics
+** DONE Create repository for squeeze tube
+* Foam Generator
+** TODO Design trigger valves
+SCHEDULED: <2022-03-15 Tue>
+** TODO Design peristaltic control valve.
+SCHEDULED: <2022-03-15 Tue>
+** TODO Design reservoir
+SCHEDULED: <2022-03-15 Tue>
+* Print Farm [0/4]
+** TODO Find a dichloromethane supplier
+SCHEDULED: <2022-03-14 Mon>
+** TODO inventory shelves.
+** TODO Create Sovereign Shop amazon store
+SCHEDULED: <2022-03-14 Mon>
+** TODO Get a butane torch

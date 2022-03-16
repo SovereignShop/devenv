@@ -1,5 +1,8 @@
 #+TITLE: Notes
 * Inbox
+** [2022-03-14 Mon] q
+
+[[file:~/Workspace/modules/scad-paths/src/main/scad_paths/core.clj::if (= (ffirst models) :points]]
 ** [2021-04-13 Tue] Book reading
 
 - To like the lightning
