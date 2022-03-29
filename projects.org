@@ -1,16 +1,30 @@
 #+TITLE: Projects
 
-* PU Sprayer [0/5]
+* PU Sprayer [2/4]
 DEADLINE: <2021-11-22 Mon>
-** TODO Tune check valve mechanism
-SCHEDULED: <2022-03-14 Mon>
-** TODO Print a test model
-SCHEDULED: <2022-03-14 Mon>
-** TODO Handle
-SCHEDULED: <2022-03-14 Mon>
-** TODO Low friction piston head
-SCHEDULED: <2022-03-14 Mon>
-** TODO Pump designs
+** DONE Cleanup repository
+SCHEDULED: <2022-03-23 Wed>
+** DONE Redesign nozzle/mixer
+SCHEDULED: <2022-03-23 Wed>
+Design for molds and use smooth contours to minimize weak points.
+
+1. [X] Parameterize components
+2. [X] Redesign nozzle
+3. [ ] Redesign mixer
+  We want to redesign the mixer in a way that shares
+  structure with the nozzle. The radius of the spiral
+  should correspond to the radius of the nozzle at every z.
+
+  Approaches:
+   1. sample radius at each z.
+   2. Subtraction
+
+** TODO Molds
+SCHEDULED: <2022-03-23 Wed>
+- [X] Nozzle molds
+- [ ] Mixer molds
+- [X] Main Body molds
+** TODO Vaporizing model
 * Caulk Tube
 ** KILL Implement flex nozzle
 :LOGBOOK:
@@ -36,3 +50,12 @@ SCHEDULED: <2022-03-14 Mon>
 ** TODO Create Sovereign Shop amazon store
 SCHEDULED: <2022-03-14 Mon>
 ** TODO Get a butane torch
+* House Keeping
+** TODO update LinkedIn
+SCHEDULED: <2022-03-20 Sun>
+** TODO Insurrance
+SCHEDULED: <2022-03-20 Sun>
+** TODO Care registration
+SCHEDULED: <2022-03-20 Sun>
+* Blog
+** Using tangent lines to calculate offsets in OPENscad.

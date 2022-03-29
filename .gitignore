@@ -13,3 +13,5 @@ lib
 .nrepl-port
 .cpcache/
 .lsp
+.orgids
+.xinitrc

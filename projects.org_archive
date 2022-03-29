@@ -1055,3 +1055,159 @@ SCHEDULED: <2022-03-07 Mon>
 :ARCHIVE_CATEGORY: projects
 :ARCHIVE_TODO: DONE
 :END:
+
+* TODO Thread mold test
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Pump designs
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Low friction piston head
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Handle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+4CHEDULED: <2022-03-14 Mon>
+
+* DONE Print a test model
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Nozzle Mold
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO New design for base
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Mold for chambers
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+Problem with molds
+- Air pockets.
+- Seepage out of bottom.
+- Removal.
+- Bulges in TPU
+- Delivery mechanism.
+- Centering
+
+We want a solution that is fast, consistent, repettable,
+minimal waste, and scalable. Most of all, we want a solution
+that just works.
+
+Start with coating the inside/outside of a cylinder.
+
+* DONE Test torching TPU
+SCHEDULED: <2022-03-21 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Model Secondary handle
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO New tpu piston head
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Tests
+SCHEDULED: <2022-03-18 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+- [X] Hot glue for now on piston heads.
+- [X] SlipPlate for stem.
+- [X] Print base.
+- [X] Kossel_5 printed mixer.
+- [ ] Print a full nozzle mold.
+- [ ] Try printing a 2-part mold for mixer.
+
+* TODO Design nozzles
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Tune check valve mechanism
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
