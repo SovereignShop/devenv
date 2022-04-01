@@ -19,11 +19,20 @@ Design for molds and use smooth contours to minimize weak points.
    1. sample radius at each z.
    2. Subtraction
 
+<2022-04-01 Fri>
+Encountering issues making the mixer mold. We're making a two-sided
+mold. For the helix segments, there's only one way to align them, but
+it's not clear how to align the base in this fashion.
+
+The solution is to make the outward expanding section not sprialize,
+then do a half turn, then do alternating 180 turns.
+
 ** TODO Molds
 SCHEDULED: <2022-03-23 Wed>
-- [X] Nozzle molds
+- [ ] Nozzle molds
 - [ ] Mixer molds
 - [X] Main Body molds
+- [ ] Characterize the shrinkage
 ** TODO Vaporizing model
 * Caulk Tube
 ** KILL Implement flex nozzle
