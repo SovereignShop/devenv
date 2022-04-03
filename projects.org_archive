@@ -1211,3 +1211,99 @@ SCHEDULED: <2022-03-14 Mon>
 :ARCHIVE_CATEGORY: projects
 :ARCHIVE_TODO: DONE
 :END:
+
+* DONE Molds
+SCHEDULED: <2022-03-23 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Nozzle molds
+- [X] Mixer molds
+- [X] Main Body molds
+- [X] Characterize the shrinkage
+
+* DONE Redesign nozzle/mixer
+SCHEDULED: <2022-03-23 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+Design for molds and use smooth contours to minimize weak points.
+
+1. [X] Parameterize components
+2. [X] Redesign nozzle
+3. [ ] Redesign mixer
+  We want to redesign the mixer in a way that shares
+  structure with the nozzle. The radius of the spiral
+  should correspond to the radius of the nozzle at every z.
+
+  Approaches:
+   1. sample radius at each z.
+   2. Subtraction
+
+<2022-04-01 Fri>
+Encountering issues making the mixer mold. We're making a two-sided
+mold. For the helix segments, there's only one way to align them, but
+it's not clear how to align the base in this fashion.
+
+The solution is to make the outward expanding section not sprialize,
+then do a half turn, then do alternating 180 turns.
+
+
+* DONE Cleanup repository
+SCHEDULED: <2022-03-23 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* KILL Implement flex nozzle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-14 Fri 12:08]--[2022-01-16 Sun 16:03] => 51:55
+:END:
+
+* DONE Take new photos
+SCHEDULED: <2022-01-23 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Print an inventory
+SCHEDULED: <2022-02-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Get a butane torch
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:40
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
