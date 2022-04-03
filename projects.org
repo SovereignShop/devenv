@@ -16,29 +16,21 @@ SCHEDULED: <2022-04-04 Mon>
 SCHEDULED: <2022-04-03 Sun>
 * Caulk Tube
 ** TODO abs print attempt
+SCHEDULED: <2022-04-03 Sun>
 * Squeeze Tube
 ** DONE Create repository for squeeze tube
 * Foam Generator
-** TODO Design trigger valves
-SCHEDULED: <2022-03-15 Tue>
-** TODO Design peristaltic control valve.
-SCHEDULED: <2022-03-15 Tue>
-** TODO Design reservoir
-SCHEDULED: <2022-03-15 Tue>
-* Print Farm [0/4]
-** TODO Find a dichloromethane supplier
-SCHEDULED: <2022-03-14 Mon>
+* Print Farm [1/2]
 ** TODO inventory shelves.
-** TODO Create Sovereign Shop amazon store
-SCHEDULED: <2022-03-14 Mon>
-** TODO shorten ptfe tube to decrease spool feed friction
 SCHEDULED: <2022-04-03 Sun>
+** DONE Create Sovereign Shop amazon store
+SCHEDULED: <2022-03-14 Mon>
 * House Keeping
-** TODO update LinkedIn
+** DONE update LinkedIn
 SCHEDULED: <2022-03-20 Sun>
 ** TODO Insurrance
-SCHEDULED: <2022-03-20 Sun>
+SCHEDULED: <2022-04-04 Mon>
 ** TODO Care registration
-SCHEDULED: <2022-03-20 Sun>
+SCHEDULED: <2022-04-04 Mon>
 * Blog
 ** Using tangent lines to calculate offsets in OPENscad.
