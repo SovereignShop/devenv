@@ -1,21 +1,32 @@
 #+TITLE: Projects
 
-* PU Sprayer [0/6]
+* PU Sprayer [7/8]
 DEADLINE: <2021-11-22 Mon>
-** TODO split mixer mold into printable parts
+** DONE split mixer mold into printable parts
 SCHEDULED: <2022-04-03 Sun>
-** TODO redesign mold base
+:LOGBOOK:
+CLOCK: [2022-04-03 Sun 08:33]--[2022-04-03 Sun 09:10] =>  0:37
+:END:
+** DONE tweak tpu scaling factor to be based on circumference
 SCHEDULED: <2022-04-03 Sun>
-** TODO Create mold base for nozzle
+** DONE redesign main body mold base
 SCHEDULED: <2022-04-03 Sun>
-** TODO Print scaled main body inner molds
+:LOGBOOK:
+CLOCK: [2022-04-03 Sun 10:14]--[2022-04-04 Mon 08:52] => 22:38
+CLOCK: [2022-04-03 Sun 09:11]--[2022-04-03 Sun 09:44] =>  0:33
+:END:
+** DONE Create mold base for nozzle
 SCHEDULED: <2022-04-03 Sun>
-** TODO Print two-part main-body outer mold
+** DONE Start Print of scaled main body inner molds
+SCHEDULED: <2022-04-03 Sun>
+** DONE Print two-part main-body outer mold
+SCHEDULED: <2022-04-04 Mon>
+** DONE Make reinforced mixer mold
 SCHEDULED: <2022-04-04 Mon>
 ** TODO Test sharp mold edge with heat plate
 SCHEDULED: <2022-04-03 Sun>
 * Caulk Tube
-** TODO abs print attempt
+** DONE abs print attempt
 SCHEDULED: <2022-04-03 Sun>
 * Squeeze Tube
 ** DONE Create repository for squeeze tube
