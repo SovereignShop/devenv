@@ -145,3 +145,6 @@
 [submodule "modules/exwm-module-for-doom-emacs"]
 	path = modules/doom-modules/exwm-module-for-doom-emacs
 	url = git@github.com:SovereignShop/exwm-module-for-doom-emacs.git
+[submodule "clj-gcode"]
+	path = modules/clj-gcode
+	url = git@github.com:SovereignShop/clj-gcode.git

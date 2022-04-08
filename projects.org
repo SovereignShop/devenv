@@ -1,47 +1,44 @@
 #+TITLE: Projects
 
-* PU Sprayer [7/8]
+* PU Sprayer [1/2]
 DEADLINE: <2021-11-22 Mon>
-** DONE split mixer mold into printable parts
-SCHEDULED: <2022-04-03 Sun>
-:LOGBOOK:
-CLOCK: [2022-04-03 Sun 08:33]--[2022-04-03 Sun 09:10] =>  0:37
-:END:
-** DONE tweak tpu scaling factor to be based on circumference
-SCHEDULED: <2022-04-03 Sun>
-** DONE redesign main body mold base
-SCHEDULED: <2022-04-03 Sun>
-:LOGBOOK:
-CLOCK: [2022-04-03 Sun 10:14]--[2022-04-04 Mon 08:52] => 22:38
-CLOCK: [2022-04-03 Sun 09:11]--[2022-04-03 Sun 09:44] =>  0:33
-:END:
-** DONE Create mold base for nozzle
-SCHEDULED: <2022-04-03 Sun>
-** DONE Start Print of scaled main body inner molds
-SCHEDULED: <2022-04-03 Sun>
-** DONE Print two-part main-body outer mold
-SCHEDULED: <2022-04-04 Mon>
-** DONE Make reinforced mixer mold
-SCHEDULED: <2022-04-04 Mon>
-** TODO Test sharp mold edge with heat plate
-SCHEDULED: <2022-04-03 Sun>
+** TODO Visually verify full assembly
 * Caulk Tube
 ** DONE abs print attempt
 SCHEDULED: <2022-04-03 Sun>
 * Squeeze Tube
 ** DONE Create repository for squeeze tube
 * Foam Generator
-* Print Farm [1/2]
+* Print Farm [1/10]
 ** TODO inventory shelves.
 SCHEDULED: <2022-04-03 Sun>
+** TODO Insulate heat plates :shit:
+** TODO Secure usb cables :shit:
+** TODO Quick release cable connectors for heat/thermistor :shit:
+** TODO TPU flex tube for cables :shit:
+** TODO Order essential extruder backup/replacement parts from AliExpress :shit:
+Make sure y
+** TODO Frame support couplings :backlist:
+** TODO Transparent abs
+** TODO 1.2 mm extruder assembly with integrated slots for cooling fans
 ** DONE Create Sovereign Shop amazon store
 SCHEDULED: <2022-03-14 Mon>
 * House Keeping
 ** DONE update LinkedIn
 SCHEDULED: <2022-03-20 Sun>
 ** TODO Insurrance
-SCHEDULED: <2022-04-04 Mon>
+SCHEDULED: <2022-04-05 Tue>
 ** TODO Care registration
-SCHEDULED: <2022-04-04 Mon>
+SCHEDULED: <2022-04-05 Tue>
+** TODO Cleanup patio tables
+** TODO Break down back shelf :shit:
 * Blog
 ** Using tangent lines to calculate offsets in OPENscad.
+* Learning queue
+- Bezier cubic spines: https://marlinfw.org/docs/gcode/G005.html
+* Daily
+- [X] Two hours of pure execution on the :blitz: list.
+- [ ] One thing off the :shit: list.
+- [ ] 30 mins math/computational geometry play.
+- [ ] 30 mins of self-promotion.
+- [ ] 20 mins of reflection.
