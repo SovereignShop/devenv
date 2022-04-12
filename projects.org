@@ -1,44 +1,86 @@
 #+TITLE: Projects
 
-* PU Sprayer [1/2]
+* PU Sprayer [0/0]
 DEADLINE: <2021-11-22 Mon>
-** TODO Visually verify full assembly
+**  [0/3] :pu:code:
+*** TODO Redesign nozzle mold base to fit more snug
+SCHEDULED: <2022-04-12 Tue>
+*** TODO Design mold injector for main body
+SCHEDULED: <2022-04-12 Tue>
+** [0/3] :pu:shop:
+*** TODO Prints   <2022-04-12 Tue 08:30>
+- [ ] Outer main body mold
+- [ ] Faster
+*** TODO Print mold injection part for mixer
+*** TODO molds
+SCHEDULED: <2022-04-11 Mon>
+- [ ] mixer
+- [ ] nozzle
+- [ ] main body inner
+- [ ] main body outer
 * Caulk Tube
-** DONE abs print attempt
-SCHEDULED: <2022-04-03 Sun>
+** Shop [0/1] :ct:shop:
+*** TODO print two full updated tubes
+SCHEDULED: <2022-04-12 Tue>
 * Squeeze Tube
-** DONE Create repository for squeeze tube
+** TODO [1/2] :st:code:
+*** TODO Inner support ring piece
+SCHEDULED: <2022-04-13 Wed>
+** TODO [0/1] :st:shop:
+*** TODO Print production sized tube
+SCHEDULED: <2022-04-12 Tue>
+* Capsule filler
+** TODO See through Suction test models
+SCHEDULED: <2022-04-11 Mon>
+* Shower shelf
+** TODO [0/1] :cf:code:
+*** TODO Design circular shelf with compartments
+SCHEDULED: <2022-04-12 Tue>
+** TODO [0/1] :shop:
+*** TODO Test print with floor
 * Foam Generator
-* Print Farm [1/10]
-** TODO inventory shelves.
-SCHEDULED: <2022-04-03 Sun>
-** TODO Insulate heat plates :shit:
-** TODO Secure usb cables :shit:
-** TODO Quick release cable connectors for heat/thermistor :shit:
-** TODO TPU flex tube for cables :shit:
-** TODO Order essential extruder backup/replacement parts from AliExpress :shit:
-Make sure y
-** TODO Frame support couplings :backlist:
-** TODO Transparent abs
-** TODO 1.2 mm extruder assembly with integrated slots for cooling fans
-** DONE Create Sovereign Shop amazon store
-SCHEDULED: <2022-03-14 Mon>
+** TODO Code [0/2]
+*** TODO design tpu control valve :fg:code:
+SCHEDULED: <2022-04-11 Mon>
+*** TODO Design hand trigger valve :fg:code:
+SCHEDULED: <2022-04-11 Mon>
+* Print Farm [2/6]
+** TODO [0/3] :pf:code:
+*** TODO Start gcode for kossels wipe nozzle
+*** TODO End gcode for kossels wipe nozzle
+*** TODO Design frame support couplings
+** TODO [0/5] :pf:shop:
+*** TODO Recalibrate Kossel 2
+SCHEDULED: <2022-04-12 Tue>
+*** TODO inventory shelves.
+SCHEDULED: <2022-04-12 Tue>
+*** TODO Insulate Kossel 2 heat plate
+SCHEDULED: <2022-04-12 Tue>
+*** TODO Secure usb cables
+SCHEDULED: <2022-04-12 Tue>
+*** TODO Order essential extruder backup/replacement parts from AliExpress
+SCHEDULED: <2022-04-13 Wed>
 * House Keeping
 ** DONE update LinkedIn
 SCHEDULED: <2022-03-20 Sun>
 ** TODO Insurrance
 SCHEDULED: <2022-04-05 Tue>
-** TODO Care registration
+** DONE Care registration
 SCHEDULED: <2022-04-05 Tue>
 ** TODO Cleanup patio tables
+SCHEDULED: <2022-04-12 Tue>
 ** TODO Break down back shelf :shit:
+SCHEDULED: <2022-04-13 Wed>
 * Blog
 ** Using tangent lines to calculate offsets in OPENscad.
 * Learning queue
 - Bezier cubic spines: https://marlinfw.org/docs/gcode/G005.html
 * Daily
-- [X] Two hours of pure execution on the :blitz: list.
-- [ ] One thing off the :shit: list.
+- [ ] Morning 3 hour coding session
+- [ ] Afternoon shop time
+- [ ] Evening planning and library development with extra time
+
+Extras:
 - [ ] 30 mins math/computational geometry play.
 - [ ] 30 mins of self-promotion.
 - [ ] 20 mins of reflection.

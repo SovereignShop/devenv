@@ -148,3 +148,6 @@
 [submodule "clj-gcode"]
 	path = modules/clj-gcode
 	url = git@github.com:SovereignShop/clj-gcode.git
+[submodule "squeeze-tube"]
+	path = modules/squeeze-tube
+	url = git@github.com:SovereignShop/squeeze-tube.git

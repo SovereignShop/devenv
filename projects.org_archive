@@ -1493,3 +1493,331 @@ CLOCK: [2022-04-03 Sun 08:33]--[2022-04-03 Sun 09:10] =>  0:37
 - [X] Make smaller abs mold frame
 - [X] Slightly wider abs mold
 - [X] Visually verify the mixer in the mold
+
+* DONE abs print attempt :printing:
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-08 Fri 08:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Visually verify full assembly :pu::code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+[[file:./images/screenshot-05.png]]
+
+* DONE Z-scale mold models :pu::code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Visually verify mixer never touches mold body :pu::code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Decrease main-body-cylinder-offset :pu:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Redesign mold bases :pu:code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE prints :pu::shop:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Outer nozzle mold
+- [X] Inner nozzle mold
+- [X] New mixer with thin bottom wall thickness
+- [X] New mold bases
+- [X] Bottom mixer mold pieces
+- [X] New caulk tube plunger
+- [X] Caulk tube stem with 0.4mm layer height
+- [X] New caulk tube spout
+
+* DONE smaller plunger :ct:code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Longer spout :ct:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create repository for squeeze tube :st:code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create tube with threads :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create lid/spout like caulk-tube :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create tpu cap with connector :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Setup kossel 5 with clear tpu :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE print model :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE print model :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Design a ABS mixer :pu:code:
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:51
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Mold injector for nozzle
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:51
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Adjust mixer base
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:51
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Order capsules for tests
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:57
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE New part fan mounts for kossel 1
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:58
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Try mixing acetone with flex seal
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:59
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* TODO Print mixer
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:59
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* DONE Try lower temp stem
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube/Shop
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: ct shop
+:END:
+
+* TODO 1.2 mm extruder assembly with integrated slots for cooling fans :shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:08
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pf
+:END:
+
+* TODO Quick release cable connectors for heat/thermistor :shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:09
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pf
+:END:
+
+* TODO Design continuous nozzle :pu:code:
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Design small test corner shower shelf :cf:code:
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:15
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Make shelf parametric by angle
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:15
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: cf code
+:END:
+
+* DONE Design a suction cup for testing
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:15
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: cf code
+:END:
+Country A as more old people than country B.  Country A is more vaccinated.
+
+* DONE Design a larger model
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: st code
+:END:
+
+* DONE Design a similar squeeze bottle
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: st code
+:END:
