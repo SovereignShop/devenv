@@ -1,16 +1,13 @@
 #+TITLE: Projects
 
 * PU Sprayer [0/0]
-DEADLINE: <2021-11-22 Mon>
-**  [0/3] :pu:code:
-*** TODO Redesign nozzle mold base to fit more snug
-SCHEDULED: <2022-04-12 Tue>
-*** TODO Design mold injector for main body
-SCHEDULED: <2022-04-12 Tue>
-** [0/3] :pu:shop:
+** [1/1] :pu:code:
+** [0/4] :pu:shop:
+*** TODO Working Prototype
+DEADLINE: <2022-04-24 Sun>
 *** TODO Prints   <2022-04-12 Tue 08:30>
+SCHEDULED: <2022-04-19 Tue>
 - [ ] Outer main body mold
-- [ ] Faster
 *** TODO Print mold injection part for mixer
 *** TODO molds
 SCHEDULED: <2022-04-11 Mon>
@@ -19,23 +16,25 @@ SCHEDULED: <2022-04-11 Mon>
 - [ ] main body inner
 - [ ] main body outer
 * Caulk Tube
-** Shop [0/1] :ct:shop:
+** [0/1] :ct:shop:
 *** TODO print two full updated tubes
-SCHEDULED: <2022-04-12 Tue>
-* Squeeze Tube
-** TODO [1/2] :st:code:
-*** TODO Inner support ring piece
 SCHEDULED: <2022-04-13 Wed>
-** TODO [0/1] :st:shop:
-*** TODO Print production sized tube
+* Squeeze Tube
+** TODO [1/1] :st:code:
+*** DONE Inner support ring piece
+SCHEDULED: <2022-04-13 Wed>
+** TODO [1/2] :st:shop:
+*** TODO Finished model
+DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
+*** DONE Print production sized tube
 SCHEDULED: <2022-04-12 Tue>
 * Capsule filler
 ** TODO See through Suction test models
-SCHEDULED: <2022-04-11 Mon>
+SCHEDULED: <2022-04-19 Tue>
 * Shower shelf
 ** TODO [0/1] :cf:code:
-*** TODO Design circular shelf with compartments
-SCHEDULED: <2022-04-12 Tue>
+*** TODO Design joesky copy as test
+SCHEDULED: <2022-04-19 Tue>
 ** TODO [0/1] :shop:
 *** TODO Test print with floor
 * Foam Generator
@@ -49,10 +48,10 @@ SCHEDULED: <2022-04-11 Mon>
 *** TODO Start gcode for kossels wipe nozzle
 *** TODO End gcode for kossels wipe nozzle
 *** TODO Design frame support couplings
-** TODO [0/5] :pf:shop:
-*** TODO Recalibrate Kossel 2
+** TODO [2/5] :pf:shop:
+*** DONE Recalibrate Kossel 2
 SCHEDULED: <2022-04-12 Tue>
-*** TODO inventory shelves.
+*** DONE inventory shelves.
 SCHEDULED: <2022-04-12 Tue>
 *** TODO Insulate Kossel 2 heat plate
 SCHEDULED: <2022-04-12 Tue>
@@ -75,12 +74,4 @@ SCHEDULED: <2022-04-13 Wed>
 ** Using tangent lines to calculate offsets in OPENscad.
 * Learning queue
 - Bezier cubic spines: https://marlinfw.org/docs/gcode/G005.html
-* Daily
-- [ ] Morning 3 hour coding session
-- [ ] Afternoon shop time
-- [ ] Evening planning and library development with extra time
-
-Extras:
-- [ ] 30 mins math/computational geometry play.
-- [ ] 30 mins of self-promotion.
-- [ ] 20 mins of reflection.
+* Scad Paths
