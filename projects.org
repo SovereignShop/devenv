@@ -1,7 +1,9 @@
 #+TITLE: Projects
 
 * PU Sprayer [0/0]
-** [1/1] :pu:code:
+** [0/1] :pu:code:
+*** TODO New inverted nozzle molds
+SCHEDULED: <2022-04-21 Thu>
 ** [1/2] :pu:shop:
 *** TODO Working Prototype
 DEADLINE: <2022-04-24 Sun>
