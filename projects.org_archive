@@ -1876,3 +1876,61 @@ SCHEDULED: <2022-04-12 Tue>
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: pu code
 :END:
+
+* KILL molds
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pu shop
+:END:
+- [ ] mixer
+- [ ] nozzle
+- [ ] main body inner
+- [ ] main body outer
+
+* KILL Print mold injection part for mixer
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* DONE Recalibrate Kossel 2
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:22
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE inventory shelves.
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:23
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Design joesky copy as test
+SCHEDULED: <2022-04-19 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:29
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: cf code
+:END:

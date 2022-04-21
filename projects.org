@@ -2,19 +2,12 @@
 
 * PU Sprayer [0/0]
 ** [1/1] :pu:code:
-** [0/4] :pu:shop:
+** [1/2] :pu:shop:
 *** TODO Working Prototype
 DEADLINE: <2022-04-24 Sun>
-*** TODO Prints   <2022-04-12 Tue 08:30>
+*** DONE Prints   <2022-04-12 Tue 08:30>
 SCHEDULED: <2022-04-19 Tue>
 - [ ] Outer main body mold
-*** TODO Print mold injection part for mixer
-*** TODO molds
-SCHEDULED: <2022-04-11 Mon>
-- [ ] mixer
-- [ ] nozzle
-- [ ] main body inner
-- [ ] main body outer
 * Caulk Tube
 ** [0/1] :ct:shop:
 *** TODO print two full updated tubes
@@ -29,30 +22,29 @@ DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
 *** DONE Print production sized tube
 SCHEDULED: <2022-04-12 Tue>
 * Capsule filler
-** TODO See through Suction test models
-SCHEDULED: <2022-04-19 Tue>
+** [0/1] :cf:code:
+*** TODO See through Suction test models
+SCHEDULED: <2022-04-21 Thu>
 * Shower shelf
 ** TODO [0/1] :cf:code:
-*** TODO Design joesky copy as test
-SCHEDULED: <2022-04-19 Tue>
-** TODO [0/1] :shop:
-*** TODO Test print with floor
+*** TODO tacky tape abs corner shelf test
+SCHEDULED: <2022-04-21 Thu>
+** TODO [1/1] :shop:
+*** DONE Test print with floor
 * Foam Generator
 ** TODO Code [0/2]
 *** TODO design tpu control valve :fg:code:
-SCHEDULED: <2022-04-11 Mon>
+SCHEDULED: <2022-04-21 Thu>
 *** TODO Design hand trigger valve :fg:code:
-SCHEDULED: <2022-04-11 Mon>
+SCHEDULED: <2022-04-21 Thu>
 * Print Farm [2/6]
 ** TODO [0/3] :pf:code:
 *** TODO Start gcode for kossels wipe nozzle
+SCHEDULED: <2022-04-21 Thu>
 *** TODO End gcode for kossels wipe nozzle
+SCHEDULED: <2022-04-21 Thu>
 *** TODO Design frame support couplings
-** TODO [2/5] :pf:shop:
-*** DONE Recalibrate Kossel 2
-SCHEDULED: <2022-04-12 Tue>
-*** DONE inventory shelves.
-SCHEDULED: <2022-04-12 Tue>
+** TODO [0/3] :pf:shop:
 *** TODO Insulate Kossel 2 heat plate
 SCHEDULED: <2022-04-12 Tue>
 *** TODO Secure usb cables
@@ -74,4 +66,3 @@ SCHEDULED: <2022-04-13 Wed>
 ** Using tangent lines to calculate offsets in OPENscad.
 * Learning queue
 - Bezier cubic spines: https://marlinfw.org/docs/gcode/G005.html
-* Scad Paths
