@@ -1,9 +1,31 @@
 #+TITLE: Projects
 
 * PU Sprayer [0/0]
-** [0/1] :pu:code:
-*** TODO New inverted nozzle molds
+** [0/3] :pu:code:
+*** TODO New mixer mold
+- easy release
+- top and bottom position sets
+*** TODO New nozzle molds
 SCHEDULED: <2022-04-21 Thu>
+*** TODO New mold design
+
+The problems:
+- Air bubbles
+- Dimensional accuracy with TPU
+- Sticking to mold surfaces
+- "cold metal" costing some parts for low friction surface.
+
+Solutions:
+- Mold halves:
+
+  Advantages:
+  - easy to avoid air bubbles
+  - ABS molds -- higher demensionally accuracy, easier
+  - Easy release.
+
+  Disadvantages:
+  - Seams
+  - More parts
 ** [1/2] :pu:shop:
 *** TODO Working Prototype
 DEADLINE: <2022-04-24 Sun>
@@ -24,12 +46,14 @@ DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
 *** DONE Print production sized tube
 SCHEDULED: <2022-04-12 Tue>
 * Capsule filler
-** [0/1] :cf:code:
-*** TODO See through Suction test models
+** [1/2] :cf:code:
+*** DONE See through Suction test models
 SCHEDULED: <2022-04-21 Thu>
+*** TODO Section test #2
+SCHEDULED: <2022-04-22 Fri>
 * Shower shelf
-** TODO [0/1] :cf:code:
-*** TODO tacky tape abs corner shelf test
+** TODO [1/1] :cf:code:
+*** DONE tacky tape abs corner shelf test
 SCHEDULED: <2022-04-21 Thu>
 ** TODO [1/1] :shop:
 *** DONE Test print with floor
@@ -68,3 +92,5 @@ SCHEDULED: <2022-04-13 Wed>
 ** Using tangent lines to calculate offsets in OPENscad.
 * Learning queue
 - Bezier cubic spines: https://marlinfw.org/docs/gcode/G005.html
+* Faux rock molds.
+* Tacky Plant shelves
