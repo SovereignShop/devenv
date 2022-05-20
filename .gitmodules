@@ -142,3 +142,12 @@
 [submodule "modules/klipper"]
 	path = modules/klipper
 	url = git@github.com:Klipper3d/klipper.git
+[submodule "modules/exwm-module-for-doom-emacs"]
+	path = modules/doom-modules/exwm-module-for-doom-emacs
+	url = git@github.com:SovereignShop/exwm-module-for-doom-emacs.git
+[submodule "clj-gcode"]
+	path = modules/clj-gcode
+	url = git@github.com:SovereignShop/clj-gcode.git
+[submodule "squeeze-tube"]
+	path = modules/squeeze-tube
+	url = git@github.com:SovereignShop/squeeze-tube.git

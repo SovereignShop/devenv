@@ -1,0 +1,1936 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/john/Workspace/projects.org
+
+
+* DONE check valve
+SCHEDULED: <2021-08-04 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2021-08-04 Wed 13:29]--[2021-08-04 Wed 22:02] =>  8:33
+:END:
+
+* DONE Static Mixing nozzle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE remove bottom seal gap
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* KILL Bolted, sealed joints
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:END:
+We need to partition the path into sections, each section
+consisting of a sequence of segments.
+
+* DONE Piston
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Rotation device.
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Inverted piston head.
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Smaller check valve inner walls
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Smooth contours
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:05
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Redo bottom plate
+- [X] Smooth edges
+
+* KILL Static Mixer
+SCHEDULED: <2022-01-10 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:END:
+** KILL Static mixer attachment mechanism
+
+* DONE Simple jig for submerging and handling while dipping.
+SCHEDULED: <2022-01-03 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+- cone shaped
+- magnetic
+- Attaches to walls of bath.
+
+* KILL Unify piston top joints with top static mixer segment
+SCHEDULED: <2022-01-04 Tue>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283605085426000"
+:entry-id: 22gkifsnmjfjsn45smjim9opsk/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:END:
+:org-gcal:
+:END:
+
+* KILL Solution for coating interior of upper mixing chamber.
+SCHEDULED: <2022-01-05 Wed>
+:PROPERTIES:
+:org-gcal-managed: org
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:END:
+Try using a silicone cannester.
+
+* DONE Update check valve to use circular spring housing
+SCHEDULED: <2022-01-03 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Update size of check valve to allow for coating
+SCHEDULED: <2022-01-03 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Isocyanate SBR rubber exposure test.
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Inserts for dip coating
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+- Find non-stick material coating (probably PTFE).
+- Inserts for check-valves.
+- Inserts for top lid.
+
+* TODO Redesign bottom plate to be removable.
+SCHEDULED: <2022-01-16 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Unify thread holes
+SCHEDULED: <2022-01-15 Sat 11:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Test piston head with graphite
+SCHEDULED: <2022-01-08 Sat 10:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Handle
+SCHEDULED: <2022-01-14 Fri 01:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283606520084000"
+:entry-id: 7t163njmi32i14qb5vrt2m196o/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+:org-gcal:
+:END:
+
+* TODO Assembly
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Test
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-11 Tue 13:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Schedule Redesign
+SCHEDULED: <2022-01-10 Mon 15:00-17:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283614696136000"
+:entry-id: 1b839haacb2qehnb9fqsmncpbc/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-16 Sun 19:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-11 Tue 13:07]--[2022-01-11 Tue 13:15] =>  0:08
+:END:
+:org-gcal:
+:END:
+
+* TODO Redesign [0/1]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:31
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+** TODO Pistons [0/2]
+- [ ] bottom plate
+- [ ]
+
+* DONE install drawers
+SCHEDULED: <2022-01-03 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Print vertical spool holders
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE install filament guides
+SCHEDULED: <2022-01-18 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Fix move out of range bug
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Improve enclosure seal
+SCHEDULED: <2022-01-18 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Install vulcano extruders
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Fix melted printers
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE fix part fan
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Spiralized Stem
+SCHEDULED: <2022-01-10 Mon 17:30-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613883740000"
+:entry-id: a71i2mup2ov9d248f01faap74k/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Assemble Tube
+SCHEDULED: <2022-01-10 Mon 21:00-21:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613920658000"
+:entry-id: kv00ot4caem4dfae2spin1dju4/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Optimize plunger design
+SCHEDULED: <2022-01-17 Mon 12:00-13:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-17 Mon 13:46]--[2022-01-17 Mon 14:06] =>  0:20
+:END:
+
+* DONE Take Photos
+SCHEDULED: <2022-01-16 Sun 18:00-20:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613944596000"
+:entry-id: 21dk4cpjab4n3t4bs319brm67k/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Easier lid
+SCHEDULED: <2022-01-12 Wed 18:00-18:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283872139534000"
+:entry-id: p6i221s4tm6e25bmh9rekeuigo/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+Also make sure the spout fits better.
+
+* DONE Spiralized Stem
+SCHEDULED: <2022-01-10 Mon 17:30-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613883740000"
+:entry-id: a71i2mup2ov9d248f01faap74k/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Assemble Tube
+SCHEDULED: <2022-01-10 Mon 21:00-21:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613920658000"
+:entry-id: kv00ot4caem4dfae2spin1dju4/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Optimize plunger design
+SCHEDULED: <2022-01-17 Mon 12:00-13:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-17 Mon 13:46]--[2022-01-17 Mon 14:06] =>  0:20
+:END:
+
+* DONE Optimize a printer
+SCHEDULED: <2022-01-10 Mon 18:10-19:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613898256000"
+:entry-id: f6pjlaonuc7l898jp05mu3fhn8/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+- Make sure the save the cura profile and if necessary klipper settings.
+ * DONE Get Acid smoothing container
+SCHEDULED: <2022-01-10 Mon 20:00-21:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613912656000"
+:entry-id: ag1209e6vm6m8d9pg1cp280oo8/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:END:
+:org-gcal:
+:END:
+Probably best to get another glass set from target.
+
+* DONE fix "out of bounds" print error
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create Listing
+SCHEDULED: <2022-01-17 Mon 14:00-15:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Easier lid
+SCHEDULED: <2022-01-12 Wed 18:00-18:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283872139534000"
+:entry-id: p6i221s4tm6e25bmh9rekeuigo/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+Also make sure the spout fits better.
+
+* DONE Spiralized Spout
+SCHEDULED: <2022-01-10 Mon 17:00-17:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613873372000"
+:entry-id: 65342ggigov05opr8m0e2mglbo/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Take Photos
+SCHEDULED: <2022-01-16 Sun 18:00-20:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613944596000"
+:entry-id: 21dk4cpjab4n3t4bs319brm67k/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Write product description
+SCHEDULED: <2022-01-17 Mon 10:00-11:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283613930308000"
+:entry-id: 8e0hk8j4ht97hujdds80bru1hs/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Publish item on ebay
+SCHEDULED: <2022-01-19 Wed 12:00-13:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Cap for spout
+SCHEDULED: <2022-01-12 Wed 11:00-12:30>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283873591792000"
+:entry-id: radaj3mhf7ft4o9d1ubsl1chvc/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-13 Thu 13:26]--[2022-01-13 Thu 21:04] =>  7:38
+:END:
+:org-gcal:
+:END:
+
+* DONE Solve oozing between sequential prints
+SCHEDULED: <2022-01-11 Tue 22:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283872061460000"
+:entry-id: 0q35s16v2csnacuicgnnhjiak8/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-11 Tue 14:11]--[2022-01-13 Thu 13:26] => 47:15
+:END:
+:org-gcal:
+:END:
+
+* DONE testing/fixing
+SCHEDULED: <2022-01-13 Thu 10:00-17:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283874581418000"
+:entry-id: 1b5h30jdi8spl4k9u73d95f6lo/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE testing/fixing
+SCHEDULED: <2022-01-14 Fri 10:00-17:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ETag:     "3283877370670000"
+:entry-id: lut0ej2jo3uaonhihkhhnnhr4o/cv3a7e12n5ifmnkohjegt11va0@group.calendar.google.com
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Cuttable nozzle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE longer nozzle cap
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-01-23 Sun 18:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Test mixing
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:37
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Design simplified new spiralized model
+SCHEDULED: <2022-01-17 Mon 10:00-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283877016666000"
+:entry-id: 5150459vvf7r1s9asu34tvdah8/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:37
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+
+* DONE Optimize two printers
+SCHEDULED: <2022-01-18 Tue 10:00-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283877057350000"
+:entry-id: j6t31rq1cu33jmq7gu9b8maed0/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:37
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Rubber dipping procedure
+SCHEDULED: <2022-01-19 Wed 10:00-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283877066220000"
+:entry-id: 57fsc5ga6dtpcv296s255q0nn0/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:37
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Rubber dipping procedure
+SCHEDULED: <2022-01-20 Thu 10:00-18:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283877076994000"
+:entry-id: nhkppsjp59ff9saqronoje8epo/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:37
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE tweaks [8/8]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Smaller piston heads
+- [X] widen mixer
+- [X] resize mizer base
+- [X] mixer base narrow at bottom
+- [X] Modify stem joint to match mixer base
+- [X] Wider mixer base center gap.
+- [X] Spray pistons with graphite
+- [X] Spray couplings with graphite.
+
+* DONE Test a piston for suction and air tightness
+SCHEDULED: <2022-01-24 Mon>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: 4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ETag:     "3283877996926000"
+:entry-id: 2r2nmab2epr5bie4h76vlkauqs/4ad55ut74vu7lc0h2j37ukmjnk@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Double dip method
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Test locking mechanism
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Test bottom plate sealed fit
+SCHEDULED: <2022-01-31 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Redesign lock mechanism to maximize surface area of contact, remove sharp contours
+SCHEDULED: <2022-01-31 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- Thicker at bottom
+- wider
+- No sharp contours
+- Curve should interface, not the top.
+- Surface-to-surface interface should be longer.
+
+* DONE Become an ebay seller
+SCHEDULED: <2022-01-17 Mon 11:00-12:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283611580382000"
+:entry-id: ljee7mh1c4jv07pp1msbsnuoj0/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE Schedule for rest of week
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-11 Tue 13:18]--[2022-01-11 Tue 14:10] =>  0:52
+:END:
+
+* DONE Purchase boxes and other packaging supplies
+SCHEDULED: <2022-01-11 Tue 18:00-20:00>
+:PROPERTIES:
+:org-gcal-managed: org
+:calendar-id: pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ETag:     "3283892363244000"
+:entry-id: oh3l7b18748jg534ud1vr6ki3k/pm5it0t20ubr3cii178l4ka724@group.calendar.google.com
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:org-gcal:
+:END:
+
+* DONE improvements [0/13]
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-05 Sat 13:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [ ] Increase pitch of threads
+- [ ] Increase size of outer screw
+- [ ] Increase offset holes in base
+- [ ] Increase radius of mixer
+- [ ] Reduce offset of mixer
+- [ ] Get clips for hanging
+- [ ] Create hanging racks
+- [ ] Hang mixer upside down under water
+- [ ] Slightly smaller plungers
+- [ ] Slightly taller pistons model
+- [ ] Pressurized under-water cure test
+
+- [ ] Version without threads
+
+* IDEA Setup time-lapse
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-07 Mon 11:46
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: IDEA
+:END:
+
+* TODO door handle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-07 Mon 11:46
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Insulate build plates
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:53
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Calibrate Kossel 5
+SCHEDULED: <2022-02-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Better workflow for printing models
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Install aluminum heat blocks and silicone socks
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Get a vacuum chamber
+SCHEDULED: <2022-01-31 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Finish and Calibrate Kossel 3
+SCHEDULED: <2022-02-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Install 2m extruder cables
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Redesign cooling fan mount
+SCHEDULED: <2022-03-07 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Install chamber heater
+SCHEDULED: <2022-01-25 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Get more solvents
+SCHEDULED: <2022-01-31 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:54
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Write down dip procedure
+SCHEDULED: <2022-02-05 Sat>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:55
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Redesign check valve mechanism
+SCHEDULED: <2022-02-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:55
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Solve TPU molds for SBR
+SCHEDULED: <2022-03-07 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-14 Mon 11:55
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Thread mold test
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Pump designs
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Low friction piston head
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Handle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+4CHEDULED: <2022-03-14 Mon>
+
+* DONE Print a test model
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Nozzle Mold
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO New design for base
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Mold for chambers
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+Problem with molds
+- Air pockets.
+- Seepage out of bottom.
+- Removal.
+- Bulges in TPU
+- Delivery mechanism.
+- Centering
+
+We want a solution that is fast, consistent, repettable,
+minimal waste, and scalable. Most of all, we want a solution
+that just works.
+
+Start with coating the inside/outside of a cylinder.
+
+* DONE Test torching TPU
+SCHEDULED: <2022-03-21 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Model Secondary handle
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO New tpu piston head
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Tests
+SCHEDULED: <2022-03-18 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+- [X] Hot glue for now on piston heads.
+- [X] SlipPlate for stem.
+- [X] Print base.
+- [X] Kossel_5 printed mixer.
+- [ ] Print a full nozzle mold.
+- [ ] Try printing a 2-part mold for mixer.
+
+* TODO Design nozzles
+SCHEDULED: <2022-03-17 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Tune check valve mechanism
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-23 Wed 09:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Molds
+SCHEDULED: <2022-03-23 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Nozzle molds
+- [X] Mixer molds
+- [X] Main Body molds
+- [X] Characterize the shrinkage
+
+* DONE Redesign nozzle/mixer
+SCHEDULED: <2022-03-23 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+Design for molds and use smooth contours to minimize weak points.
+
+1. [X] Parameterize components
+2. [X] Redesign nozzle
+3. [ ] Redesign mixer
+  We want to redesign the mixer in a way that shares
+  structure with the nozzle. The radius of the spiral
+  should correspond to the radius of the nozzle at every z.
+
+  Approaches:
+   1. sample radius at each z.
+   2. Subtraction
+
+<2022-04-01 Fri>
+Encountering issues making the mixer mold. We're making a two-sided
+mold. For the helix segments, there's only one way to align them, but
+it's not clear how to align the base in this fashion.
+
+The solution is to make the outward expanding section not sprialize,
+then do a half turn, then do alternating 180 turns.
+
+
+* DONE Cleanup repository
+SCHEDULED: <2022-03-23 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* KILL Implement flex nozzle
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:END:
+:LOGBOOK:
+CLOCK: [2022-01-14 Fri 12:08]--[2022-01-16 Sun 16:03] => 51:55
+:END:
+
+* DONE Take new photos
+SCHEDULED: <2022-01-23 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Print an inventory
+SCHEDULED: <2022-02-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:36
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* TODO Get a butane torch
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-02 Sat 20:40
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Find a dichloromethane supplier
+SCHEDULED: <2022-03-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-03 Sun 08:24
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Design trigger valves
+SCHEDULED: <2022-03-15 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-03 Sun 08:26
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Foam Generator
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Design peristaltic control valve.
+SCHEDULED: <2022-03-15 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-03 Sun 08:26
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Foam Generator
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Design reservoir
+SCHEDULED: <2022-03-15 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-03 Sun 08:26
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Foam Generator
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO shorten ptfe tube to decrease spool feed friction
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-03 Sun 08:27
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Test sharp mold edge with heat plate
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-05 Tue 08:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Make reinforced mixer mold
+SCHEDULED: <2022-04-04 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Print two-part main-body outer mold
+SCHEDULED: <2022-04-04 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Print two-part main-body outer mold
+SCHEDULED: <2022-04-04 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Start Print of scaled main body inner molds
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create mold base for nozzle
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE redesign main body mold base
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-04-03 Sun 10:14]--[2022-04-04 Mon 08:52] => 22:38
+CLOCK: [2022-04-03 Sun 09:11]--[2022-04-03 Sun 09:44] =>  0:33
+:END:
+
+* DONE tweak tpu scaling factor to be based on circumference
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE split mixer mold into printable parts
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-06 Wed 18:11
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2022-04-03 Sun 08:33]--[2022-04-03 Sun 09:10] =>  0:37
+:END:
+
+* DONE Design caulk spout for mixer mold.
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-07 Thu 18:58
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Spiralize print nozzle molds
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-07 Thu 18:58
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE fix nozzle dimensions
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-07 Thu 18:58
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Mixer fixes
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-07 Thu 18:58
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Make smaller abs mold frame
+- [X] Slightly wider abs mold
+- [X] Visually verify the mixer in the mold
+
+* DONE abs print attempt :printing:
+SCHEDULED: <2022-04-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-08 Fri 08:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Visually verify full assembly :pu::code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+[[file:./images/screenshot-05.png]]
+
+* DONE Z-scale mold models :pu::code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Visually verify mixer never touches mold body :pu::code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Decrease main-body-cylinder-offset :pu:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Redesign mold bases :pu:code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE prints :pu::shop:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:06
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+- [X] Outer nozzle mold
+- [X] Inner nozzle mold
+- [X] New mixer with thin bottom wall thickness
+- [X] New mold bases
+- [X] Bottom mixer mold pieces
+- [X] New caulk tube plunger
+- [X] Caulk tube stem with 0.4mm layer height
+- [X] New caulk tube spout
+
+* DONE smaller plunger :ct:code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Longer spout :ct:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create repository for squeeze tube :st:code:
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create tube with threads :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create lid/spout like caulk-tube :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Create tpu cap with connector :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Setup kossel 5 with clear tpu :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE print model :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE print model :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-09 Sat 21:13
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Design a ABS mixer :pu:code:
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:51
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Mold injector for nozzle
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:51
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Adjust mixer base
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:51
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Order capsules for tests
+SCHEDULED: <2022-04-08 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:57
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE New part fan mounts for kossel 1
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:58
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Try mixing acetone with flex seal
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:59
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* TODO Print mixer
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 08:59
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* DONE Try lower temp stem
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube/Shop
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: ct shop
+:END:
+
+* TODO 1.2 mm extruder assembly with integrated slots for cooling fans :shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:08
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pf
+:END:
+
+* TODO Quick release cable connectors for heat/thermistor :shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:09
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pf
+:END:
+
+* TODO Design continuous nozzle :pu:code:
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:12
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* DONE Design small test corner shower shelf :cf:code:
+SCHEDULED: <2022-04-10 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:15
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Make shelf parametric by angle
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:15
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: cf code
+:END:
+
+* DONE Design a suction cup for testing
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:15
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: cf code
+:END:
+Country A as more old people than country B.  Country A is more vaccinated.
+
+* DONE Design a larger model
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: st code
+:END:
+
+* DONE Design a similar squeeze bottle
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-12 Tue 09:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: st code
+:END:
+
+* DONE Continuous nozzle design
+SCHEDULED: <2022-04-13 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 09:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Tweak nozzle mold base
+SCHEDULED: <2022-04-13 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 09:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Top for main body inner molds
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 09:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Redesign nozzle mold base to fit more snug
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 09:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE Design mold injector for main body
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 09:35
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* KILL molds
+SCHEDULED: <2022-04-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pu shop
+:END:
+- [ ] mixer
+- [ ] nozzle
+- [ ] main body inner
+- [ ] main body outer
+
+* KILL Print mold injection part for mixer
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* DONE Recalibrate Kossel 2
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:22
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE inventory shelves.
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:23
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Design joesky copy as test
+SCHEDULED: <2022-04-19 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-20 Wed 21:29
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: cf code
+:END:
