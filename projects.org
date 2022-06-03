@@ -46,10 +46,10 @@ DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
 *** DONE Print production sized tube
 SCHEDULED: <2022-04-12 Tue>
 * Capsule filler
-** [1/2] :cf:code:
+** [2/2] :cf:code:
 *** DONE See through Suction test models
 SCHEDULED: <2022-04-21 Thu>
-*** TODO Section test #2
+*** DONE Section test #2
 SCHEDULED: <2022-04-22 Fri>
 * Shower shelf
 ** TODO [1/1] :cf:code:
@@ -64,19 +64,16 @@ SCHEDULED: <2022-04-21 Thu>
 *** TODO Design hand trigger valve :fg:code:
 SCHEDULED: <2022-04-21 Thu>
 * Print Farm [2/6]
-** TODO [0/3] :pf:code:
-*** TODO Start gcode for kossels wipe nozzle
+** TODO [3/3] :pf:code:
+*** DONE Start gcode for kossels wipe nozzle
 SCHEDULED: <2022-04-21 Thu>
-*** TODO End gcode for kossels wipe nozzle
+*** KILL End gcode for kossels wipe nozzle
 SCHEDULED: <2022-04-21 Thu>
-*** TODO Design frame support couplings
+*** DONE Design frame support couplings
 ** TODO [0/3] :pf:shop:
-*** TODO Insulate Kossel 2 heat plate
-SCHEDULED: <2022-04-12 Tue>
+*** TODO Insulate heat plates
 *** TODO Secure usb cables
-SCHEDULED: <2022-04-12 Tue>
 *** TODO Order essential extruder backup/replacement parts from AliExpress
-SCHEDULED: <2022-04-13 Wed>
 * House Keeping
 ** DONE update LinkedIn
 SCHEDULED: <2022-03-20 Sun>
