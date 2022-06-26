@@ -1934,3 +1934,264 @@ SCHEDULED: <2022-04-19 Tue>
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: cf code
 :END:
+
+* TODO New mold design
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:16
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pu code
+:END:
+
+The problems:
+- Air bubbles
+- Dimensional accuracy with TPU
+- Sticking to mold surfaces
+- "cold metal" costing some parts for low friction surface.
+
+Solutions:
+- Mold halves:
+
+  Advantages:
+  - easy to avoid air bubbles
+  - ABS molds -- higher demensionally accuracy, easier
+  - Easy release.
+
+  Disadvantages:
+  - Seams
+  - More parts
+
+* KILL Working Prototype
+DEADLINE: <2022-04-24 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:17
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pu shop
+:END:
+
+* DONE Prints   <2022-04-12 Tue 08:30>
+SCHEDULED: <2022-04-19 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:17
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pu shop
+:END:
+- [ ] Outer main body mold
+
+* TODO New mixer mold
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pu code
+:END:
+- easy release
+- top and bottom position sets
+
+* TODO New nozzle molds
+SCHEDULED: <2022-04-21 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: PU Sprayer/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pu code
+:END:
+
+* DONE print two full updated tubes
+SCHEDULED: <2022-04-13 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Caulk Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: ct shop
+:END:
+
+* DONE Inner support ring piece
+SCHEDULED: <2022-04-13 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:18
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: st code
+:END:
+
+* TODO [1/1] :cf:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+** DONE tacky tape abs corner shelf test
+SCHEDULED: <2022-04-21 Thu>
+
+* TODO [1/1] :shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Shower shelf
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+** DONE Test print with floor
+
+* DONE Break down back shelf :shit:
+SCHEDULED: <2022-04-13 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: House Keeping
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Cleanup patio tables
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:19
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: House Keeping
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Care registration
+SCHEDULED: <2022-04-05 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:20
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: House Keeping
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Start gcode for kossels wipe nozzle
+SCHEDULED: <2022-04-21 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:21
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf code
+:END:
+
+* KILL End gcode for kossels wipe nozzle
+SCHEDULED: <2022-04-21 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:21
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pf code
+:END:
+
+* DONE Design frame support couplings
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-14 Tue 08:21
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf code
+:END:
+
+* DONE Start gcode for kossels wipe nozzle
+SCHEDULED: <2022-04-21 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf code
+:END:
+
+* DONE Design frame support couplings
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf code
+:END:
+
+* KILL End gcode for kossels wipe nozzle
+SCHEDULED: <2022-04-21 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pf code
+:END:
+
+* TODO Insulate heat plates
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Insulate heat plates
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Secure usb cables
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* KILL Order essential extruder backup/replacement parts from AliExpress
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE update LinkedIn
+SCHEDULED: <2022-03-20 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-06-26 Sun 10:10
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: House Keeping
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
