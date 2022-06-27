@@ -1,0 +1,18 @@
+#+TITLE: Backlog
+
+* Capsule filler
+** [2/2] :cf:code:
+*** DONE See through Suction test models
+SCHEDULED: <2022-04-21 Thu>
+*** DONE Section test #2
+SCHEDULED: <2022-04-22 Fri>
+
+* Learning queue
+- Bezier cubic spines: https://marlinfw.org/docs/gcode/G005.html
+* Faux rock molds
+* Foam Generator
+** TODO Code [0/2]
+*** TODO design tpu control valve :fg:code:
+SCHEDULED: <2022-06-27 Mon>
+*** TODO Design hand trigger valve :fg:code:
+SCHEDULED: <2022-06-27 Mon>
