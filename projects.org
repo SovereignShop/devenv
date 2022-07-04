@@ -1,9 +1,22 @@
 #+TITLE: Projects
 
+#+BEGIN: clocktable :scope file :maxlevel 3
+#+CAPTION: Clock summary at [2022-06-28 Tue 08:07]
+| Headline                                 | Time    |       |       |
+|------------------------------------------+---------+-------+-------|
+| *Total time*                             | *22:46* |       |       |
+|------------------------------------------+---------+-------+-------|
+| Print Farm [0/3]                         | 22:46   |       |       |
+| \_  [2/3]                                |         | 22:46 |       |
+| \_    Design mag joints for new extruder |         |       | 22:46 |
+#+END:
+
+
 * Tacky Plant shelves
-** TODO [0/1]
-*** TODO print vibratory tumbler container.
+** TODO [1/2] :ps:shop:
+*** DONE print vibratory tumbler container.
 SCHEDULED: <2022-06-27 Mon>
+*** TODO print
 * PU Sprayer [0/0]
 ** [0/1] :pu:code:
 ** [1/1] :pu:shop:
@@ -18,15 +31,29 @@ DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
 SCHEDULED: <2022-04-12 Tue>
 * Print Farm [0/3]
 ** TODO [2/2] :pf:code:
-** TODO [1/3] :pf:shop:
+** TODO [2/8] :pf:shop:
 *** DONE Design mag joints for new extruder
 SCHEDULED: <2022-06-26 Sun>
 :LOGBOOK:
 CLOCK: [2022-06-26 Sun 10:38]--[2022-06-27 Mon 09:24] => 22:46
 :END:
-*** TODO Finish Kossel 3
+*** DONE Finish Kossel 3
 SCHEDULED: <2022-06-26 Sun>
 *** TODO Finish Kossel 1
+SCHEDULED: <2022-06-28 Tue>
+*** TODO Calibrate Ender 1
+SCHEDULED: <2022-06-28 Tue>
+*** TODO Fix Ender 1 Feed line
+SCHEDULED: <2022-06-28 Tue>
+*** TODO Calibrate Ender 2
+SCHEDULED: <2022-06-28 Tue>
+:LOGBOOK:
+CLOCK: [2022-06-28 Tue 08:52]--[2022-06-28 Tue 11:59] =>  3:07
+:END:
+*** TODO Cable management solution
+SCHEDULED: <2022-06-28 Tue>
+*** TODO Waste management solution
+SCHEDULED: <2022-06-28 Tue>
 * House Keeping
 ** TODO Insurrance
 SCHEDULED: <2022-06-27 Mon>
