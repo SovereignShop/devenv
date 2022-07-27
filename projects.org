@@ -20,8 +20,10 @@ SCHEDULED: <2022-06-27 Mon>
 * PU Sprayer [0/0]
 ** [0/1] :pu:code:
 ** [1/1] :pu:shop:
+*** DONE Test silicone caulk for adhesion to PU
+SCHEDULED: <2022-07-04 Mon>
 * Caulk Tube
-** [1/1] :ct:shop:
+** [0/0] :ct:shop:
 * Squeeze Tube
 ** TODO [1/1] :st:code:
 ** TODO [1/2] :st:shop:
@@ -31,7 +33,7 @@ DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
 SCHEDULED: <2022-04-12 Tue>
 * Print Farm [0/3]
 ** TODO [2/2] :pf:code:
-** TODO [2/8] :pf:shop:
+** TODO [5/8] :pf:shop:
 *** DONE Design mag joints for new extruder
 SCHEDULED: <2022-06-26 Sun>
 :LOGBOOK:
@@ -40,22 +42,22 @@ CLOCK: [2022-06-26 Sun 10:38]--[2022-06-27 Mon 09:24] => 22:46
 *** DONE Finish Kossel 3
 SCHEDULED: <2022-06-26 Sun>
 *** TODO Finish Kossel 1
-SCHEDULED: <2022-06-28 Tue>
-*** TODO Calibrate Ender 1
+SCHEDULED: <2022-07-04 Mon>
+*** DONE Calibrate Ender 1
 SCHEDULED: <2022-06-28 Tue>
 *** TODO Fix Ender 1 Feed line
 SCHEDULED: <2022-06-28 Tue>
-*** TODO Calibrate Ender 2
+*** DONE Calibrate Ender 2
 SCHEDULED: <2022-06-28 Tue>
 :LOGBOOK:
 CLOCK: [2022-06-28 Tue 08:52]--[2022-06-28 Tue 11:59] =>  3:07
 :END:
 *** TODO Cable management solution
 SCHEDULED: <2022-06-28 Tue>
-*** TODO Waste management solution
+*** DONE Waste management solution
 SCHEDULED: <2022-06-28 Tue>
 * House Keeping
 ** TODO Insurrance
 SCHEDULED: <2022-06-27 Mon>
-** TODO Clean farm
+** DONE Clean farm
 SCHEDULED: <2022-06-26 Sun>
