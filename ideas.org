@@ -1,6 +1,0 @@
-#+TITLE: Ideas
-
-* Cool Bridge
-What if we took bridge and made it cool?
-* Extreme Makeover Software Edition.
-Do a software makeover show.

@@ -24,6 +24,10 @@ SCHEDULED: <2022-06-27 Mon>
 SCHEDULED: <2022-07-04 Mon>
 * Caulk Tube
 ** [0/0] :ct:shop:
+* Rock tumbler
+** DONE Plasti dip interior
+** DONE Test with screws and blots etc.
+** TODO Geometry with more lifting of media
 * Squeeze Tube
 ** TODO [1/1] :st:code:
 ** TODO [1/2] :st:shop:
@@ -31,6 +35,9 @@ SCHEDULED: <2022-07-04 Mon>
 DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
 *** DONE Print production sized tube
 SCHEDULED: <2022-04-12 Tue>
+*  Vertical Hydroponic Tower
+** DONE Drain hole and plug
+** DONE Fan hole
 * Print Farm [0/3]
 ** TODO [2/2] :pf:code:
 ** TODO [5/8] :pf:shop:
