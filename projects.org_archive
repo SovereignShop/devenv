@@ -2206,3 +2206,211 @@ SCHEDULED: <2022-07-04 Mon>
 :ARCHIVE_TODO: TODO
 :ARCHIVE_ITAGS: pf shop
 :END:
+
+* DONE Plasti dip interior
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 18:59
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Rock tumbler
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Test with screws and blots etc.
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 18:59
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Rock tumbler
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Drain hole and plug
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:00
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Vertical Hydroponic Tower
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Fan hole
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:00
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Vertical Hydroponic Tower
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Design mag joints for new extruder
+SCHEDULED: <2022-06-26 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+:LOGBOOK:
+CLOCK: [2022-06-26 Sun 10:38]--[2022-06-27 Mon 09:24] => 22:46
+:END:
+
+* DONE Finish Kossel 3
+SCHEDULED: <2022-06-26 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Finish Kossel 1
+SCHEDULED: <2022-07-04 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Fix Ender 1 Feed line
+SCHEDULED: <2022-06-28 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Cable management solution
+SCHEDULED: <2022-06-28 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* DONE Calibrate Ender 1
+SCHEDULED: <2022-06-28 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:01
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: pf shop
+:END:
+
+* TODO [2/2] :pf:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:02
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+** DONE Calibrate Ender 2
+SCHEDULED: <2022-06-28 Tue>
+:LOGBOOK:
+CLOCK: [2022-06-28 Tue 08:52]--[2022-06-28 Tue 11:59] =>  3:07
+:END:
+** DONE Waste management solution
+SCHEDULED: <2022-06-28 Tue>
+
+* TODO [2/2] :pf:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:02
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Print Farm
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO Finished model
+DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:02
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: st shop
+:END:
+
+* DONE Print production sized tube
+SCHEDULED: <2022-04-12 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:03
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube/
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: st shop
+:END:
+
+* TODO [1/1] :st:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:03
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO [1/1] :st:code:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:03
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Squeeze Tube
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:END:
+
+* Squeeze Tube
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:03
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_CATEGORY: projects
+:END:
+
+* Caulk Tube
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:03
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_CATEGORY: projects
+:END:
+
+* PU Sprayer [0/0]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-08 Mon 19:03
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_CATEGORY: projects
+:END:
+** [0/1] :pu:code:
+** [1/1] :pu:shop:
+*** DONE Test silicone caulk for adhesion to PU
+SCHEDULED: <2022-07-04 Mon>
+
+* TODO [1/2] :ps:shop:
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-08-09 Tue 10:38
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_OLPATH: Tacky Plant shelves
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: ps shop
+:END:
+** DONE print vibratory tumbler container.
+SCHEDULED: <2022-06-27 Mon>
+** TODO print

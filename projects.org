@@ -13,56 +13,27 @@
 
 
 * Tacky Plant shelves
-** TODO [1/2] :ps:shop:
-*** DONE print vibratory tumbler container.
-SCHEDULED: <2022-06-27 Mon>
-*** TODO print
-* PU Sprayer [0/0]
-** [0/1] :pu:code:
-** [1/1] :pu:shop:
-*** DONE Test silicone caulk for adhesion to PU
-SCHEDULED: <2022-07-04 Mon>
-* Caulk Tube
-** [0/0] :ct:shop:
+** TODO buy magnets from Alliexpress
+SCHEDULED: <2022-08-09 Tue>
+* PU Mixer
+** TODO Design PU mixing bit.
+SCHEDULED: <2022-08-09 Tue>
+* Foam Generator
+** DONE simple fan based test design
+SCHEDULED: <2022-08-08 Mon>
+** TODO Test fan generator design
+SCHEDULED: <2022-08-09 Tue>
 * Rock tumbler
-** DONE Plasti dip interior
-** DONE Test with screws and blots etc.
-** TODO Geometry with more lifting of media
-* Squeeze Tube
-** TODO [1/1] :st:code:
-** TODO [1/2] :st:shop:
-*** TODO Finished model
-DEADLINE: <2022-04-24 Sun> SCHEDULED: <2022-04-24 Sun>
-*** DONE Print production sized tube
-SCHEDULED: <2022-04-12 Tue>
-*  Vertical Hydroponic Tower
-** DONE Drain hole and plug
-** DONE Fan hole
-* Print Farm [0/3]
-** TODO [2/2] :pf:code:
-** TODO [5/8] :pf:shop:
-*** DONE Design mag joints for new extruder
-SCHEDULED: <2022-06-26 Sun>
-:LOGBOOK:
-CLOCK: [2022-06-26 Sun 10:38]--[2022-06-27 Mon 09:24] => 22:46
-:END:
-*** DONE Finish Kossel 3
-SCHEDULED: <2022-06-26 Sun>
-*** TODO Finish Kossel 1
-SCHEDULED: <2022-07-04 Mon>
-*** DONE Calibrate Ender 1
-SCHEDULED: <2022-06-28 Tue>
-*** TODO Fix Ender 1 Feed line
-SCHEDULED: <2022-06-28 Tue>
-*** DONE Calibrate Ender 2
-SCHEDULED: <2022-06-28 Tue>
-:LOGBOOK:
-CLOCK: [2022-06-28 Tue 08:52]--[2022-06-28 Tue 11:59] =>  3:07
-:END:
-*** TODO Cable management solution
-SCHEDULED: <2022-06-28 Tue>
-*** DONE Waste management solution
-SCHEDULED: <2022-06-28 Tue>
+** TODO large tumbler design
+** TODO Powder tumbling test
+SCHEDULED: <2022-08-09 Tue>
+* Vertical Hydroponic Tower
+** TODO full tower test
+SCHEDULED: <2022-08-09 Tue>
+* Print Farm [0/2]
+** TODO Design new extruder assembly to use bolts
+** TODO Install fan on kossel_1
+SCHEDULED: <2022-08-09 Tue>
 * House Keeping
 ** TODO Insurrance
 SCHEDULED: <2022-06-27 Mon>
