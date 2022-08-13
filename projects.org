@@ -13,29 +13,32 @@
 
 
 * Tacky Plant shelves
-** TODO buy magnets from Alliexpress
-SCHEDULED: <2022-08-09 Tue>
+* Scad-paths
+** TODO caching system
 * PU Mixer
 ** TODO Design PU mixing bit.
 SCHEDULED: <2022-08-09 Tue>
 * Foam Generator
-** DONE simple fan based test design
-SCHEDULED: <2022-08-08 Mon>
-** TODO Test fan generator design
-SCHEDULED: <2022-08-09 Tue>
-* Rock tumbler
-** TODO large tumbler design
-** TODO Powder tumbling test
+** TODO design model for shop vac
+SCHEDULED: <2022-08-10 Wed>
+* Tumbler
+** DONE large tumbler design
+** DONE PETG test tumble barrel
+SCHEDULED: <2022-08-10 Wed>
+** DONE Powder tumbling test
 SCHEDULED: <2022-08-09 Tue>
 * Vertical Hydroponic Tower
 ** TODO full tower test
 SCHEDULED: <2022-08-09 Tue>
-* Print Farm [0/2]
+** TODO Tweak drip hole
+** DONE print new dripper with curve
+SCHEDULED: <2022-08-10 Wed>
+* Print Farm [1/2]
 ** TODO Design new extruder assembly to use bolts
-** TODO Install fan on kossel_1
+** DONE Install fan on kossel_1
 SCHEDULED: <2022-08-09 Tue>
 * House Keeping
-** TODO Insurrance
+** DONE Insurrance
 SCHEDULED: <2022-06-27 Mon>
 ** DONE Clean farm
 SCHEDULED: <2022-06-26 Sun>
