@@ -13,34 +13,40 @@
 
 
 * Tacky Plant shelves
+** TODO Design drip catch plate
+** TODO Round all edges
 ** TODO Design for new magnets
 ** TODO Design a rounded top rim
+SCHEDULED: <2022-08-24 Wed>
 * Scad-paths
 ** TODO caching system
 * PU Mixer
 ** TODO Design PU mixing bit.
-SCHEDULED: <2022-08-09 Tue>
+SCHEDULED: <2022-08-24 Wed>
 * Foam Generator
+** TODO V2 design
+SCHEDULED: <2022-08-24 Wed>
 ** DONE design model for shop vac
 SCHEDULED: <2022-08-10 Wed>
 * Tumbler
 ** DONE PETG test tumble barrel
 SCHEDULED: <2022-08-10 Wed>
 * Vertical Hydroponic Tower
-** TODO Design reservoir lid
+** DONE Design reservoir lid
 SCHEDULED: <2022-08-15 Mon>
-** TODO Buy more drip timers
+** DONE Buy more drip timers
 SCHEDULED: <2022-08-15 Mon>
-** TODO Plug for tower base
+** DONE Plug for tower base
 SCHEDULED: <2022-08-15 Mon>
 ** TODO full tower test
 SCHEDULED: <2022-08-09 Tue>
-** TODO Tweak drip hole
+** DONE Tweak drip hole
 SCHEDULED: <2022-08-15 Mon>
 ** DONE print new dripper with curve
 SCHEDULED: <2022-08-10 Wed>
-* Print Farm [1/2]
-** TODO Design new extruder assembly to use bolts
+* Print Farm [1/1]
+** Design new extruder assembly to use bolts
+SCHEDULED: <2022-08-24 Wed>
 ** DONE Install fan on kossel_1
 SCHEDULED: <2022-08-09 Tue>
 * House Keeping
