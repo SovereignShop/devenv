@@ -44,8 +44,10 @@ SCHEDULED: <2022-08-15 Mon>
 SCHEDULED: <2022-08-15 Mon>
 ** DONE print new dripper with curve
 SCHEDULED: <2022-08-10 Wed>
-** TODO graphite coat.
+** DONE graphite coat.
 SCHEDULED: <2022-08-24 Wed>
+** DONE Large drip holes
+SCHEDULED: <2022-09-12 Mon>
 * Print Farm [1/1]
 ** Design new extruder assembly to use bolts
 SCHEDULED: <2022-08-24 Wed>
