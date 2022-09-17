@@ -32,7 +32,6 @@ SCHEDULED: <2022-08-10 Wed>
 ** DONE PETG test tumble barrel
 SCHEDULED: <2022-08-10 Wed>
 * Vertical Hydroponic Tower
-** TODO Fix liquid container
 SCHEDULED: <2022-08-24 Wed>
 ** DONE Design reservoir lid
 SCHEDULED: <2022-08-15 Mon>
@@ -48,8 +47,9 @@ SCHEDULED: <2022-08-10 Wed>
 SCHEDULED: <2022-08-24 Wed>
 ** DONE Large drip holes
 SCHEDULED: <2022-09-12 Mon>
-* Print Farm [1/1]
-** Design new extruder assembly to use bolts
+* Print Farm [2/3]
+** TODO New mechanically levelable extruder + carriages.
+** DONE Design new extruder assembly to use bolts
 SCHEDULED: <2022-08-24 Wed>
 ** DONE Install fan on kossel_1
 SCHEDULED: <2022-08-09 Tue>
