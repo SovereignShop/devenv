@@ -33,10 +33,10 @@ docker run\
        -v ${HOME}/.m2:${HOME}/.m2\
        -v ${HOME}/.bashrc:${HOME}/.bashrc\
        -v ${HOME}/.oh-my-zsh:${HOME}/.oh-my-zsh\
-       -v ./.zsh_history:${HOME}/.zsh_history\
-       -v ./.zshrc:${HOME}/.zshrc\
        -v ${HOME}/.ssh/:${HOME}/.ssh\
        -v ${HOME}/.mozilla:${HOME}/.mozilla\
+       -v ${DIR}/.zsh_history:${HOME}/.zsh_history\
+       -v ${DIR}/.zshrc:${HOME}/.zshrc\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
        gamedev:latest emacs -fs
