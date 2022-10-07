@@ -35,8 +35,8 @@ nvidia-docker run\
        -v ${HOME}/.m2:${HOME}/.m2\
        -v ${HOME}/.bashrc:${HOME}/.bashrc\
        -v ${HOME}/.oh-my-zsh:${HOME}/.oh-my-zsh\
-       -v ${HOME}/.zsh_history:${HOME}/.zsh_history\
-       -v ${HOME}/.zshrc:${HOME}/.zshrc\
+       -v ./.zsh_history:${HOME}/.zsh_history\
+       -v ./.zshrc:${HOME}/.zshrc\
        -v ${HOME}/.ssh/:${HOME}/.ssh\
        -v ${HOME}/.mozilla:${HOME}/.mozilla\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
