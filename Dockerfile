@@ -257,6 +257,8 @@ RUN pip install -U platformio
 # Klipper
 RUN apt install -y gcc-arm-none-eabi avr-libc
 
+RUN apt install -y kitty
+
 COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 ENTRYPOINT ["asEnvUser"]

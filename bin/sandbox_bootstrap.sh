@@ -13,10 +13,11 @@ else
     cd ~/.emacs.d/bin && ./doom install && cd ~/;
 fi
 
+echo $UNAME
 xhost +SI:localuser:$UNAME
 
 # Set themes, etc.
-gnome-settings-daemon &
+# gnome-settings-daemon &
 
 # Set fallback cursor.
 xsetroot -cursor_name left_ptr
@@ -30,4 +31,5 @@ export VISUAL=emacsclient
 export EDITOR="$VISUAL"
 
 # Finally launch emacs.
-exec dbus-launch --exit-with-session "$@"
+# exec dbus-launch --exit-with-session "$@"
+exec kitty --hold --single-instance --start-as=fullscreen "$@"

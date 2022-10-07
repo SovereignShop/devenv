@@ -50,4 +50,4 @@ mkdir -p "${WORKSPACE}"
 chown "${UID}":"${GID}" "${WORKSPACE}"
 cd "${WORKSPACE}"
 
-su-exec "${UNAME}" /usr/bin/sandbox_bootstrap.sh "$@"
+su-exec "${UNAME}" /usr/bin/sandbox_bootstrap.sh nohup "$@"
