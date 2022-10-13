@@ -13,19 +13,19 @@
 
 
 * Tacky Plant shelves
-** DONE Design drip catch plate
 * Scad-paths
-** TODO caching system
 * PU Mixer
 ** TODO Design PU mixing bit.
-SCHEDULED: <2022-08-24 Wed>
 * Foam Generator
 ** TODO V2 design foam generator design
-SCHEDULED: <2022-08-24 Wed>
+SCHEDULED: <2022-08-22 Mon>
+First need to design a foaming straw.
 * Vertical Hydroponic Tower
-* Print Farm [1/1]
+** DONE New drip attachment version
+The new dripper needs to be easily adjustable while connected.
+** TODO Print a base segment
+SCHEDULED: <2022-10-13 Thu>
+* Print Farm [0/1]
+** TODO Fix kossel 6
+SCHEDULED: <2022-10-15 Sat>
 * House Keeping
-** DONE Insurrance
-SCHEDULED: <2022-06-27 Mon>
-** DONE Clean farm
-SCHEDULED: <2022-06-26 Sun>

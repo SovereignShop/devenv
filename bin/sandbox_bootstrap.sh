@@ -31,5 +31,5 @@ export VISUAL=emacsclient
 export EDITOR="$VISUAL"
 
 # Finally launch emacs.
-# exec dbus-launch --exit-with-session "$@"
-exec kitty --hold --single-instance --start-as=fullscreen "$@"
+exec dbus-launch --exit-with-session "$@"
+# exec kitty --hold --single-instance --start-as=fullscreen "$@"
