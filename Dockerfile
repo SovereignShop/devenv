@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 MAINTAINER John Collins <jmicahc@gmail.com>
 
 # XXX: X11 forwardig
@@ -47,21 +47,21 @@ RUN echo 'APT::Get::Assume-Yes "true";' >> /etc/apt/apt.conf \
 # Emacs
 RUN apt-get update\
     && apt-add-repository ppa:kelleyk/emacs\
-    && apt-get update && apt-get install -y emacs27\
+    && apt-get update && apt-get install -y emacs28\
 # Cleanup
     && rm -rf /tmp/* /var/lib/apt/lists/* /root/.cache/*
 
-run curl -LO https://github.com/BurntSushi/ripgrep/releases/download/12.1.0/ripgrep_12.1.0_amd64.deb\
-    && dpkg -i ripgrep_12.1.0_amd64.deb\
-    && rm ripgrep_12.1.0_amd64.deb
+run curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb\
+    && dpkg -i ripgrep_13.0.0_amd64.deb\
+    && rm ripgrep_13.0.0_amd64.deb
 
 # Install oh-my-zsh
 RUN \
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Pip installs
-RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb pylint pyflakes flake8 python-language-server pytest black
-RUN python3 -m pip install -U git+git://github.com/python/mypy.git
+RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb pylint pyflakes flake8 python-language-server pytest black mypy
+# RUN python3 -m pip install -U git+git://github.com/python/mypy.git
 
 # Install latest cmake
 COPY pkg/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
@@ -160,6 +160,8 @@ RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/scrip
 # Install Node.js.
 RUN apt-get update && apt-get install -y nodejs npm
 
+WORKDIR /home/$UNAME/
+
 # shadow-cljs for ClojureScript development
 RUN npm install --save-dev shadow-cljs && npm install -g npx
 
@@ -207,7 +209,7 @@ RUN apt-get update && apt-get install git-lfs
 
 # Install PDF tools
 RUN apt-get update && apt-get install -y gir1.2-poppler-0.18 libcairo-script-interpreter2 libcairo2-dev libfontconfig1-dev\
-    libfreetype-dev libfreetype6-dev libice-dev liblzo2-2 libpixman-1-dev libpng-tools libpoppler-glib8 libpoppler97\
+    libfreetype-dev libfreetype6-dev libice-dev liblzo2-2 libpixman-1-dev libpng-tools libpoppler-glib8 libpoppler-cpp0v5\
     libpthread-stubs0-dev libsm-dev libx11-dev libxau-dev libxcb-render0-dev libxcb-shm0-dev libxcb1-dev libxdmcp-dev\
     libxext-dev libxrender-dev poppler-data x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev
 
@@ -247,8 +249,8 @@ RUN ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 libOpenCL.so
 #     && sudo apt-get update\
 #     && sudo apt-get -y install cuda
 
-# PCL Tools
-RUN apt-get update && apt-get install -y pdal libpcl-dev pcl-tools
+# PCL Tools   pdal libpcl-dev
+RUN apt-get update && apt-get install -y pcl-tools
 
 # PlatformIO
 RUN pip install -U platformio
