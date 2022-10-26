@@ -21,8 +21,18 @@
 SCHEDULED: <2022-08-22 Mon>
 First need to design a foaming straw.
 * Vertical Hydroponic Tower
-** DONE New drip attachment version
-The new dripper needs to be easily adjustable while connected.
+** TODO Finish another tower
+- [X] Print base segment
+- [X] Print reservoir connector
+- [X] Fix dripper case
+- [X] Print reservoir lid
+- [X] Get double-A batteries
+- [ ] Medium sized tower base
+- [ ] Bottom infill for tower base
+- [ ] Redesign drip hole for tower segment
+- [ ] Print ASA tower base
+- [ ] Tweak drip screw
+- [ ] Housing for fogger
 ** TODO Print a base segment
 SCHEDULED: <2022-10-13 Thu>
 * Print Farm [0/1]
