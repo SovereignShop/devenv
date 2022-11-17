@@ -39,3 +39,23 @@ SCHEDULED: <2022-10-13 Thu>
 ** TODO Fix kossel 6
 SCHEDULED: <2022-10-15 Sat>
 * House Keeping
+* This week
+** TODO towers
+- [ ] Print a spacer segment.
+- [ ] Print another tower base segment with 2 line infill walls.
+- [ ] Sand all models
+- [ ] Install all drippers
+- [ ] Collect parts for ultrasonic tower and dripper tower
+- [ ] Carbon coat all models
+- [ ] Test full assembly.
+- [ ] Fill walls for reservoir segment
+- [ ]
+
+** TODO Gift for Jocelyn
+- [ ] Print picture frames
+- [ ] Print pencil holder.
+- [ ] Print ripple vase
+
+** TODO Haircut
+** TODO friar tux
+** TODO Laundry
