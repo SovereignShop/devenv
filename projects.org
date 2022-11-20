@@ -18,44 +18,20 @@
 ** TODO Design PU mixing bit.
 * Foam Generator
 ** TODO V2 design foam generator design
-SCHEDULED: <2022-08-22 Mon>
+SCHEDULED: <2022-08-18 Thu>
 First need to design a foaming straw.
 * Vertical Hydroponic Tower
-** TODO Finish another tower
-- [X] Print base segment
-- [X] Print reservoir connector
-- [X] Fix dripper case
-- [X] Print reservoir lid
-- [X] Get double-A batteries
-- [ ] Medium sized tower base
-- [ ] Bottom infill for tower base
-- [ ] Redesign drip hole for tower segment
-- [ ] Print ASA tower base
-- [ ] Tweak drip screw
-- [ ] Housing for fogger
-** TODO Print a base segment
-SCHEDULED: <2022-10-13 Thu>
-* Print Farm [0/1]
+** TODO Fix drip holes in existing tower
+SCHEDULED: <2022-11-17 Thu>
+** TODO Print another large tower base
+SCHEDULED: <2022-11-17 Thu>
+** DONE Fix orientation of lock segment
+SCHEDULED: <2022-11-17 Thu>
+* Polycarbonate build plates
+** TODO create listing for polycarbonate build plate
+* Print Farm [0/2]
+** TODO Install new polycarbonate build plate
+SCHEDULED: <2022-11-17 Thu>
 ** TODO Fix kossel 6
 SCHEDULED: <2022-10-15 Sat>
 * House Keeping
-* This week
-** TODO towers
-- [ ] Print a spacer segment.
-- [ ] Print another tower base segment with 2 line infill walls.
-- [ ] Sand all models
-- [ ] Install all drippers
-- [ ] Collect parts for ultrasonic tower and dripper tower
-- [ ] Carbon coat all models
-- [ ] Test full assembly.
-- [ ] Fill walls for reservoir segment
-- [ ]
-
-** TODO Gift for Jocelyn
-- [ ] Print picture frames
-- [ ] Print pencil holder.
-- [ ] Print ripple vase
-
-** TODO Haircut
-** TODO friar tux
-** TODO Laundry
