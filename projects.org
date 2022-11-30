@@ -27,15 +27,26 @@ First need to design a foaming straw.
 ** DONE setup outdoor garden
 ** TODO Setup indoor garden
 SCHEDULED: <2022-11-28 Mon>
+* Ultrasonic window seeding tray
+** TODO simple round model today
+SCHEDULED: <2022-11-30 Wed>
+* Water dripper
+* Hook for sprouts herb plants
+* Magnetic window planter
+** TODO magnetic window model today
+* ultrasonic float and nozzle
+** TODO print prototype model with ender3 today
 * Spiralized hydroponic Tower
+** TODO Spacer segment
+SCHEDULED: <2022-11-30 Wed>
 ** TODO Put a tower on etsy
+SCHEDULED: <2022-11-30 Wed>
+** DONE Finish design of top
 SCHEDULED: <2022-11-28 Mon>
-** TODO Finish design of top
-SCHEDULED: <2022-11-28 Mon>
-** TODO design ultrasonic segment
+** DONE design ultrasonic segment
 SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
-** TODO Print Top, base
+** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
 * Print Farm [1/2]
 ** DONE Install new polycarbonate build plate
