@@ -20,6 +20,8 @@
 ** TODO V2 design foam generator design
 SCHEDULED: <2022-08-18 Thu>
 First need to design a foaming straw.
+* TODO suction cup window planter
+* TODO Suction cup shower planter
 * Vertical Hydroponic Tower
 ** TODO Print a tower base
 ** TODO Make a white spray painted model
@@ -28,18 +30,21 @@ First need to design a foaming straw.
 ** TODO Setup indoor garden
 SCHEDULED: <2022-11-28 Mon>
 * Ultrasonic window seeding tray
-** TODO simple round model today
-SCHEDULED: <2022-11-30 Wed>
+** TODO simple round, stackable model today
+SCHEDULED: <2022-12-05 Mon>
+** TODO Sample hangable model
 * Water dripper
 * Hook for sprouts herb plants
 * Magnetic window planter
 ** TODO magnetic window model today
+SCHEDULED: <2022-12-06 Tue>
 * ultrasonic float and nozzle
 ** TODO print prototype model with ender3 today
+SCHEDULED: <2022-12-05 Mon>
 * Spiralized hydroponic Tower
 ** TODO Spacer segment
 SCHEDULED: <2022-11-30 Wed>
-** TODO Put a tower on etsy
+** DONE Put a tower on etsy
 SCHEDULED: <2022-11-30 Wed>
 ** DONE Finish design of top
 SCHEDULED: <2022-11-28 Mon>
@@ -48,15 +53,15 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [1/2]
+* Print Farm [2/2]
 ** DONE Install new polycarbonate build plate
 SCHEDULED: <2022-11-17 Thu>
-** TODO Fix kossel 5
+** DONE Fix kossel 5
 SCHEDULED: <2022-10-15 Sat>
 * House Keeping
 ** TODO cleanup backyard
 SCHEDULED: <2022-11-28 Mon>
 ** TODO Move solar panels
 SCHEDULED: <2022-11-28 Mon>
-** TODO Cleanup shop
+** DONE Cleanup shop
 SCHEDULED: <2022-11-28 Mon>
