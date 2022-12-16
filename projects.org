@@ -25,6 +25,18 @@ First need to design a foaming straw.
 * Vertical Hydroponic Tower
 ** TODO Print a tower base
 ** TODO Make a white spray painted model
+** TODO Brass coat one dripper tower
+SCHEDULED: <2022-12-12 Mon>
+- [X] Make powder coating nozzle for caulk tubes
+- [X] Finish up all segments with pen/iron
+- [X] Seal each segment
+- [-] Smooth all segments
+- [ ] Test all segments for fit
+- [ ] Powder coat each segment with nozzle
+- [ ] interior coat each segment
+- [ ] Polish each segment
+- [ ] Buy acrylic sealer
+- [ ] Apply acrylic sealer
 * My garden
 ** DONE setup outdoor garden
 ** TODO Setup indoor garden
@@ -34,6 +46,8 @@ SCHEDULED: <2022-11-28 Mon>
 SCHEDULED: <2022-12-05 Mon>
 ** TODO Sample hangable model
 * Water dripper
+* Ultrasonic acetone smoothing
+** TODO test the metal ultrasonics with acetone
 * Hook for sprouts herb plants
 * Magnetic window planter
 ** TODO magnetic window model today
@@ -53,11 +67,14 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [2/2]
+* Print Farm [2/3]
 ** DONE Install new polycarbonate build plate
 SCHEDULED: <2022-11-17 Thu>
 ** DONE Fix kossel 5
 SCHEDULED: <2022-10-15 Sat>
+SCHEDULED: <2022-12-12 Mon>
+** TODO Redo K4 and K5 build plate
+SCHEDULED: <2022-12-12 Mon>
 * House Keeping
 ** TODO cleanup backyard
 SCHEDULED: <2022-11-28 Mon>
