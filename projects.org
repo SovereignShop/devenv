@@ -22,9 +22,15 @@ SCHEDULED: <2022-08-18 Thu>
 First need to design a foaming straw.
 * TODO suction cup window planter
 * TODO Suction cup shower planter
+* Smoothing chamber
+** TODO Make lid for big chamber
+** DONE Design smoothing reservoir
+SCHEDULED: <2022-12-18 Sun>
+** DONE print smoothing reservoir (PETG)
+** DONE Buy extra large container
 * Vertical Hydroponic Tower
-** TODO Print a tower base
-** TODO Make a white spray painted model
+** DONE Print a tower base
+** KILL Make a white spray painted model
 ** TODO Brass coat one dripper tower
 SCHEDULED: <2022-12-12 Mon>
 - [X] Make powder coating nozzle for caulk tubes
@@ -39,7 +45,7 @@ SCHEDULED: <2022-12-12 Mon>
 - [ ] Apply acrylic sealer
 * My garden
 ** DONE setup outdoor garden
-** TODO Setup indoor garden
+** DONE Setup indoor garden
 SCHEDULED: <2022-11-28 Mon>
 * Ultrasonic window seeding tray
 ** TODO simple round, stackable model today
