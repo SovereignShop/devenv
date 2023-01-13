@@ -20,8 +20,8 @@
 ** TODO V2 design foam generator design
 SCHEDULED: <2022-08-18 Thu>
 First need to design a foaming straw.
-* TODO suction cup window planter
-* TODO Suction cup shower planter
+* suction cup window planter
+* Suction cup shower planter
 * Smoothing chamber
 ** TODO Make lid for big chamber
 ** DONE Design smoothing reservoir
@@ -31,22 +31,25 @@ SCHEDULED: <2022-12-18 Sun>
 * Vertical Hydroponic Tower
 ** DONE Print a tower base
 ** KILL Make a white spray painted model
-** TODO Brass coat one dripper tower
+** DONE Brass coat one dripper tower
 SCHEDULED: <2022-12-12 Mon>
 - [X] Make powder coating nozzle for caulk tubes
 - [X] Finish up all segments with pen/iron
 - [X] Seal each segment
-- [-] Smooth all segments
-- [ ] Test all segments for fit
-- [ ] Powder coat each segment with nozzle
-- [ ] interior coat each segment
-- [ ] Polish each segment
-- [ ] Buy acrylic sealer
-- [ ] Apply acrylic sealer
-* My garden
-** DONE setup outdoor garden
-** DONE Setup indoor garden
-SCHEDULED: <2022-11-28 Mon>
+- [X] Smooth all segments
+- [X] Test all segments for fit
+- [X] Powder coat each segment with nozzle
+- [X] interior coat each segment
+- [X] Polish each segment
+- [X] Buy acrylic sealer
+- [X] Apply acrylic sealer
+** TODO Pure white ABS tower
+SCHEDULED: <2023-01-11 Wed>
+- [ ] Finish printing final segments
+- [ ] Sand dirty spots
+- [ ] Smooth again
+- [ ] Test all segments for quality fit
+- [ ] Print new drip knobs
 * Ultrasonic window seeding tray
 ** TODO simple round, stackable model today
 SCHEDULED: <2022-12-05 Mon>
@@ -62,7 +65,7 @@ SCHEDULED: <2022-12-06 Tue>
 ** TODO print prototype model with ender3 today
 SCHEDULED: <2022-12-05 Mon>
 * Spiralized hydroponic Tower
-** TODO Spacer segment
+** DONE Spacer segment
 SCHEDULED: <2022-11-30 Wed>
 ** DONE Put a tower on etsy
 SCHEDULED: <2022-11-30 Wed>
@@ -73,7 +76,23 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [2/3]
+* Print Farm [2/4]
+** TODO Cleanup/re-org
+SCHEDULED: <2023-01-10 Tue>
+*** TODO Patio Cleanup
+- [ ] graffiti remover
+- [ ] Assemble all hydroponic towers
+- [ ] Throw away rest of waste plastic
+- [ ] Move solar panel array
+- [ ] Move tables
+- [ ] Throw away dish washer
+- [ ] Remove wood from storage container
+*** TODO Grow room setup
+- [ ] Cut plastic roof
+- [ ] Apply roof, try using hot glue
+- [ ] Add floor mats
+- [ ] Move in furniture
+- [ ] Find spot for file cabinet/smoothing chamber
 ** DONE Install new polycarbonate build plate
 SCHEDULED: <2022-11-17 Thu>
 ** DONE Fix kossel 5
