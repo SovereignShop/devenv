@@ -80,19 +80,29 @@ SCHEDULED: <2022-11-28 Mon>
 ** TODO Cleanup/re-org
 SCHEDULED: <2023-01-10 Tue>
 *** TODO Patio Cleanup
-- [ ] graffiti remover
-- [ ] Assemble all hydroponic towers
+- [X] graffiti remover
+- [X] Assemble all hydroponic towers
 - [ ] Throw away rest of waste plastic
-- [ ] Move solar panel array
-- [ ] Move tables
-- [ ] Throw away dish washer
+- [X] Move solar panel array
+- [X] Move tables
 - [ ] Remove wood from storage container
+- [ ] Renew dishwasher ad
+- [ ] Clean food cabinet
+- [ ] Ad for food cabinet
 *** TODO Grow room setup
-- [ ] Cut plastic roof
-- [ ] Apply roof, try using hot glue
-- [ ] Add floor mats
-- [ ] Move in furniture
-- [ ] Find spot for file cabinet/smoothing chamber
+- [X] Cut plastic roof
+- [X] Apply roof, try using hot glue
+- [X] Add floor mats
+- [X] Move in furniture
+- [X] Find spot for file cabinet/smoothing chamber
+- [X] Connect solar
+- [X] Setup Bluetti power station with extension cords
+- [X] Setup printers
+- [X] Try moving dryer tumbler into tent
+- [ ] Add humidity sensor.
+- [ ] Get drywall sander working with drill
+- [ ] Sand build plates
+- [ ] Level all extruders
 ** DONE Install new polycarbonate build plate
 SCHEDULED: <2022-11-17 Thu>
 ** DONE Fix kossel 5
