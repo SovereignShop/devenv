@@ -18,7 +18,7 @@
 ** TODO Design PU mixing bit.
 * Foam Generator
 ** TODO V2 design foam generator design
-SCHEDULED: <2022-08-18 Thu>
+SCHEDULED: <2023-01-25 Wed>
 First need to design a foaming straw.
 * suction cup window planter
 * Suction cup shower planter
@@ -43,6 +43,8 @@ SCHEDULED: <2022-12-12 Mon>
 - [X] Polish each segment
 - [X] Buy acrylic sealer
 - [X] Apply acrylic sealer
+** TODO Redo dripper segment with larger channels
+SCHEDULED: <2023-01-24 Tue>
 ** TODO Pure white ABS tower
 SCHEDULED: <2023-01-11 Wed>
 - [ ] Finish printing final segments
@@ -51,9 +53,8 @@ SCHEDULED: <2023-01-11 Wed>
 - [ ] Test all segments for quality fit
 - [ ] Print new drip knobs
 * Ultrasonic window seeding tray
-** TODO simple round, stackable model today
-SCHEDULED: <2022-12-05 Mon>
-** TODO Sample hangable model
+** WAIT simple round, stackable model today
+** WAIT Sample hangable model
 * Water dripper
 * Ultrasonic acetone smoothing
 ** TODO test the metal ultrasonics with acetone
@@ -63,7 +64,7 @@ SCHEDULED: <2022-12-05 Mon>
 SCHEDULED: <2022-12-06 Tue>
 * ultrasonic float and nozzle
 ** TODO print prototype model with ender3 today
-SCHEDULED: <2022-12-05 Mon>
+SCHEDULED: <2023-01-24 Tue>
 * Spiralized hydroponic Tower
 ** DONE Spacer segment
 SCHEDULED: <2022-11-30 Wed>
@@ -76,20 +77,19 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [2/4]
-** TODO Cleanup/re-org
+* Print Farm [3/4]
+** DONE Cleanup/re-org
 SCHEDULED: <2023-01-10 Tue>
-*** TODO Patio Cleanup
+*** DONE Patio Cleanup
 - [X] graffiti remover
 - [X] Assemble all hydroponic towers
 - [ ] Throw away rest of waste plastic
 - [X] Move solar panel array
 - [X] Move tables
-- [ ] Remove wood from storage container
-- [ ] Renew dishwasher ad
-- [ ] Clean food cabinet
-- [ ] Ad for food cabinet
-*** TODO Grow room setup
+- [X] Renew dishwasher ad
+- [X] Clean food cabinet
+- [X] Ad for food cabinet
+*** DONE Grow room setup
 - [X] Cut plastic roof
 - [X] Apply roof, try using hot glue
 - [X] Add floor mats
@@ -100,20 +100,21 @@ SCHEDULED: <2023-01-10 Tue>
 - [X] Setup printers
 - [X] Try moving dryer tumbler into tent
 - [ ] Add humidity sensor.
-- [ ] Get drywall sander working with drill
-- [ ] Sand build plates
+- [X] Get drywall sander working with drill
+- [X] Sand build plates
 - [ ] Level all extruders
+
 ** DONE Install new polycarbonate build plate
 SCHEDULED: <2022-11-17 Thu>
 ** DONE Fix kossel 5
 SCHEDULED: <2022-10-15 Sat>
 SCHEDULED: <2022-12-12 Mon>
-** TODO Redo K4 and K5 build plate
-SCHEDULED: <2022-12-12 Mon>
+** TODO Redo K4 build plate
+SCHEDULED: <2023-01-24 Tue>
 * House Keeping
-** TODO cleanup backyard
+** DONE cleanup backyard
 SCHEDULED: <2022-11-28 Mon>
-** TODO Move solar panels
+** DONE Move solar panels
 SCHEDULED: <2022-11-28 Mon>
 ** DONE Cleanup shop
 SCHEDULED: <2022-11-28 Mon>

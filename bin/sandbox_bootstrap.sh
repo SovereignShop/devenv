@@ -8,8 +8,10 @@ set -euo pipefail
 # export PYTHONPATH=${HOME}/Workspace/shining_software/src:${PYTHONPATH};
 export PATH=/opt/gnu/bin:${HOME}/.local/bin:${HOME}/.emacs.d/bin:${HOME}/Workspace/bin:${PATH};
 if [ -d ~/.emacs.d/.local ]; then
+    echo "syncing doom emacs";
     doom sync;
 else
+    echo "installing doom emacs";
     cd ~/.emacs.d/bin && ./doom install && cd ~/;
 fi
 
