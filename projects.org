@@ -23,13 +23,36 @@ First need to design a foaming straw.
 * suction cup window planter
 * Suction cup shower planter
 * Smoothing chamber
-** TODO Make lid for big chamber
+** TODO Make screw on lid for chamber
+SCHEDULED: <2023-02-13 Mon>
+** DONE Make lid for big chamber
 ** DONE Design smoothing reservoir
 SCHEDULED: <2022-12-18 Sun>
 ** DONE print smoothing reservoir (PETG)
 ** DONE Buy extra large container
 * Vertical Hydroponic Tower
-** DONE Print a tower base
+** TODO hole for ultrasonic cable in spacer segment
+SCHEDULED: <2023-02-15 Wed>
+** TODO Ensure enough room for ultrasonic cable.
+SCHEDULED: <2023-02-13 Mon>
+** WAIT Splash guard ultrasonic lid
+SCHEDULED: <2023-02-13 Mon>
+** TODO Visual indication of full twist
+SCHEDULED: <2023-02-13 Mon>
+** TODO Handle grips for tower base
+SCHEDULED: <2023-02-13 Mon>
+** TODO Make plug slightly smaller
+SCHEDULED: <2023-02-13 Mon>
+** TODO Full tower from zero in 1 day
+SCHEDULED: <2023-02-14 Tue>
+1. Print Tower base, spacer-segment, 6 segments, ultrasonic segment, lid, drip screws, plug.
+2. Apply ABS paste to all segments as necessary.
+3. Sand all segments.
+4. Test for good fit (sand as needed).
+5. Smooth all components.
+6. Paint all segments.
+7. Test with all components installed.
+   ** DONE Print a tower base
 ** KILL Make a white spray painted model
 ** DONE Brass coat one dripper tower
 SCHEDULED: <2022-12-12 Mon>
@@ -43,22 +66,31 @@ SCHEDULED: <2022-12-12 Mon>
 - [X] Polish each segment
 - [X] Buy acrylic sealer
 - [X] Apply acrylic sealer
-** TODO Redo dripper segment with larger channels
+** DONE Redo dripper segment with larger channels
 SCHEDULED: <2023-01-24 Tue>
-** TODO Pure white ABS tower
+** DONE Pure white ABS tower
 SCHEDULED: <2023-01-11 Wed>
 - [ ] Finish printing final segments
 - [ ] Sand dirty spots
 - [ ] Smooth again
 - [ ] Test all segments for quality fit
 - [ ] Print new drip knobs
+** DONE Pump for acetone sprayer
+** DONE Hack ultrasonic smoothing chamber to work with 20mm fan
+** DONE Apply PP shrinkwrap to protect ultrasonic cable
+** DONE Start a smoothing job with all segments
+** DONE Buy hammered metal paint
+** DONE Paint all segments
+** DONE Finish design of new fogger segment
+** DONE Print new fogger segment
+** DONE Print drip screws
+
 * Ultrasonic window seeding tray
 ** WAIT simple round, stackable model today
 ** WAIT Sample hangable model
 * Water dripper
 * Ultrasonic acetone smoothing
-** TODO test the metal ultrasonics with acetone
-* Hook for sprouts herb plants
+** TODO test the metal ultrasonics with acetonew* Hook for sprouts herb plants
 * Magnetic window planter
 ** TODO magnetic window model today
 SCHEDULED: <2022-12-06 Tue>
@@ -66,6 +98,10 @@ SCHEDULED: <2022-12-06 Tue>
 ** TODO print prototype model with ender3 today
 SCHEDULED: <2023-01-24 Tue>
 * Spiralized hydroponic Tower
+** TODO Powerful
+** TODO 2.0
+1. click-in tabs.
+2. tall.
 ** DONE Spacer segment
 SCHEDULED: <2022-11-30 Wed>
 ** DONE Put a tower on etsy
@@ -118,3 +154,19 @@ SCHEDULED: <2022-11-28 Mon>
 SCHEDULED: <2022-11-28 Mon>
 ** DONE Cleanup shop
 SCHEDULED: <2022-11-28 Mon>
+* Self-balancing bike concept
+
+Requirements for a battery balancing device:
+1. Compact.
+2. Fits in an Aptera body.
+3. Maximal weight distribution.
+4. Rapid delta.
+5. Minimal flexing of wires.
+
+Types:
+1. Cartesian: battery is linearly actuated along an axis.
+2. Polar: battery is rotated about an axis.
+3. Polar+Cartesian: Vertically oriented battery can translate linearly or rotate along an axis.
+4. Non-linear: Each battery module has two wheels
+
+Cartesian: battery sits on a rail that is also the electrical coupling.
