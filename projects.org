@@ -17,34 +17,29 @@
 * PU Mixer
 ** TODO Design PU mixing bit.
 * Foam Generator
-** TODO V2 design foam generator design
-SCHEDULED: <2023-01-25 Wed>
+** WAIT V2 design foam generator design
 First need to design a foaming straw.
 * suction cup window planter
 * Suction cup shower planter
 * Smoothing chamber
-** TODO Make screw on lid for chamber
+** DONE Make screw on lid for chamber
 SCHEDULED: <2023-02-13 Mon>
 ** DONE Make lid for big chamber
 ** DONE Design smoothing reservoir
 SCHEDULED: <2022-12-18 Sun>
 ** DONE print smoothing reservoir (PETG)
 ** DONE Buy extra large container
-* Vertical Hydroponic Tower
-** TODO hole for ultrasonic cable in spacer segment
-SCHEDULED: <2023-02-15 Wed>
-** TODO Ensure enough room for ultrasonic cable.
-SCHEDULED: <2023-02-13 Mon>
-** WAIT Splash guard ultrasonic lid
-SCHEDULED: <2023-02-13 Mon>
-** TODO Visual indication of full twist
-SCHEDULED: <2023-02-13 Mon>
+* Vertical Hydroponic Tower [18/24]
+** TODO film new how-to video
+SCHEDULED: <2023-02-20 Mon>
+** TODO Make new etsy listing
+SCHEDULED: <2023-02-20 Mon>
+** TODO Take photos with plants
+SCHEDULED: <2023-02-20 Mon>
+** TODO Higher infill density for main segments.
+SCHEDULED: <2023-02-20 Mon>
 ** TODO Handle grips for tower base
-SCHEDULED: <2023-02-13 Mon>
-** TODO Make plug slightly smaller
-SCHEDULED: <2023-02-13 Mon>
 ** TODO Full tower from zero in 1 day
-SCHEDULED: <2023-02-14 Tue>
 1. Print Tower base, spacer-segment, 6 segments, ultrasonic segment, lid, drip screws, plug.
 2. Apply ABS paste to all segments as necessary.
 3. Sand all segments.
@@ -53,6 +48,16 @@ SCHEDULED: <2023-02-14 Tue>
 6. Paint all segments.
 7. Test with all components installed.
    ** DONE Print a tower base
+** DONE hole for ultrasonic cable in spacer segment
+SCHEDULED: <2023-02-15 Wed>
+** DONE Ensure enough room for ultrasonic cable.
+SCHEDULED: <2023-02-13 Mon>
+** DONE Splash guard ultrasonic lid
+SCHEDULED: <2023-02-13 Mon>
+** DONE Visual indication of full twist
+SCHEDULED: <2023-02-13 Mon>
+** DONE Make plug slightly smaller
+SCHEDULED: <2023-02-13 Mon>
 ** KILL Make a white spray painted model
 ** DONE Brass coat one dripper tower
 SCHEDULED: <2022-12-12 Mon>
@@ -92,11 +97,9 @@ SCHEDULED: <2023-01-11 Wed>
 * Ultrasonic acetone smoothing
 ** TODO test the metal ultrasonics with acetonew* Hook for sprouts herb plants
 * Magnetic window planter
-** TODO magnetic window model today
-SCHEDULED: <2022-12-06 Tue>
+** WAIT magnetic window model today
 * ultrasonic float and nozzle
-** TODO print prototype model with ender3 today
-SCHEDULED: <2023-01-24 Tue>
+** WAIT print prototype model with ender3 today
 * Spiralized hydroponic Tower
 ** TODO Powerful
 ** TODO 2.0
@@ -113,7 +116,11 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [3/4]
+* Print Farm [5/6]
+** TODO Cleanup farm
+SCHEDULED: <2023-02-20 Mon>
+** DONE Install vent fan
+SCHEDULED: <2023-02-20 Mon>
 ** DONE Cleanup/re-org
 SCHEDULED: <2023-01-10 Tue>
 *** DONE Patio Cleanup
@@ -145,9 +152,13 @@ SCHEDULED: <2022-11-17 Thu>
 ** DONE Fix kossel 5
 SCHEDULED: <2022-10-15 Sat>
 SCHEDULED: <2022-12-12 Mon>
-** TODO Redo K4 build plate
+** DONE Redo K4 build plate
 SCHEDULED: <2023-01-24 Tue>
 * House Keeping
+** TODO Clean tables
+SCHEDULED: <2023-02-20 Mon>
+** TODO Take out trash
+SCHEDULED: <2023-02-20 Mon>
 ** DONE cleanup backyard
 SCHEDULED: <2022-11-28 Mon>
 ** DONE Move solar panels
