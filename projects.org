@@ -29,12 +29,8 @@ SCHEDULED: <2023-02-13 Mon>
 SCHEDULED: <2022-12-18 Sun>
 ** DONE print smoothing reservoir (PETG)
 ** DONE Buy extra large container
-* Vertical Hydroponic Tower [18/24]
+* Vertical Hydroponic Tower [20/24]
 ** TODO film new how-to video
-SCHEDULED: <2023-02-20 Mon>
-** TODO Make new etsy listing
-SCHEDULED: <2023-02-20 Mon>
-** TODO Take photos with plants
 SCHEDULED: <2023-02-20 Mon>
 ** TODO Higher infill density for main segments.
 SCHEDULED: <2023-02-20 Mon>
@@ -48,6 +44,10 @@ SCHEDULED: <2023-02-20 Mon>
 6. Paint all segments.
 7. Test with all components installed.
    ** DONE Print a tower base
+** DONE Take photos with plants
+SCHEDULED: <2023-02-20 Mon>
+** DONE Make new Etsy listing
+SCHEDULED: <2023-02-20 Mon>
 ** DONE hole for ultrasonic cable in spacer segment
 SCHEDULED: <2023-02-15 Wed>
 ** DONE Ensure enough room for ultrasonic cable.
@@ -95,16 +95,12 @@ SCHEDULED: <2023-01-11 Wed>
 ** WAIT Sample hangable model
 * Water dripper
 * Ultrasonic acetone smoothing
-** TODO test the metal ultrasonics with acetonew* Hook for sprouts herb plants
+** DONE test the metal ultrasonics with acetone
 * Magnetic window planter
 ** WAIT magnetic window model today
 * ultrasonic float and nozzle
 ** WAIT print prototype model with ender3 today
 * Spiralized hydroponic Tower
-** TODO Powerful
-** TODO 2.0
-1. click-in tabs.
-2. tall.
 ** DONE Spacer segment
 SCHEDULED: <2022-11-30 Wed>
 ** DONE Put a tower on etsy
