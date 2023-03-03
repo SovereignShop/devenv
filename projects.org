@@ -11,15 +11,18 @@
 | \_    Design mag joints for new extruder |         |       | 22:46 |
 #+END:
 
-
-* Tacky Plant shelves
-* Scad-paths
-* PU Mixer
-** TODO Design PU mixing bit.
+* Shop
+** TODO Finalize shop name
+** TODO Picture for Shop
+** TODO Design logo
+** TODO Buy shipping boxes
+** TODO Create instagram account
+** TODO Youtube account
+** TODO Twitter account
 * Foam Generator
+** WAIT Foam generator
 ** WAIT V2 design foam generator design
 First need to design a foaming straw.
-* suction cup window planter
 * Suction cup shower planter
 * Smoothing chamber
 ** DONE Make screw on lid for chamber
@@ -93,14 +96,16 @@ SCHEDULED: <2023-01-11 Wed>
 * Ultrasonic window seeding tray
 ** WAIT simple round, stackable model today
 ** WAIT Sample hangable model
-* Water dripper
 * Ultrasonic acetone smoothing
 ** DONE test the metal ultrasonics with acetone
+* 5 gallon bucket tower
+* Translucent single fog plant tower
+* Suction cup tower / herb garden
 * Magnetic window planter
 ** WAIT magnetic window model today
-* ultrasonic float and nozzle
-** WAIT print prototype model with ender3 today
 * Spiralized hydroponic Tower
+** TODO Design ultrasonic float
+SCHEDULED: <2023-02-25 Sat>
 ** DONE Spacer segment
 SCHEDULED: <2022-11-30 Wed>
 ** DONE Put a tower on etsy
@@ -112,8 +117,8 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [5/6]
-** TODO Cleanup farm
+* Print Farm [6/6]
+** DONE Cleanup farm
 SCHEDULED: <2023-02-20 Mon>
 ** DONE Install vent fan
 SCHEDULED: <2023-02-20 Mon>
@@ -151,9 +156,9 @@ SCHEDULED: <2022-12-12 Mon>
 ** DONE Redo K4 build plate
 SCHEDULED: <2023-01-24 Tue>
 * House Keeping
-** TODO Clean tables
+** DONE Clean tables
 SCHEDULED: <2023-02-20 Mon>
-** TODO Take out trash
+** DONE Take out trash
 SCHEDULED: <2023-02-20 Mon>
 ** DONE cleanup backyard
 SCHEDULED: <2022-11-28 Mon>
@@ -161,19 +166,11 @@ SCHEDULED: <2022-11-28 Mon>
 SCHEDULED: <2022-11-28 Mon>
 ** DONE Cleanup shop
 SCHEDULED: <2022-11-28 Mon>
-* Self-balancing bike concept
-
-Requirements for a battery balancing device:
-1. Compact.
-2. Fits in an Aptera body.
-3. Maximal weight distribution.
-4. Rapid delta.
-5. Minimal flexing of wires.
-
-Types:
-1. Cartesian: battery is linearly actuated along an axis.
-2. Polar: battery is rotated about an axis.
-3. Polar+Cartesian: Vertically oriented battery can translate linearly or rotate along an axis.
-4. Non-linear: Each battery module has two wheels
-
-Cartesian: battery sits on a rail that is also the electrical coupling.
+* Calcium Chloride absorption experiment
+- Two atomnization chambers, with pater towel stuffed at end of each.
+- One with CaCl added, one with tap water.
+- Weigh each before running.
+- Run for 10 minutes.
+- Weigh paper towels.
+- Weigh each chamber.
+- Record deltas.
