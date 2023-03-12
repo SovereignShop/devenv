@@ -100,6 +100,13 @@ SCHEDULED: <2023-01-11 Wed>
 ** DONE test the metal ultrasonics with acetone
 * 5 gallon bucket tower
 * Translucent single fog plant tower
+** TODO round two
+- Fogger hole
+- Seal
+- Wider base?
+- Root guard (0.4mm printer)
+- Float
+- Black ASA base
 * Suction cup tower / herb garden
 * Magnetic window planter
 ** WAIT magnetic window model today
