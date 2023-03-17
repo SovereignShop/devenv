@@ -110,7 +110,6 @@ Height: 35mm / 1.38in
   - scale-length
   - scale-offset
   - n-scales
-- [ ]
 ** TODO Design fogger segment
 ** TODO Tower top cone segment
 ** DONE Fix corners
