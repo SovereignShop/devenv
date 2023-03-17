@@ -99,6 +99,26 @@ SCHEDULED: <2023-01-11 Wed>
 * Ultrasonic acetone smoothing
 ** DONE test the metal ultrasonics with acetone
 * 5 gallon bucket tower
+* Telescoping Tower
+** TODO Net cup offsets to fit standard square net cups
+Top exterior: 57x57mm / 2.24x2.24in
+Top interior: approx. 43x43mm / 1.7x1.7in
+Bottom: approx. 37x37mm / 1.5x1.5in
+Height: 35mm / 1.38in
+** TODO Fish-scale latch
+- [ ] Parameterize
+  - scale-length
+  - scale-offset
+  - n-scales
+- [ ]
+** TODO Design fogger segment
+** TODO Tower top cone segment
+** DONE Fix corners
+** DONE Smooth transition for corner edges
+** KILL Make curvature a function of width (ratio)
+** DONE Design bottom segment
+** DONE Add drip holes
+** DONE Test layered printing
 * Translucent single fog plant tower
 ** TODO round two
 - Fogger hole
