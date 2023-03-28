@@ -99,19 +99,30 @@ SCHEDULED: <2023-01-11 Wed>
 * Ultrasonic acetone smoothing
 ** DONE test the metal ultrasonics with acetone
 * 5 gallon bucket tower
+* Stacked towers
+** DONE circumradius squares
+** TODO Stacked rectangles fountain.
+* 6 Pod hydroponic Tower
+** TODO Center shape
+** TODO Correct rough 3D geomety
+** TODO Latch mechanisms
 * Telescoping Tower
-** TODO Net cup offsets to fit standard square net cups
+** TODO Bigger latch offsets
+** TODO Design fogger segment
+** TODO Tower top cone segment
+** DONE N-pod design
+** DONE Curved corners
+** DONE wave pattern to absorb warp
+** DONE Net cup offsets to fit standard square net cups
 Top exterior: 57x57mm / 2.24x2.24in
 Top interior: approx. 43x43mm / 1.7x1.7in
 Bottom: approx. 37x37mm / 1.5x1.5in
 Height: 35mm / 1.38in
-** TODO Fish-scale latch
+** DONE Fish-scale latch
 - [ ] Parameterize
   - scale-length
   - scale-offset
   - n-scales
-** TODO Design fogger segment
-** TODO Tower top cone segment
 ** DONE Fix corners
 ** DONE Smooth transition for corner edges
 ** KILL Make curvature a function of width (ratio)
@@ -143,7 +154,9 @@ SCHEDULED: <2022-11-28 Mon>
 ** DONE Increase height of base
 ** DONE Print Top, base
 SCHEDULED: <2022-11-28 Mon>
-* Print Farm [6/6]
+* Print Farm [6/8]
+** TODO cleanup farm
+** TODO Upgrade kosssel 5 to new extruder
 ** DONE Cleanup farm
 SCHEDULED: <2023-02-20 Mon>
 ** DONE Install vent fan
