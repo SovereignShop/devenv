@@ -11,6 +11,9 @@
 | \_    Design mag joints for new extruder |         |       | 22:46 |
 #+END:
 
+* Farm
+** TODO Plant remaining towers
+SCHEDULED: <2023-04-01 Sat>
 * Shop
 ** TODO Finalize shop name
 ** TODO Picture for Shop
@@ -103,9 +106,13 @@ SCHEDULED: <2023-01-11 Wed>
 ** DONE circumradius squares
 ** TODO Stacked rectangles fountain.
 * 6 Pod hydroponic Tower
-** TODO Center shape
-** TODO Correct rough 3D geomety
-** TODO Latch mechanisms
+** TODO offseting
+** TODO sloping
+** TODO Test print
+** TODO Finish latch
+** DONE Center shape
+** DONE Correct rough 3D geomety
+** DONE Latch mechanisms
 * Telescoping Tower
 ** TODO Bigger latch offsets
 ** TODO Design fogger segment
