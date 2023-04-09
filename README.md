@@ -25,7 +25,7 @@ It includes other Repos as [Git Submodules](https://git-scm.com/book/en/v2/Git-T
 -   `modules/foam-generator`: Foam generator for making aircrete.
 -   `modules/pu-sprayer`: Polyurethane spray gun for DIYers.
 -   `modules/vane-motor`: Vane style pneumatic motor.
-    `modules/cement-pump`: Investigations into designs for a low-cost cement pump.
+-   `modules/cement-pump`: Investigations into designs for a low-cost cement pump.
 -   `modules/cabinetry-joins`: Simple fdm-optimized joints for low-cost storage.
 -   `modules/vine-drill`: investigations into well-drilling machine based on a [vine robot](https://www.youtube.com/results?search_query=vine+robot)
 -   `modules/dlfp`: Investigations of Dragon&rsquo;s Deep Learning For Programmers. Includes book and code.
