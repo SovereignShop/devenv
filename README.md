@@ -124,16 +124,6 @@ client to your telegram desktop.
 
 <a id="org7bebd1e"></a>
 
-## Workflow
-
--   See [todo.org](./todo.md) for completed and active tasks.
--   See [backlog.org](./backlog.md) for backlog of tasks.
--   See [journal.org](./journal.md) for project journal.
--   Use `M-x org-capture` to add a todo/journal entry without interrupting your workflow.
-
-
-<a id="orgdbedd05"></a>
-
 ## Essential Commands
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
