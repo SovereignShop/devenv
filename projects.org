@@ -212,14 +212,11 @@ SCHEDULED: <2022-11-28 Mon>
 SCHEDULED: <2022-11-28 Mon>
 ** DONE Cleanup shop
 SCHEDULED: <2022-11-28 Mon>
-* Calcium Chloride absorption experiment
-- Two atomnization chambers, with pater towel stuffed at end of each.
-- One with CaCl added, one with tap water.
-- Weigh each before running.
-- Run for 10 minutes.
-- Weigh paper towels.
-- Weigh each chamber.
-- Record deltas.
+* Manifold-3d Project
+- [X] Include manifold js file in index.html
+- [ ] Write wrapper for manifold js functions
+- [ ] Include manifold namespace in sci
+- [ ] Implement example in cljs
 * Job Hunt
 ** TODO Create shopify website to showoff my work
 ** TODO Work on resume

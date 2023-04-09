@@ -2549,3 +2549,17 @@ SCHEDULED: <2022-08-09 Tue>
 :ARCHIVE_TODO: DONE
 :END:
 The new dripper needs to be easily adjustable while connected.
+
+* Calcium Chloride absorption experiment
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-08 Sat 23:43
+:ARCHIVE_FILE: ~/Workspace/projects.org
+:ARCHIVE_CATEGORY: projects
+:END:
+- Two atomnization chambers, with pater towel stuffed at end of each.
+- One with CaCl added, one with tap water.
+- Weigh each before running.
+- Run for 10 minutes.
+- Weigh paper towels.
+- Weigh each chamber.
+- Record deltas.
