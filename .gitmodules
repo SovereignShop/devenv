@@ -151,3 +151,9 @@
 [submodule "squeeze-tube"]
 	path = modules/squeeze-tube
 	url = git@github.com:SovereignShop/squeeze-tube.git
+[submodule "modules/manifold"]
+	path = modules/manifold
+	url = https://github.com/elalish/manifold
+[submodule "modules/clj-manifold-3d"]
+	path = modules/clj-manifold-3d
+	url = git@github.com:SovereignShop/clj-manifold-3d.git

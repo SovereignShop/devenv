@@ -64,10 +64,28 @@ RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb 
 # RUN python3 -m pip install -U git+git://github.com/python/mypy.git
 
 # Install latest cmake
-COPY pkg/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
-RUN mkdir /opt/cmake
-RUN sh /cmake-3.12.0-Linux-x86_64.sh --prefix=/opt/cmake --skip-license
-RUN ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
+# COPY pkg/cmake-3.12.0-Linux-x86_64.sh /cmake-3.12.0-Linux-x86_64.sh
+# RUN mkdir /opt/cmake
+# RUN sh /cmake-3.12.0-Linux-x86_64.sh --prefix=/opt/cmake --skip-license
+# RUN ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
+
+# Set the CMake version to be installed
+ARG CMAKE_VERSION="3.22.1"
+
+# Update package list, install required dependencies, download and extract CMake, build and install CMake, and clean up
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends build-essential ca-certificates curl libssl-dev wget && \
+    cd /tmp && \
+    wget https://github.com/Kitware/CMake/releases/download/v${CMAKE_VERSION}/cmake-${CMAKE_VERSION}.tar.gz && \
+    tar -xzvf cmake-${CMAKE_VERSION}.tar.gz && \
+    cd cmake-${CMAKE_VERSION} && \
+    ./bootstrap && \
+    make -j$(nproc) && \
+    make install && \
+    rm -rf /tmp/cmake-${CMAKE_VERSION} /tmp/cmake-${CMAKE_VERSION}.tar.gz && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
 
 COPY bin/tuntox /usr/bin/
 
@@ -158,25 +176,30 @@ RUN curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/scrip
     rm ./install-clj-kondo;
 
 # Install Node.js.
-RUN apt-get update && apt-get install -y nodejs npm
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - \
+    && apt-get update \
+    && apt-get install -y nodejs \
+    && npm install -g npm
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
 
 WORKDIR /home/$UNAME/
 
 # shadow-cljs for ClojureScript development
-RUN npm install --save-dev shadow-cljs && npm install -g npx
+RUN npm install --save-dev shadow-cljs
 
 # For VOIP client for telegram
 RUN apt-get update && apt-get install -y gperf libopus-dev libpulse-dev libasound-dev libopus-dev ffmpeg graphviz
 
 # Install TD for telegram client.
-RUN git clone https://github.com/tdlib/td.git \
-    && cd td\
-    && git reset --hard d161323858a782bc500d188b9ae916982526c262\
-    && mkdir build && cd build && cmake ../\
-    && make -j8\
-    && make install\
-    && cd ../../\
-    && rm -r td;
+# RUN git clone https://github.com/tdlib/td.git \
+#     && cd td\
+#     && git reset --hard d161323858a782bc500d188b9ae916982526c262\
+#     && mkdir build && cd build && cmake ../\
+#     && make -j8\
+#     && make install\
+#     && cd ../../\
+#     && rm -r td;
 
 # Install support for voice-over-ip (Audio chats)
 RUN curl -sLO http://deb.debian.org/debian/pool/main/libt/libtgvoip/libtgvoip_2.4.2.orig.tar.gz;\
@@ -259,7 +282,12 @@ RUN pip install -U platformio
 # Klipper
 RUN apt install -y gcc-arm-none-eabi avr-libc
 
-RUN apt install -y kitty
+RUN apt install -y kitty x11-xserver-utils
+
+RUN git clone https://github.com/emscripten-core/emsdk.git &&\
+    cd emsdk &&\
+    ./emsdk install latest &&\
+    ./emsdk activate latest
 
 COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
