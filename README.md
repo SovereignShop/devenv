@@ -50,7 +50,7 @@ Make sure to do a `git submodule update --recursive --init` before installing.
 ## Windows
 
 -   [Install](https://www.windowscentral.com/how-install-wsl2-windows-10) WSL 2.
--   [Install Ubuntu 20.04](https://linoxide.com/how-install-ubuntu-windows-10/#:~:text=%20Install%20Ubuntu%20on%20Windows%2010%20WSL%202,Linux%20kernel%20update%20package%20and%20double...%20More) with WSL 2.
+-   [Install Ubuntu 22.04](https://linoxide.com/how-install-ubuntu-windows-10/#:~:text=%20Install%20Ubuntu%20on%20Windows%2010%20WSL%202,Linux%20kernel%20update%20package%20and%20double...%20More) with WSL 2.
 -   Install [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows.
 -   Enable WSL 2 engine in docker: go to settings and toggle &ldquo;Use the WSL 2 based engine&rdquo;.
 -   Restart docker.
