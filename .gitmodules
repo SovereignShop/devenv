@@ -157,3 +157,6 @@
 [submodule "modules/clj-manifold-3d"]
 	path = modules/clj-manifold-3d
 	url = git@github.com:SovereignShop/clj-manifold-3d.git
+[submodule "modules/project-management"]
+	path = modules/project-management
+	url = git@github.com:SovereignShop/project-management.git
