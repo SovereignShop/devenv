@@ -60,7 +60,7 @@ RUN \
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Pip installs
-RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb pylint pyflakes flake8 python-language-server pytest black mypy
+RUN python3 -m pip install --upgrade pip && python3 -m pip install ipython ipdb pylint pyflakes flake8 python-language-server pytest black mypy numpy
 # RUN python3 -m pip install -U git+git://github.com/python/mypy.git
 
 # Install latest cmake
@@ -247,7 +247,11 @@ RUN apt-get update && apt-get install -y wget
 RUN apt-get update && apt-get install -y intel-mkl
 
 # Install Openscad
-RUN apt-get update && apt-get install -y openscad
+# RUN apt-get update && apt-get install -y openscad
+
+RUN wget https://files.openscad.org/snapshots/OpenSCAD-2023.04.25.ai14946-x86_64.AppImage &&\
+    chmod +x OpenSCAD-2023.04.25.ai14946-x86_64.AppImage &&\
+    mv OpenSCAD-2023.04.25.ai14946-x86_64.AppImage /usr/local/bin
 
 ENV OPENSCADPATH=/home/$UNAME/Workspace/modules/openscad
 ENV NVIDIA_VISIBLE_DEVICES all

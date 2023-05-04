@@ -94,6 +94,7 @@ export PATH=${HOME}/lib/jdk-11.0.9.1+1/bin:${PATH}
 export JAVA_HOME=${HOME}/lib/jdk-11.0.9.1+1
 
 alias curlH='curl -s -H "Authorization: Bearer $(jq -r '.Token' $HOME/rocc.json)"'
+alias e='emacsclient -n'
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
