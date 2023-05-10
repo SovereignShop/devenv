@@ -247,7 +247,7 @@ RUN apt-get update && apt-get install -y wget
 RUN apt-get update && apt-get install -y intel-mkl
 
 # Install Openscad
-# RUN apt-get update && apt-get install -y openscad
+RUN apt-get update && apt-get install -y fuse # install fuse to runn AppImages bundles
 
 RUN wget https://files.openscad.org/snapshots/OpenSCAD-2023.04.25.ai14946-x86_64.AppImage &&\
     chmod +x OpenSCAD-2023.04.25.ai14946-x86_64.AppImage &&\
@@ -292,6 +292,8 @@ RUN git clone https://github.com/emscripten-core/emsdk.git &&\
     cd emsdk &&\
     ./emsdk install latest &&\
     ./emsdk activate latest
+
+RUN apt install -y maven
 
 COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
