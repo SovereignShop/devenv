@@ -95,7 +95,7 @@
 	path = modules/openscad/dotSCAD
 	url = https://github.com/JustinSDK/dotSCAD
 [submodule "modules/scad-paths"]
-	path = modules/scad-paths
+	path = modules/plexus
 	url = git@github.com:SovereignShop/scad-paths.git
 [submodule "modules/keys"]
 	path = modules/keys
@@ -160,3 +160,6 @@
 [submodule "modules/project-management"]
 	path = modules/project-management
 	url = git@github.com:SovereignShop/project-management.git
+[submodule "modules/clj-manifold3d"]
+	path = modules/clj-manifold3d
+	url = git@github.com:SovereignShop/clj-manifold3d.git

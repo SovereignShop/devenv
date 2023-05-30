@@ -293,7 +293,7 @@ RUN git clone https://github.com/emscripten-core/emsdk.git &&\
     ./emsdk install latest &&\
     ./emsdk activate latest
 
-RUN apt install -y maven
+RUN apt install -y maven libfuse-dev
 
 COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
