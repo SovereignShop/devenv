@@ -163,3 +163,9 @@
 [submodule "modules/clj-manifold3d"]
 	path = modules/clj-manifold3d
 	url = git@github.com:SovereignShop/clj-manifold3d.git
+[submodule "modules/hydroponics"]
+	path = modules/hydroponics
+	url = git@github.com:SovereignShop/hydroponics.git
+[submodule "modules/kossel-printer"]
+	path = modules/kossel-printer
+	url = git@github.com:SovereignShop/kossel-printer.git
