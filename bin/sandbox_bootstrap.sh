@@ -32,6 +32,8 @@ xset r rate 200 60
 export VISUAL=emacsclient
 export EDITOR="$VISUAL"
 
+source ~/emsdk/emsdk_env.sh;
+
 # Finally launch emacs.
 exec dbus-launch --exit-with-session "$@"
 # exec kitty --hold --single-instance --start-as=fullscreen "$@"

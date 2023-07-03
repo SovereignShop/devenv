@@ -35,7 +35,7 @@ docker run\
        -v ${HOME}/.oh-my-zsh:${HOME}/.oh-my-zsh\
        -v ${HOME}/.ssh/:${HOME}/.ssh\
        -v ${HOME}/.mozilla:${HOME}/.mozilla\
-       -v ${DIR}/.zsh_history:${HOME}/.zsh_history\
+       -v ${HOME}/.zsh_history:${HOME}/.zsh_history\
        -v ${DIR}/.zshrc:${HOME}/.zshrc\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
