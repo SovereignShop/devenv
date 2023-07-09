@@ -249,10 +249,6 @@ RUN apt-get update && apt-get install -y intel-mkl
 # Install Openscad
 RUN apt-get update && apt-get install -y fuse # install fuse to runn AppImages bundles
 
-RUN wget https://files.openscad.org/snapshots/OpenSCAD-2023.04.25.ai14946-x86_64.AppImage &&\
-    chmod +x OpenSCAD-2023.04.25.ai14946-x86_64.AppImage &&\
-    mv OpenSCAD-2023.04.25.ai14946-x86_64.AppImage /usr/local/bin
-
 ENV OPENSCADPATH=/home/$UNAME/Workspace/modules/openscad
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES all
@@ -298,10 +294,10 @@ RUN apt install -y maven libfuse-dev
 COPY ./bin/sandbox_bootstrap.sh /usr/bin/
 
 # Install F3d
-RUN wget -O https://github.com/f3d-app/f3d/releases/download/nightly/F3D-2.0.0-92-g0030068-Linux-x86_64.deb && sudo dpkg -i f3d.deb && sudo apt-get install -f
+# RUN wget -O https://github.com/f3d-app/f3d/releases/download/nightly/F3D-2.0.0-92-g0030068-Linux-x86_64.deb && sudo dpkg -i f3d.deb && sudo apt-get install -f
 
 # Install MeshLab with xdotool for auto-reload
-RUN apt install -y meshlab xdotool
+RUN apt install -y meshlab xdotool libassimp-dev
 
 ENTRYPOINT ["asEnvUser"]
 CMD ["/usr/bin/bash", "-c", "emacs"]

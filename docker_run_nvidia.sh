@@ -3,7 +3,8 @@ set -euo pipefail
 
 DIR=$(pwd)
 
-nvidia-docker run\
+docker run\
+       --runtime nvidia \
        --rm\
        --privileged\
        -it\
@@ -41,5 +42,4 @@ nvidia-docker run\
        -v ${DIR}/.zshrc:${HOME}/.zshrc\
        -v ${DIR}/modules/doom.d:${HOME}/.doom.d\
        -v ${DIR}/modules/emacs.d:${HOME}/.emacs.d\
-       -v ${DIR}/modules/doom-modules/exwm-module-for-doom-emacs:${HOME}/.emacs.d/modules/custom/exwm-module-for-doom-emacs\
-       gamedev:latest emacs -fs
+       docker.io/library/gamedev:latest emacs -fs
