@@ -169,3 +169,6 @@
 [submodule "modules/kossel-printer"]
 	path = modules/kossel-printer
 	url = git@github.com:SovereignShop/kossel-printer.git
+[submodule "modules/grangle"]
+	path = modules/grangle
+	url = git@github.com:SovereignShop/grangle.git
