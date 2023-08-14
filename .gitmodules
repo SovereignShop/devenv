@@ -172,3 +172,6 @@
 [submodule "modules/grangle"]
 	path = modules/grangle
 	url = git@github.com:SovereignShop/grangle.git
+[submodule "modules/spiralized-hydroponic-tower"]
+	path = modules/spiralized-hydroponic-tower
+	url = git@github.com:SovereignShop/spiralized-hydroponic-tower.git
