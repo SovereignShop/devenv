@@ -175,3 +175,6 @@
 [submodule "modules/spiralized-hydroponic-tower"]
 	path = modules/spiralized-hydroponic-tower
 	url = git@github.com:SovereignShop/spiralized-hydroponic-tower.git
+[submodule "modules/plexus-demo"]
+	path = modules/plexus-demo
+	url = git@github.com:SovereignShop/plexus-demo.git
