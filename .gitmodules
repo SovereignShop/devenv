@@ -178,3 +178,6 @@
 [submodule "modules/plexus-demo"]
 	path = modules/plexus-demo
 	url = git@github.com:SovereignShop/plexus-demo.git
+[submodule "modules/text-to-polygon"]
+	path = modules/text-to-polygon
+	url = git@github.com:SovereignShop/text-to-polygon.git
